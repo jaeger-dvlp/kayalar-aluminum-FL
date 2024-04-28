@@ -1,0 +1,46 @@
+{
+  "read-more": "SEE MORE",
+  "errors": {
+    "default": "Something went wrong. Please try again later.",
+    "userNotFound": "User not found."
+  },
+  "navbar": {
+    "products": "PRODUCTS",
+    "quality": "QUALITY",
+    "about": "ABOUT US",
+    "contact": "CONTACT"
+  },
+  "home": {
+    "explanation": {
+      "title": "With Environmental Awareness,",
+      "description": "Kayalar Aluminum has been playing a leading role in aluminum recycling since 1978. Through environmentally conscious production processes and innovative technologies, it contributes to the revaluation of waste. Without compromising on quality, it aims to increase customer satisfaction and minimize environmental impact by providing sustainable solutions. Representing a conscious and responsible approach in the industry, Kayalar Aluminum continues its mission of leaving a cleaner environment for future generations."
+    },
+    "quality": {
+      "title": "Superior Quality.",
+      "description": "Kayalar Aluminum has been a renowned name for its quality since 1978 and is recognized as a reliable entity in aluminum recycling. Upholding customer satisfaction as a top priority, it maintains its esteemed position in the industry through eco-friendly production and a commitment to quality service."
+    },
+    "offer": {
+      "title": "REQUEST A QUOTE",
+      "description": "We are waiting for free quote requests to offer solutions tailored to our customers' needs.\nOur professional and experienced team is ready to provide you with the most suitable pricing and service options.\nContact us now and benefit from our special offers tailored to your needs.",
+      "button": "Get a Free Quote"
+    },
+    "quote": {
+      "title": "Leading company in quality."
+    }
+  },
+  "products": {
+    "heading": "PRODUCTS",
+    "alloy-aluminum-ingot": {
+      "title": "Alloy Aluminum Ingot",
+      "description": "Our company produces all aluminum alloys in accordance with Turkish and international standards, and also manufactures custom alloys as per specific requirements."
+    },
+    "pure-aluminum-ingot": {
+      "title": "Pure Aluminum Ingot",
+      "description": "Our company, Kayalar Aluminum, has been serving the industry for 40 years by producing and selling both alloyed and pure aluminum ingots."
+    },
+    "scrap-purchasing": {
+      "title": "Scrap Purchasing",
+      "description": "Our company, specialized in aluminum recycling, purchases all types of aluminum scraps within this scope."
+    }
+  }
+}

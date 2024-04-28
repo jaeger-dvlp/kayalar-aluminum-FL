@@ -1,0 +1,46 @@
+{
+  "read-more": "DETAY",
+  "errors": {
+    "default": "Something went wrong. Please try again later.",
+    "userNotFound": "User not found."
+  },
+  "navbar": {
+    "products": "ÜRÜNLER",
+    "quality": "KALİTE",
+    "about": "HAKKIMIZDA",
+    "contact": "İLETİŞİM"
+  },
+  "home": {
+    "explanation": {
+      "title": "Çevre Koruma Bilinciyle,",
+      "description": "Kayalar Alüminyum, 1978 yılından beri alüminyum geri dönüşümü alanında öncü bir rol üstlenmiştir. Çevreye duyarlı üretim süreçleri ve yenilikçi teknolojilerle, atıkların yeniden değerlendirilmesine katkı sağlamaktadır. Kalitesinden ödün vermeden, sürdürülebilir çözümler sunarak, hem müşteri memnuniyetini arttırmayı hem de çevresel etkiyi en aza indirmeyi hedeflemektedir. Kayalar Alüminyum, sektördeki bilinçli ve sorumlu bir yaklaşımı temsil ederek, gelecek nesillere daha temiz bir çevre bırakma misyonunu sürdürmektedir."
+    },
+    "quality": {
+      "title": "Üstün Kalite.",
+      "description": "Kayalar Alüminyum, 1978'den beri kalitesiyle öne çıkan ve alüminyum geri dönüşümünde güvenilir bir isim olarak tanınan bir firmadır. Müşteri memnuniyetini her zaman ön planda tutarak, çevre dostu üretim ve kaliteli hizmet anlayışıyla sektördeki saygın konumunu korumaktadır."
+    },
+    "offer": {
+      "title": "TEKLİF AL",
+      "description": "Müşterilerimizin ihtiyaçlarına uygun çözümler sunmak için ücretsiz teklif taleplerini bekliyoruz.\nProfesyonel ve deneyimli ekibimiz, size en uygun fiyatlandırma ve hizmet seçeneklerini sunmak için hazır bekliyor.\nHemen bize ulaşın ve ihtiyaçlarınıza özel tekliflerimizden faydalanın.",
+      "button": "Ücretsiz Teklif Al"
+    },
+    "quote": {
+      "title": "Kalitede öncü kuruluş."
+    }
+  },
+  "products": {
+    "heading": "ÜRÜNLER",
+    "alloy-aluminum-ingot": {
+      "title": "Alaşımlı Alüminyum Külçe",
+      "description": "Türkiye ve Dünya standartlarındaki tüm alüminyum alaşımlarını yapan firmamız bununla birlikte istenilen özel alaşımları da yapmaktadır."
+    },
+    "pure-aluminum-ingot": {
+      "title": "Saf Alüminyum Külçe",
+      "description": "Kayalar Alüminyum, alaşımlı ve saf alüminyum külçe üretim ve satışını yapan firmamız 40 senedir sektöre hizmet vermektedir."
+    },
+    "scrap-purchasing": {
+      "title": "Hurda Alımı",
+      "description": "Alüminyum geri dönüşümü yapan firmamız bu kapsam altında tüm alüminyum hurdalarını almaktadır."
+    }
+  }
+}
