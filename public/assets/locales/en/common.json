@@ -60,7 +60,11 @@
   },
   "tables": {
     "alloy-ingot": {
-      "note": "Note: \t1) If no limits are specified, the maximum value applies. \t2) Mn+Fe=1.30 max."
+      "title": "CHEMICAL COMPOSITION LIMITS OF ALLOYED INGOTS (% BY WEIGHT)",
+      "notes": [
+        "If no limits are specified, the maximum value applies.",
+        "Mn+Fe=1.30 max."
+      ]
     }
   }
 }

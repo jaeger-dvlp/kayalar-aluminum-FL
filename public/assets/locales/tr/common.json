@@ -60,7 +60,8 @@
   },
   "tables": {
     "alloy-ingot": {
-      "note": "Not: \t1) Limitler verilmemiş ise azami değerdir. \t2) Mn+Fe=1,30 max"
+      "title": "ALAŞIMLI KÜLÇELERİN KİMYASAL BİLEŞİM LİMİTLERİ ( % AĞIRLIK )",
+      "notes": ["Limitler verilmemiş ise azami değerdir.", "Mn+Fe=1,30 max"]
     }
   }
 }
