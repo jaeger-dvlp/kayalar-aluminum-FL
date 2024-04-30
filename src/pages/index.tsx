@@ -1,5 +1,6 @@
 import React from 'react';
 import Meta from '@/components/layout/Meta';
+import { useTranslation } from 'next-i18next';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -12,9 +13,13 @@ import Offer from '@/components/home/Offer';
 import Quote from '@/components/home/Quote';
 
 export default function Home(): JSX.Element {
+  const { t } = useTranslation();
   return (
     <>
-      <Meta title=".." description=".." />
+      <Meta
+        title={t('home.meta.title')}
+        description={t('home.meta.description')}
+      />
       <Navbar />
       <main className="m-0 flex flex-col items-start justify-center gap-0 p-0">
         <Banner />

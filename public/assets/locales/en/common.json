@@ -11,6 +11,10 @@
     "contact": "CONTACT"
   },
   "home": {
+    "meta": {
+      "title": "Kayalar Aluminum - Aluminum Recycling and Aluminum Ingot Production",
+      "description": "Discover Kayalar Aluminum's pioneering role in environmentally conscious aluminum recycling since 1978. Explore our commitment to sustainable solutions, innovative technologies, and minimizing environmental impact for a cleaner future.S"
+    },
     "explanation": {
       "title": "With Environmental Awareness,",
       "description": "Kayalar Aluminum has been playing a leading role in aluminum recycling since 1978. Through environmentally conscious production processes and innovative technologies, it contributes to the revaluation of waste. Without compromising on quality, it aims to increase customer satisfaction and minimize environmental impact by providing sustainable solutions. Representing a conscious and responsible approach in the industry, Kayalar Aluminum continues its mission of leaving a cleaner environment for future generations."
@@ -31,8 +35,16 @@
   "products": {
     "heading": "PRODUCTS",
     "alloy-aluminum-ingot": {
+      "meta": {
+        "title": "Alloy Aluminum Ingot | Kayalar Aluminum",
+        "description": "Learn more about Kayalar Aluminum's alloyed aluminum ingots. Discover detailed information about our ingots produced with high-quality standards and environmentally friendly manufacturing processes."
+      },
       "title": "Alloy Aluminum Ingot",
-      "description": "Our company produces all aluminum alloys in accordance with Turkish and international standards, and also manufactures custom alloys as per specific requirements."
+      "description": "Our company produces all aluminum alloys in accordance with Turkish and international standards, and also manufactures custom alloys as per specific requirements.",
+      "content": {
+        "title": "Alloy Aluminum Ingot Production and Sales",
+        "description": "Our company not only produces aluminum alloys according to Turkish and international standards but also develops custom alloys based on our clients' specific requirements. With years of experience and expertise, we hold a leading position in the industry with a wide range of products, each manufactured to high-quality standards. Embracing a flexible approach to meet our clients' needs, we meticulously oversee all processes from alloy design to production, ensuring the delivery of the best quality and most suitable solutions to our customers.\n\nThe alloyed aluminum products we produce are listed in the table below. For further information and to place an order, please feel free to contact us."
+      }
     },
     "pure-aluminum-ingot": {
       "title": "Pure Aluminum Ingot",
@@ -41,6 +53,14 @@
     "scrap-purchasing": {
       "title": "Scrap Purchasing",
       "description": "Our company, specialized in aluminum recycling, purchases all types of aluminum scraps within this scope."
+    }
+  },
+  "breadcrumbs": {
+    "homepage": "Home"
+  },
+  "tables": {
+    "alloy-ingot": {
+      "note": "Note: \t1) If no limits are specified, the maximum value applies. \t2) Mn+Fe=1.30 max."
     }
   }
 }

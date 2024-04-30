@@ -54,7 +54,7 @@ function Footer(): JSX.Element {
   };
 
   return (
-    <footer className="m-0 flex w-full flex-col flex-wrap items-center justify-center gap-0 bg-[#1B1A18] p-0 font-theme">
+    <footer className="m-0 flex w-full flex-col flex-wrap items-center justify-center gap-0 bg-[#171614] p-0 font-theme">
       <section className="flex w-full max-w-theme flex-wrap justify-center gap-12 p-3 py-10 lg:justify-between">
         <Link href="/" className="relative">
           <img

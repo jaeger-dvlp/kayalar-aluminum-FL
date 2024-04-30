@@ -40,3 +40,18 @@
 .ls-navbar {
   letter-spacing: 2.5px;
 }
+
+.alu-table td {
+  white-space: nowrap;
+}
+
+.alloy-alu-table tbody tr td:not(:first-child) {
+  text-align: center;
+}
+
+.alloy-alu-table thead tr th:not(:first-child) {
+  width: 120px;
+  min-width: 120px;
+  max-width: 120px;
+  text-align: center;
+}

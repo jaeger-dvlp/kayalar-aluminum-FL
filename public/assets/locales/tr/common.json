@@ -11,6 +11,10 @@
     "contact": "İLETİŞİM"
   },
   "home": {
+    "meta": {
+      "title": "Kayalar Alüminyum - Alüminyum Geri Dönüşümü ve Alüminyum Külçe Üretimi",
+      "description": "1978'den beri çevre dostu alüminyum geri dönüşümünde öncü olan Kayalar Alüminyum'u keşfedin. Sürdürülebilir çözümlere, yenilikçi teknolojilere ve daha temiz bir gelecek için çevresel etkiyi en aza indirmeye olan bağlılığımızı keşfedin."
+    },
     "explanation": {
       "title": "Çevre Koruma Bilinciyle,",
       "description": "Kayalar Alüminyum, 1978 yılından beri alüminyum geri dönüşümü alanında öncü bir rol üstlenmiştir. Çevreye duyarlı üretim süreçleri ve yenilikçi teknolojilerle, atıkların yeniden değerlendirilmesine katkı sağlamaktadır. Kalitesinden ödün vermeden, sürdürülebilir çözümler sunarak, hem müşteri memnuniyetini arttırmayı hem de çevresel etkiyi en aza indirmeyi hedeflemektedir. Kayalar Alüminyum, sektördeki bilinçli ve sorumlu bir yaklaşımı temsil ederek, gelecek nesillere daha temiz bir çevre bırakma misyonunu sürdürmektedir."
@@ -31,8 +35,16 @@
   "products": {
     "heading": "ÜRÜNLER",
     "alloy-aluminum-ingot": {
+      "meta": {
+        "title": "Alaşımlı Alüminyum Külçe - Kayalar Alüminyum",
+        "description": "Kayalar Alüminyum'un alaşımlı alüminyum külçe ürünleri hakkında detaylı bilgi edinin. Yüksek kalite standartları ve çevre dostu üretim süreçleriyle üretilen külçelerimiz hakkında daha fazla bilgi alın."
+      },
       "title": "Alaşımlı Alüminyum Külçe",
-      "description": "Türkiye ve Dünya standartlarındaki tüm alüminyum alaşımlarını yapan firmamız bununla birlikte istenilen özel alaşımları da yapmaktadır."
+      "description": "Türkiye ve Dünya standartlarındaki tüm alüminyum alaşımlarını yapan firmamız bununla birlikte istenilen özel alaşımları da yapmaktadır.",
+      "content": {
+        "title": "Alaşımlı Alüminyum Külçe Üretimi ve Satışı",
+        "description": "Firmamız, Türkiye ve dünya standartlarındaki tüm alüminyum alaşımlarını üretmenin yanı sıra, müşterilerimizin taleplerine özel olarak istenilen özel alaşımları da geliştirmektedir. Yılların deneyimi ve uzmanlığıyla, geniş bir ürün yelpazesine sahip olmanın yanı sıra, her biri yüksek kalite standartlarına uygun olarak üretilen alaşımlarımızla sektörde öncü konumdayız. Müşterilerimizin ihtiyaçlarını karşılamak için esnek bir yaklaşım benimseyerek, özel alaşımların tasarımından üretimine kadar tüm süreçlerde titizlikle çalışmaktayız. Böylece, müşterilerimize en iyi kalitede ve en uygun çözümleri sunmaktayız.\n\nÜrettiğimiz alaşımlı alüminyum ürünler, aşağıda belirtilen tabloda yer almaktadır. Daha fazla bilgi almak ve sipariş vermek için bizimle iletişime geçebilirsiniz."
+      }
     },
     "pure-aluminum-ingot": {
       "title": "Saf Alüminyum Külçe",
@@ -41,6 +53,14 @@
     "scrap-purchasing": {
       "title": "Hurda Alımı",
       "description": "Alüminyum geri dönüşümü yapan firmamız bu kapsam altında tüm alüminyum hurdalarını almaktadır."
+    }
+  },
+  "breadcrumbs": {
+    "homepage": "Anasayfa"
+  },
+  "tables": {
+    "alloy-ingot": {
+      "note": "Not: \t1) Limitler verilmemiş ise azami değerdir. \t2) Mn+Fe=1,30 max"
     }
   }
 }
