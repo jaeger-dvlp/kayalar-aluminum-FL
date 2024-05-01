@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         theme: 'Poppins, sans-serif',
         montserrat: 'Montserrat, sans-serif',
+        'roboto-mono': 'Roboto Mono, monospace',
       },
     },
   },

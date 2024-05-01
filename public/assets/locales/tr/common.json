@@ -36,7 +36,7 @@
     "heading": "ÜRÜNLER",
     "alloy-aluminum-ingot": {
       "meta": {
-        "title": "Alaşımlı Alüminyum Külçe - Kayalar Alüminyum",
+        "title": "Alaşımlı Alüminyum Külçe Üretimi ve Satışı | Kayalar Alüminyum",
         "description": "Kayalar Alüminyum'un alaşımlı alüminyum külçe ürünleri hakkında detaylı bilgi edinin. Yüksek kalite standartları ve çevre dostu üretim süreçleriyle üretilen külçelerimiz hakkında daha fazla bilgi alın."
       },
       "title": "Alaşımlı Alüminyum Külçe",
@@ -47,8 +47,16 @@
       }
     },
     "pure-aluminum-ingot": {
+      "meta": {
+        "title": "Saf Alüminyum Külçe Üretimi ve Satışı | Kayalar Alüminyum",
+        "description": "Kayalar Alüminyum'un saf alüminyum külçe ürünleri hakkında detaylı bilgi edinin. Yüksek kalite standartları ve yenilikçi üretim süreçleriyle üretilen külçelerimiz hakkında daha fazla bilgi alın."
+      },
       "title": "Saf Alüminyum Külçe",
-      "description": "Kayalar Alüminyum, alaşımlı ve saf alüminyum külçe üretim ve satışını yapan firmamız 40 senedir sektöre hizmet vermektedir."
+      "description": "Kayalar Alüminyum, alaşımlı ve saf alüminyum külçe üretim ve satışını yapan firmamız 40 senedir sektöre hizmet vermektedir.",
+      "content": {
+        "title": "Saf Alüminyum Külçe Üretimi ve Satışı",
+        "description": "Firmamız Kayalar Alüminyum, saf alüminyum külçe üretiminde uzmanlaşmıştır ve müşterilerimize yüksek kaliteli ürünler sunmaktadır. Yenilikçi teknolojiler ve titiz kalite kontrol yöntemleriyle desteklenen üretim süreçlerimiz, endüstri standartlarını aşan saf alüminyum külçelerin elde edilmesini sağlar. Müşterilerimizin ihtiyaçlarını karşılamak için esnek bir yaklaşım benimseyerek, özel talepleri ve gereksinimleri dikkate alarak çözüm odaklı yaklaşımlar sunmaktayız. Saf alüminyum külçe üretimindeki lider konumumuz ve mükemmeliyetçi tutumumuzla, müşterilerimize güvenilir ve yüksek performanslı ürünler sunmayı taahhüt ediyoruz.\n\nÜrettiğimiz saf alüminyum ürünler, aşağıda belirtilen tabloda yer almaktadır. Daha fazla bilgi almak ve sipariş vermek için bizimle iletişime geçebilirsiniz."
+      }
     },
     "scrap-purchasing": {
       "title": "Hurda Alımı",
@@ -61,7 +69,32 @@
   "tables": {
     "alloy-ingot": {
       "title": "ALAŞIMLI KÜLÇELERİN KİMYASAL BİLEŞİM LİMİTLERİ ( % AĞIRLIK )",
-      "notes": ["Limitler verilmemiş ise azami değerdir.", "Mn+Fe=1,30 max"]
+      "notes": ["Limitler verilmemiş ise azami değerdir.", "Mn+Fe=1,30 en çok"]
+    },
+    "pure-ingot": {
+      "title": "İLETKEN VE TİCARİ ALÜMİNYUM KİMYASAL BİLEŞİM LİMİTLERİ ( % AĞIRLIK )",
+      "head": {
+        "others": "DİĞERLERİ",
+        "each-one": "HER BİRİ",
+        "total": "TOPLAM"
+      },
+      "body": {
+        "conductor-al": "İletken al",
+        "pure-commercial-al": "Saf Ticari al"
+      },
+      "notes": [
+        "En az değerlerdir.",
+        "Limitler verilmemiş ise en çok değerlerdir.",
+        "Ti+V+Mn+Cr=%0,02 en çok, Fe/Si=2,00 en azdır. Fe+Si <= 0,30",
+        "Fe+Si=0,20 en çok",
+        "Fe+Si=5,00 en çok",
+        "Mn=1,00 en çok",
+        "Fe+Si=0,96-1,34",
+        "Fe+Si=0,95 en çok",
+        "Ti+V+Mn+Cr=%0,02 en çok, Fe/Si=2,00 en az, Fe+Si=0,31-0,35",
+        "Mg=1,00 en çok",
+        "Mg=0,10 en çok"
+      ]
     }
   }
 }

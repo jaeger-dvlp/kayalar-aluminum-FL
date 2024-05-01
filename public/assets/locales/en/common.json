@@ -36,7 +36,7 @@
     "heading": "PRODUCTS",
     "alloy-aluminum-ingot": {
       "meta": {
-        "title": "Alloy Aluminum Ingot | Kayalar Aluminum",
+        "title": "Alloy Aluminum Ingot Production and Sales | Kayalar Aluminum",
         "description": "Learn more about Kayalar Aluminum's alloyed aluminum ingots. Discover detailed information about our ingots produced with high-quality standards and environmentally friendly manufacturing processes."
       },
       "title": "Alloy Aluminum Ingot",
@@ -47,8 +47,16 @@
       }
     },
     "pure-aluminum-ingot": {
+      "meta": {
+        "title": "Pure Aluminum Ingot Production and Sales | Kayalar Aluminum",
+        "description": "Learn more about Kayalar Aluminum's pure aluminum ingot products. Discover detailed information about our ingots produced with high-quality standards and innovative production processes."
+      },
       "title": "Pure Aluminum Ingot",
-      "description": "Our company, Kayalar Aluminum, has been serving the industry for 40 years by producing and selling both alloyed and pure aluminum ingots."
+      "description": "Our company, Kayalar Aluminum, has been serving the industry for 40 years by producing and selling both alloyed and pure aluminum ingots.",
+      "content": {
+        "title": "Pure Aluminum Ingot Production and Sales",
+        "description": "Our company, Kayalar Aluminum, specializes in the production of pure aluminum ingots and delivers high-quality products to our customers. Supported by innovative technologies and meticulous quality control methods, our production processes ensure the attainment of pure aluminum ingots that surpass industry standards. Embracing a flexible approach to meet our customers' needs, we offer solution-oriented approaches by considering special requests and requirements. With our leading position in pure aluminum ingot production and our commitment to excellence, we pledge to provide our customers with reliable and high-performance products.\n\nThe pure aluminum products we produce are listed in the table below. For further information and to place an order, please feel free to contact us."
+      }
     },
     "scrap-purchasing": {
       "title": "Scrap Purchasing",
@@ -63,7 +71,32 @@
       "title": "CHEMICAL COMPOSITION LIMITS OF ALLOYED INGOTS (% BY WEIGHT)",
       "notes": [
         "If no limits are specified, the maximum value applies.",
-        "Mn+Fe=1.30 max."
+        "Mn+Fe=1,30 max"
+      ]
+    },
+    "pure-ingot": {
+      "title": "CHEMICAL COMPOSITION LIMITS OF CONDUCTIVE AND COMMERCIAL ALUMINUM (% BY WEIGHT)",
+      "head": {
+        "others": "OTHERS",
+        "each-one": "EACH ONE",
+        "total": "TOTAL"
+      },
+      "body": {
+        "conductor-al": "Conductor Al",
+        "pure-commercial-al": "Pure Commercial Al"
+      },
+      "notes": [
+        "Minimum values.",
+        "Maximum values if no limits are specified.",
+        "Ti+V+Mn+Cr=%0.02 maximum, Fe/Si=2.00 minimum. Fe+Si <= 0.30",
+        "Fe+Si=0.20 maximum",
+        "Fe+Si=5.00 maximum",
+        "Mn=1.00 maximum",
+        "Fe+Si=0.96-1.34",
+        "Fe+Si=0.95 maximum",
+        "Ti+V+Mn+Cr=%0.02 maximum, Fe/Si=2.00 minimum, Fe+Si=0.31-0.35",
+        "Mg=1.00 maximum",
+        "Mg=0.10 maximum"
       ]
     }
   }

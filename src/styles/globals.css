@@ -41,12 +41,25 @@
   letter-spacing: 2.5px;
 }
 
+.alu-table {
+  @apply font-roboto-mono;
+}
+
 .alu-table td {
   white-space: nowrap;
 }
 
+.alu-table tbody tr {
+  @apply transition-all duration-150 hover:bg-zinc-100/10;
+}
+
 .alloy-alu-table tbody tr td:not(:first-child) {
   text-align: center;
+}
+
+.alloy-alu-table thead tr th {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .alloy-alu-table thead tr th:not(:first-child) {
@@ -54,4 +67,20 @@
   min-width: 120px;
   max-width: 120px;
   text-align: center;
+}
+
+.pure-alu-table {
+  text-align: center;
+}
+
+.pure-alu-table thead th {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.ingot-table-note {
+  @apply font-roboto-mono;
+}
+.ingot-table-note td {
+  @apply w-fit p-2 text-xs;
 }

@@ -4,7 +4,7 @@ import { useTranslation } from 'next-i18next';
 function AlloyIngotTable() {
   const { t } = useTranslation();
   return (
-    <section className="my-2 flex w-full flex-col items-start justify-start gap-2 text-left font-theme text-zinc-300">
+    <section className="my-10 flex w-full flex-col items-start justify-start gap-2 text-left font-theme text-zinc-300">
       <h3 className="w-full text-center text-lg">
         {t('tables.alloy-ingot.title')}
       </h3>
@@ -285,7 +285,7 @@ function AlloyIngotTable() {
         </table>
       </section>
       <section className="flex w-full items-start justify-start overflow-auto">
-        <table className="w-full text-xs">
+        <table className="ingot-table-note text-xs">
           <tbody>
             <tr>
               <td>1 ) {t('tables.alloy-ingot.notes.0')}</td>
