@@ -71,6 +71,20 @@
       }
     }
   },
+  "quality": {
+    "meta": {
+      "title": "Quality | Kayalar Aluminum",
+      "description": "Access detailed information about Kayalar Aluminum's quality standards and quality control processes. Learn more about our customer satisfaction and product quality-oriented approach."
+    },
+    "title": "Quality",
+    "content": {
+      "title": "Quality Control",
+      "paragraph": [
+        "Our company not only produces aluminum alloys according to Turkish and international standards but also manufactures custom alloys to meet our customers' specific requirements. As a result, we offer a wide range of products to meet our customers' diverse industrial needs. Our products undergo necessary tests and are shipped to our customers after passing through quality control processes. This ensures that our customers can trust the quality of our products and be confident that they meet quality standards.",
+        "Our company maintains a high level of quality awareness by having quality control devices in place. These devices help us closely monitor quality standards in our production processes and ensure the quality of our products. We use modern analysis technologies such as FOUNDRY MASTER UV Vacuum CCD SPECTROMETER to determine the compositions of our products. These analyses help us improve the quality of our products and provide our customers with the best possible products."
+      ]
+    }
+  },
   "breadcrumbs": {
     "homepage": "Home"
   },

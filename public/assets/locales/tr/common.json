@@ -71,6 +71,20 @@
       }
     }
   },
+  "quality": {
+    "meta": {
+      "title": "Kalite | Kayalar Alüminyum",
+      "description": "Kayalar Alüminyum'un kalite standartlarına ve kalite kontrol süreçlerine ilişkin detaylı bilgilere ulaşın. Müşteri memnuniyeti ve ürün kalitesi odaklı yaklaşımımız hakkında daha fazla bilgi edinin."
+    },
+    "title": "Kalite",
+    "content": {
+      "title": "Kalite Kontrol",
+      "paragraph": [
+        "Firmamız, Türkiye ve dünya standartlarındaki tüm alüminyum alaşımlarını üretmenin yanı sıra, müşterilerimizin özel taleplerini karşılamak için istenilen özel alaşımları da üretmektedir. Bu sayede, müşterilerimizin farklı endüstriyel ihtiyaçlarını karşılamak için geniş bir ürün yelpazesi sunmaktayız. Gerekli testlerden geçen ürünlerimiz, kalite kontrol süreçlerinden geçirilerek müşterilerimize sevk edilmektedir. Bu sayede, müşterilerimiz ürünlerimizin kalitesine güvenebilir ve kalite standartlarını karşıladığından emin olabilirler.",
+        "Firmamız, yüksek kalite bilincini en üst düzeyde tutarak, kalite kontrol cihazlarını bünyesinde bulundurmaktadır. Bu cihazlar, üretim süreçlerimizde kalite standartlarını sıkı bir şekilde takip etmemize ve ürünlerimizin kalitesini sağlamaya yardımcı olmaktadır. Ürünlerimizin bileşimlerini belirlemek için FOUNDRY MASTER UV Vakum CCD SPEKTROMETRE gibi modern analiz teknolojilerini kullanıyoruz. Bu analizler, ürünlerimizin kalitesini artırmamıza ve müşterilerimize en iyi ürünleri sunmamıza yardımcı olmaktadır."
+      ]
+    }
+  },
   "breadcrumbs": {
     "homepage": "Anasayfa"
   },

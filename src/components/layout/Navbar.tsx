@@ -154,6 +154,8 @@ export default function Navbar(): JSX.Element {
       }
     };
 
+    handleScroll();
+
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('load', handleScroll);
 
