@@ -59,8 +59,16 @@
       }
     },
     "scrap-purchasing": {
+      "meta": {
+        "title": "Hurda Alımı | Kayalar Alüminyum",
+        "description": "Alüminyum geri dönüşümü yapan firmamız, tüm alüminyum hurdalarını almaktadır. Kayalar Alüminyum ile hurda alımı hakkında detaylı bilgi alın."
+      },
       "title": "Hurda Alımı",
-      "description": "Alüminyum geri dönüşümü yapan firmamız bu kapsam altında tüm alüminyum hurdalarını almaktadır."
+      "description": "Alüminyum geri dönüşümü yapan firmamız bu kapsam altında tüm alüminyum hurdalarını almaktadır.",
+      "content": {
+        "title": "Hurda Alımı",
+        "description": "Firmamız, alüminyum geri dönüşümü konusunda uzmanlaşmış olup, bu çerçevede geniş bir yelpazedeki alüminyum hurdalarını kabul etmektedir. Endüstriyel atıklardan evsel geri dönüşüm malzemelerine kadar her türlü alüminyum hurdasını toplamak ve işlemek için özel olarak tasarlanmış tesislerimiz ve teknolojilerimiz bulunmaktadır. Geri dönüştürülebilir malzemelerin toplanması ve işlenmesinde titizlikle çalışarak, sürdürülebilir bir döngü oluşturmayı ve kaynakların etkin bir şekilde kullanılmasını sağlamaktayız. Aynı zamanda, çevreye duyarlılık ve kaynak tasarrufu ilkelerini benimseyerek, atıkların geri dönüşümü yoluyla çevresel etkiyi azaltmaya ve gelecek nesillere daha temiz bir çevre bırakmaya odaklanmaktayız.\n\nDetaylı bilgi almak ve hurda alımı hizmetlerimizden faydalanmak için bizimle iletişime geçebilirsiniz."
+      }
     }
   },
   "breadcrumbs": {

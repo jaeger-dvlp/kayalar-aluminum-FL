@@ -59,8 +59,16 @@
       }
     },
     "scrap-purchasing": {
+      "meta": {
+        "title": "Scrap Purchasing | Kayalar Aluminum",
+        "description": "Our company, specializing in aluminum recycling, purchases all types of aluminum scraps. Get detailed information about scrap purchasing with Kayalar Aluminum."
+      },
       "title": "Scrap Purchasing",
-      "description": "Our company, specialized in aluminum recycling, purchases all types of aluminum scraps within this scope."
+      "description": "Our company, specializing in aluminum recycling, purchases all types of aluminum scraps within this scope.",
+      "content": {
+        "title": "Scrap Purchasing",
+        "description": "Our company specializes in aluminum recycling and thus accepts a wide range of aluminum scraps. From industrial waste to household recycling materials, our facilities and technologies are specially designed to collect and process all types of aluminum scrap. We work diligently in collecting and processing recyclable materials to create a sustainable cycle and effectively utilize resources. Additionally, we focus on reducing environmental impact and leaving a cleaner environment for future generations by embracing principles of environmental awareness and resource conservation through recycling. \n\nFor more information and to take advantage of our scrap purchasing services, please feel free to contact us."
+      }
     }
   },
   "breadcrumbs": {
