@@ -31,7 +31,7 @@ function Footer(): JSX.Element {
     },
     {
       id: 2,
-      name: 'navbar.about',
+      name: 'navbar.about-us',
       url: '/about-us',
     },
     {

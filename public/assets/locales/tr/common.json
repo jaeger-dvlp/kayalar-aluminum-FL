@@ -7,7 +7,7 @@
   "navbar": {
     "products": "ÜRÜNLER",
     "quality": "KALİTE",
-    "about": "HAKKIMIZDA",
+    "about-us": "HAKKIMIZDA",
     "contact": "İLETİŞİM"
   },
   "home": {
@@ -82,6 +82,25 @@
       "paragraph": [
         "Firmamız, Türkiye ve dünya standartlarındaki tüm alüminyum alaşımlarını üretmenin yanı sıra, müşterilerimizin özel taleplerini karşılamak için istenilen özel alaşımları da üretmektedir. Bu sayede, müşterilerimizin farklı endüstriyel ihtiyaçlarını karşılamak için geniş bir ürün yelpazesi sunmaktayız. Gerekli testlerden geçen ürünlerimiz, kalite kontrol süreçlerinden geçirilerek müşterilerimize sevk edilmektedir. Bu sayede, müşterilerimiz ürünlerimizin kalitesine güvenebilir ve kalite standartlarını karşıladığından emin olabilirler.",
         "Firmamız, yüksek kalite bilincini en üst düzeyde tutarak, kalite kontrol cihazlarını bünyesinde bulundurmaktadır. Bu cihazlar, üretim süreçlerimizde kalite standartlarını sıkı bir şekilde takip etmemize ve ürünlerimizin kalitesini sağlamaya yardımcı olmaktadır. Ürünlerimizin bileşimlerini belirlemek için FOUNDRY MASTER UV Vakum CCD SPEKTROMETRE gibi modern analiz teknolojilerini kullanıyoruz. Bu analizler, ürünlerimizin kalitesini artırmamıza ve müşterilerimize en iyi ürünleri sunmamıza yardımcı olmaktadır."
+      ]
+    }
+  },
+  "about-us": {
+    "meta": {
+      "title": "Hakkımızda | Kayalar Alüminyum",
+      "description": "Kayalar Alüminyum hakkında daha fazla bilgi edinin. Firmamızın misyonu, vizyonu ve değerleri hakkında detaylı bilgilere ulaşın."
+    },
+    "title": "Hakkımızda",
+    "content": {
+      "title": "KAYALAR ALÜMİNYUM LEVHA SAN. ve TİC. LTD. ŞTİ.",
+      "paragraph": [
+        "Kayalar Alüminyum, alaşımlı ve saf alüminyum külçe üretim ve satışıyla 30 yıldan fazla süredir sektörde hizmet vermektedir. Kurumsal yapılanmasını tamamlamış olan firmamız, yüksek kalite ve müşteri memnuniyetini her zaman en üst düzeyde tutarak müşterilerine en iyi ürünü sunmayı amaçlamaktadır. Yıllık 6000 ton kapasitesi olan firmamız, ürünlerini genel piyasa fiyatları içinde sunarken kalitesinden ödün vermemekte ve bu sayede sektörde takdir toplamaktadır. Ürün kalitesini her zaman en üst düzeyde tutan firmamız, çalıştığı firmalar arasında saygın bir konuma sahip olmuştur.",
+        "Firmamız, beyaz eşya, otomotiv, mobilya aksesuarları ve yapı sektörüne hizmet veren metal enjeksiyon ve kum döküm firmalarına malzeme tedariki yapmaktadır. Bu süreçte, müşteri firmaların tüm üretim aşamalarında yanlarında olan firmamız, müşterilerine adeta bir alt firma gibi destek vererek müşteri memnuniyetini en üst düzeyde tutmayı amaçlamaktadır.",
+        "Firmamızın farkı, yüksek kalite bilinci ve şeffaf fiyat anlayışıdır.",
+        "Vizyonumuz",
+        "Sektörün bugününü iyi analiz eden, yarınını da bugünden planlayabilen, fark yaratmaya ve değer katmaya inanan, gerçekçi, yapılabilir ve ölçülebilir hedeflerin takipçisi olan kurumsallık ve profesyonellik anlayışını sürdürmektir.",
+        "Misyonumuz",
+        "Hedeflerimize ulaşma yolunda, çağdaş bilgi ve teknolojileri kullanarak, kuruluşumuzda kalite anlayışını, şeffaflığı ve katılımcı yaklaşımı ilke edinmek ve tüm iş ortaklarımıza değer katacak bir yönetim şekli sunmaktır."
       ]
     }
   },

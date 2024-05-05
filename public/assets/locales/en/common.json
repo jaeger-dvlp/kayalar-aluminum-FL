@@ -7,7 +7,7 @@
   "navbar": {
     "products": "PRODUCTS",
     "quality": "QUALITY",
-    "about": "ABOUT US",
+    "about-us": "ABOUT US",
     "contact": "CONTACT"
   },
   "home": {
@@ -82,6 +82,25 @@
       "paragraph": [
         "Our company not only produces aluminum alloys according to Turkish and international standards but also manufactures custom alloys to meet our customers' specific requirements. As a result, we offer a wide range of products to meet our customers' diverse industrial needs. Our products undergo necessary tests and are shipped to our customers after passing through quality control processes. This ensures that our customers can trust the quality of our products and be confident that they meet quality standards.",
         "Our company maintains a high level of quality awareness by having quality control devices in place. These devices help us closely monitor quality standards in our production processes and ensure the quality of our products. We use modern analysis technologies such as FOUNDRY MASTER UV Vacuum CCD SPECTROMETER to determine the compositions of our products. These analyses help us improve the quality of our products and provide our customers with the best possible products."
+      ]
+    }
+  },
+  "about-us": {
+    "meta": {
+      "title": "About Us | Kayalar Aluminum",
+      "description": "Learn more about Kayalar Aluminum. Access detailed information about our company's mission, vision, and values."
+    },
+    "title": "About Us",
+    "content": {
+      "title": "KAYALAR ALÜMİNYUM LEVHA SAN. ve TİC. LTD. ŞTİ.",
+      "paragraph": [
+        "Kayalar Aluminum has been providing services in the industry for over 30 years with alloy and pure aluminum ingot production and sales. Our company, with its completed corporate structuring, aims to always provide the best product to its customers by maintaining high quality and customer satisfaction at the highest level. With an annual capacity of 6000 tons, our company does not compromise on quality while offering its products at general market prices, thus earning appreciation in the industry. Our company, which always maintains the highest level of product quality, has earned a reputable position among the companies it works with.",
+        "Our company supplies materials to metal injection and sand casting companies serving the white goods, automotive, furniture accessories, and construction sectors. Throughout this process, our company, which stands by its customer companies at every stage of production, aims to maintain customer satisfaction at the highest level by providing support similar to a subsidiary to its customers.",
+        "The difference of our company is its high quality awareness and transparent pricing policy.",
+        "Our Vision",
+        "To maintain a corporate and professional understanding that analyzes today's industry well, plans tomorrow from today, believes in making a difference and adding value, and continues the understanding of realism, achievable, and measurable goals.",
+        "Our Mission",
+        "To adopt a quality understanding, transparency, and participatory approach in our organization by using contemporary knowledge and technologies on the road to achieving our goals and to provide a management style that adds value to all our business partners."
       ]
     }
   },

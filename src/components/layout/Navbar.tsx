@@ -67,7 +67,7 @@ export default function Navbar(): JSX.Element {
     },
     {
       id: 2,
-      name: 'navbar.about',
+      name: 'navbar.about-us',
       url: '/about-us',
       classNames: ClassNames,
     },
@@ -176,7 +176,7 @@ export default function Navbar(): JSX.Element {
         }
       fixed left-0 top-0 z-[50] flex w-full items-center justify-center font-theme shadow-2xl transition-all duration-300`}
       >
-        <section className="flex w-full max-w-theme flex-wrap items-center justify-between gap-5 p-3">
+        <section className="flex w-full max-w-theme flex-wrap items-center justify-between gap-5 p-3 px-5">
           <Link href="/" className="relative z-[50]">
             <img
               alt="Logo"

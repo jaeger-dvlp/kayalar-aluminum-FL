@@ -1,5 +1,6 @@
 import React from 'react';
 import type { AppProps } from 'next/app';
+import Loader from '@/components/layout/Loader';
 import { appWithTranslation } from 'next-i18next';
 import PopupWrapper from '@/contexts/Popup.context';
 import AlertPopup from '@/components/popups/Alert.popup';
@@ -50,6 +51,7 @@ function App({ Component, pageProps }: AppProps) {
       */}
 
       <PopupWrapper>
+        <Loader />
         <AlertPopup />
         <ConfirmPopup />
         <Component {...pageProps} />
