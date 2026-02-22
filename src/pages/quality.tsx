@@ -1,16 +1,16 @@
-import React from 'react';
-import Meta from '@/components/layout/Meta';
-import Offer from '@/components/home/Offer';
 import { useTranslation } from 'next-i18next';
-import Navbar from '@/components/layout/Navbar';
-import Footer from '@/components/layout/Footer';
-import BreadCrumbs from '@/components/layout/BreadCrumbs';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import React from 'react';
 
-import QualityBanner from '@/public/assets/img/quality.webp';
+import Offer from '@/components/home/Offer';
+import BreadCrumbs from '@/components/layout/BreadCrumbs';
+import Footer from '@/components/layout/Footer';
+import Meta from '@/components/layout/Meta';
+import Navbar from '@/components/layout/Navbar';
 import IngotsBanner from '@/public/assets/img/ingots-banner.webp';
+import QualityBanner from '@/public/assets/img/quality.webp';
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   const { t } = useTranslation();
   return (
     <>
@@ -24,13 +24,13 @@ export default function Home(): JSX.Element {
           title="quality.title"
           path={[{ name: 'navbar.quality', href: '/quality' }]}
         />
-        <section className="flex w-full flex-col items-center justify-start py-10 font-theme">
-          <section className="flex w-full max-w-theme flex-col items-center justify-start gap-5 p-5 ">
+        <section className="font-theme flex w-full flex-col items-center justify-start py-10">
+          <section className="max-w-theme flex w-full flex-col items-center justify-start gap-5 p-5">
             <section className="flex w-full flex-col items-start justify-start gap-5 text-left text-zinc-200">
               <h2 className="text-xl font-medium lg:text-2xl">
                 {t('quality.content.title')}
               </h2>
-              <p className="whitespace-pre-wrap text-sm text-zinc-300">
+              <p className="text-sm whitespace-pre-wrap text-zinc-300">
                 {t('quality.content.paragraph.0')}
               </p>
               <img
@@ -38,7 +38,7 @@ export default function Home(): JSX.Element {
                 src={QualityBanner.src}
                 className="w-full object-cover"
               />
-              <p className="whitespace-pre-wrap text-sm text-zinc-300">
+              <p className="text-sm whitespace-pre-wrap text-zinc-300">
                 {t('quality.content.paragraph.1')}
               </p>
             </section>
@@ -48,7 +48,7 @@ export default function Home(): JSX.Element {
           <img
             alt="Kayalar Alüminyum"
             src={IngotsBanner.src}
-            className="absolute left-0 top-0 z-[1] h-full w-full object-cover object-center"
+            className="absolute top-0 left-0 z-[1] h-full w-full object-cover object-center"
           />
           <section className="absolute top-0 left-0 z-[2] flex h-full w-full flex-col items-center justify-center gap-5 bg-black/70 p-5 text-center">
             <svg className="-mt-1" width="24" height="23">
@@ -57,7 +57,7 @@ export default function Home(): JSX.Element {
                 fill="#CB7A01"
               />
             </svg>
-            <p className="-mt-1 font-theme text-xl font-light text-white lg:text-2xl">
+            <p className="font-theme -mt-1 text-xl font-light text-white lg:text-2xl">
               {t('home.quote.title')}
             </p>
           </section>

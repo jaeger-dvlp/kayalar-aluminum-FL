@@ -1,9 +1,10 @@
-import React from 'react';
 import { useRouter } from 'next/router';
-import Wait from '@/common/utils/Wait.util';
+import React from 'react';
 import { AiOutlineLoading } from 'react-icons/ai';
 
-function Loader(): JSX.Element | null {
+import Wait from '@/common/utils/Wait.util';
+
+function Loader(): React.JSX.Element | null {
   const Router = useRouter();
   const [loader, setLoader] = React.useState({
     inHTML: true,
@@ -31,19 +32,19 @@ function Loader(): JSX.Element | null {
   };
 
   React.useEffect(() => {
-    Router.events.on('routeChangeStart', () => ShowLoader());
-    Router.events.on('routeChangeComplete', () => HideLoader());
-    Router.events.on('routeChangeError', () => HideLoader());
+    Router.events.on('routeChangeStart', () => void ShowLoader());
+    Router.events.on('routeChangeComplete', () => void HideLoader());
+    Router.events.on('routeChangeError', () => void HideLoader());
 
     return () => {
-      Router.events.off('routeChangeStart', () => ShowLoader());
-      Router.events.off('routeChangeComplete', () => HideLoader());
-      Router.events.off('routeChangeError', () => HideLoader());
+      Router.events.off('routeChangeStart', () => void ShowLoader());
+      Router.events.off('routeChangeComplete', () => void HideLoader());
+      Router.events.off('routeChangeError', () => void HideLoader());
     };
-  }, []);
+  }, [Router.events]);
 
   React.useEffect(() => {
-    HideLoader();
+    void HideLoader();
   }, []);
 
   return (
@@ -52,10 +53,7 @@ function Loader(): JSX.Element | null {
         style={{
           transition: loader.isActive ? 'none' : 'all 0.5s',
         }}
-        className={`
-            ${loader.isActive ? 'visible opacity-100' : 'invisible opacity-0'}
-            fixed left-0 top-0 !z-[999999] flex h-full w-full items-center justify-center bg-[#1B1A18]
-            `}
+        className={` ${loader.isActive ? 'visible opacity-100' : 'invisible opacity-0'} fixed top-0 left-0 !z-[999999] flex h-full w-full items-center justify-center bg-[#1B1A18]`}
       >
         <AiOutlineLoading className="relative z-[1] h-7 w-7 animate-spin rounded-full bg-orange-500/5 p-1 text-orange-400" />
       </div>

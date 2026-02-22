@@ -1,4 +1,4 @@
-import { WaitUtil } from '@/types/boilerplate.types';
+import type { WaitUtil } from '@/types/boilerplate.types';
 
 const Wait: WaitUtil = (ms: number) => {
   return new Promise((resolve) => {

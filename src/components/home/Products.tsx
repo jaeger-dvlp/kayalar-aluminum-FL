@@ -1,9 +1,9 @@
-import React from 'react';
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
+import React from 'react';
 
-import AlloyAluminumIngot from '@/public/assets/img/packed-ingots.webp';
 import PureAluminumIngot from '@/public/assets/img/ingots.webp';
+import AlloyAluminumIngot from '@/public/assets/img/packed-ingots.webp';
 import ScrapPurchasing from '@/public/assets/img/scraps.webp';
 
 type ProductProps = {
@@ -23,7 +23,7 @@ function Product({ product, image }: ProductProps) {
           {t(`products.${product}.description`)}
         </p>
         <Link
-          className="ls-navbar border-2 border-[#ED8E01] py-1.5 px-10 text-sm text-white transition-all duration-200 hover:bg-white/20 lg:text-base"
+          className="ls-navbar border-2 border-[#ED8E01] px-10 py-1.5 text-sm text-white transition-all duration-200 hover:bg-white/20 lg:text-base"
           href={`/products/${product}`}
         >
           {t('read-more')}
@@ -32,7 +32,7 @@ function Product({ product, image }: ProductProps) {
       <section className="relative order-1 w-full lg:order-2 lg:max-w-[45%]">
         <svg
           viewBox="0 0 131 131"
-          className="absolute right-0 top-0 aspect-square w-[15%] scale-125"
+          className="absolute top-0 right-0 aspect-square w-[15%] scale-125"
         >
           <path d="M131 131L0 0H131V131Z" fill="#CB7A01" />
         </svg>
@@ -48,7 +48,7 @@ function Product({ product, image }: ProductProps) {
 
 function ProductSeperator() {
   return (
-    <div className="flex w-full items-center justify-center gap-4 ">
+    <div className="flex w-full items-center justify-center gap-4">
       <div className="aspect-square h-1 w-1 bg-[#ED8E01]" />
       <div className="h-px w-full max-w-[100px] bg-[#6F6F6D]" />
       <div className="aspect-square h-1 w-1 bg-[#ED8E01]" />
@@ -63,9 +63,9 @@ function Products() {
   return (
     <section
       id="products"
-      className="m-0 flex w-full items-center justify-center bg-[#1B1A18] p-0 font-theme"
+      className="font-theme m-0 flex w-full items-center justify-center bg-[#1B1A18] p-0"
     >
-      <section className="flex w-full max-w-theme flex-col items-center justify-start gap-24 p-5 py-24">
+      <section className="max-w-theme flex w-full flex-col items-center justify-start gap-24 p-5 py-24">
         <h2
           style={{
             letterSpacing: '10px',
@@ -74,7 +74,7 @@ function Products() {
         >
           {t('products.heading')}
         </h2>
-        <ul className="m-0 flex w-full max-w-xl flex-col items-center justify-start gap-24 p-0 text-left font-theme text-[#BEB7AB] lg:max-w-full">
+        <ul className="font-theme m-0 flex w-full max-w-xl flex-col items-center justify-start gap-24 p-0 text-left text-[#BEB7AB] lg:max-w-full">
           <Product
             product="alloy-aluminum-ingot"
             image={AlloyAluminumIngot.src}

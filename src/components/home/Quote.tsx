@@ -1,5 +1,5 @@
-import React from 'react';
 import { useTranslation } from 'next-i18next';
+import React from 'react';
 
 import QuoteBanner from '@/public/assets/img/quote-banner.webp';
 
@@ -10,7 +10,7 @@ function Quote() {
       <img
         alt="Kayalar Alüminyum"
         src={QuoteBanner.src}
-        className="absolute left-0 top-0 z-[1] h-full w-full object-cover object-center"
+        className="absolute top-0 left-0 z-[1] h-full w-full object-cover object-center"
       />
       <section className="absolute top-0 left-0 z-[2] flex h-full w-full flex-col items-center justify-center gap-5 bg-black/70 p-5 text-center">
         <svg className="-mt-1" width="24" height="23">
@@ -19,7 +19,7 @@ function Quote() {
             fill="#CB7A01"
           />
         </svg>
-        <p className="-mt-1 font-theme text-xl font-light text-white lg:text-2xl">
+        <p className="font-theme -mt-1 text-xl font-light text-white lg:text-2xl">
           {t('home.quote.title')}
         </p>
       </section>

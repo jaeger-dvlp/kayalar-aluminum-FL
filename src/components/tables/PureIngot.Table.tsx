@@ -1,10 +1,10 @@
-import React from 'react';
 import { useTranslation } from 'next-i18next';
+import React from 'react';
 
 function PureIngotTable() {
   const { t } = useTranslation();
   return (
-    <section className="my-10 flex w-full flex-col items-start justify-start gap-2 text-left font-theme text-zinc-300">
+    <section className="font-theme my-10 flex w-full flex-col items-start justify-start gap-2 text-left text-zinc-300">
       <h3 className="w-full text-center text-lg">
         {t('tables.pure-ingot.title')}
       </h3>
@@ -232,10 +232,7 @@ function PureIngotTable() {
           </tbody>
         </table>
       </section>
-      <section
-        className="flex w-full
-       items-start justify-start overflow-auto"
-      >
+      <section className="flex w-full items-start justify-start overflow-auto">
         <table className="ingot-table-note min-w-fit text-xs">
           <tbody>
             <tr>

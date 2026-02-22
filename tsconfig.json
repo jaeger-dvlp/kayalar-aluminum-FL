@@ -14,7 +14,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
@@ -25,13 +25,12 @@
     "typeRoots": ["./node_modules/@types", "./src/types"],
     "incremental": true
   },
-  "exclude": ["./out/**/*", "./node_modules/**/*"],
+  "exclude": ["./out/**/*", "./node_modules/**/*", "eslint.config.mjs"],
   "include": [
     "next-env.d.ts",
     "./**/*.ts",
     "./**/*.tsx",
     "./global.d.ts",
-    "./.eslintrc.json",
     "next-i18next.config.js"
   ]
 }

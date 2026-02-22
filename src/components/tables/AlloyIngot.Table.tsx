@@ -1,10 +1,10 @@
-import React from 'react';
 import { useTranslation } from 'next-i18next';
+import React from 'react';
 
 function AlloyIngotTable() {
   const { t } = useTranslation();
   return (
-    <section className="my-10 flex w-full flex-col items-start justify-start gap-2 text-left font-theme text-zinc-300">
+    <section className="font-theme my-10 flex w-full flex-col items-start justify-start gap-2 text-left text-zinc-300">
       <h3 className="w-full text-center text-lg">
         {t('tables.alloy-ingot.title')}
       </h3>

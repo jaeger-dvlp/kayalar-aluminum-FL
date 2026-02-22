@@ -1,7 +1,7 @@
-import React from 'react';
 import Head from 'next/head';
-import { NextSeo } from 'next-seo';
 import { useRouter } from 'next/router';
+import { NextSeo } from 'next-seo';
+import React from 'react';
 
 type MetaProps = {
   title: string;
@@ -9,7 +9,11 @@ type MetaProps = {
   favIconType?: 'png' | 'jpg' | 'jpeg' | 'ico'; // ? You can add more types..
 };
 
-function Meta({ title, description, favIconType }: MetaProps): JSX.Element {
+function Meta({
+  title,
+  description,
+  favIconType,
+}: MetaProps): React.JSX.Element {
   const router = useRouter();
 
   return (

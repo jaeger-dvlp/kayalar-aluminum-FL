@@ -1,7 +1,7 @@
 /* eslint-disable react/no-array-index-key */
-import React from 'react';
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
+import React from 'react';
 import { BsChevronRight } from 'react-icons/bs';
 
 import BreadCrumbBanner from '@/public/assets/img/breadcrumb-banner.webp';
@@ -17,14 +17,14 @@ function BreadCrumbs({ title, path }: Props) {
     i18n: { language: lang },
   } = useTranslation();
   return (
-    <section className="relative flex min-h-[45vh] w-full items-center justify-center border-b border-[#2f2d2a] font-theme">
+    <section className="font-theme relative flex min-h-[45vh] w-full items-center justify-center border-b border-[#2f2d2a]">
       <img
         alt="Kayalar Alüminyum"
         src={BreadCrumbBanner.src}
-        className="absolute left-0 top-0 z-[1] h-full w-full object-cover object-center"
+        className="absolute top-0 left-0 z-[1] h-full w-full object-cover object-center"
       />
-      <section className="absolute left-0 top-0 z-[2] flex h-full w-full items-center justify-center bg-black/70">
-        <section className="flex w-full max-w-theme flex-col items-start justify-center gap-5 p-5 pt-10 text-[#BEB7AB] lg:justify-between">
+      <section className="absolute top-0 left-0 z-[2] flex h-full w-full items-center justify-center bg-black/70">
+        <section className="max-w-theme flex w-full flex-col items-start justify-center gap-5 p-5 pt-10 text-[#BEB7AB] lg:justify-between">
           <ul className="m-0 flex w-full flex-wrap items-center justify-start gap-2 p-0 text-xs">
             <li>
               <Link
@@ -44,10 +44,7 @@ function BreadCrumbs({ title, path }: Props) {
                       <Link
                         href={href}
                         locale={lang}
-                        className={`
-                        ${index === path.length - 1 && 'text-zinc-300'}
-                        uppercase transition-all duration-150 hover:text-white
-                                  `}
+                        className={` ${index === path.length - 1 && 'text-zinc-300'} uppercase transition-all duration-150 hover:text-white`}
                       >
                         {t(name)}
                       </Link>

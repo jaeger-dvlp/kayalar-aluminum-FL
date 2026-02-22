@@ -1,8 +1,9 @@
 import React from 'react';
+
 import Icon from '@/components/misc/Icon';
 import { usePopup } from '@/contexts/Popup.context';
 
-function AlertPopup(): JSX.Element | null {
+function AlertPopup(): React.JSX.Element | null {
   const { alertPopup, deactivateAlertPopup } = usePopup();
 
   const containerClass = alertPopup?.isActive
@@ -15,7 +16,7 @@ function AlertPopup(): JSX.Element | null {
 
   return (alertPopup?.inHTML && (
     <div
-      className={`${containerClass} fixed left-0 top-0 z-[9998] flex h-full w-full items-center justify-center overflow-hidden bg-black/70 p-5 font-theme transition-all delay-200 duration-300`}
+      className={`${containerClass} font-theme fixed top-0 left-0 z-[9998] flex h-full w-full items-center justify-center overflow-hidden bg-black/70 p-5 transition-all delay-200 duration-300`}
     >
       <div
         className={`${popupClass} grid max-h-fit w-full max-w-md grid-cols-1 place-content-start place-items-center gap-10 border border-zinc-500 bg-white p-5 shadow-xl transition-all duration-300`}
@@ -39,7 +40,7 @@ function AlertPopup(): JSX.Element | null {
         </button>
       </div>
     </div>
-  )) as JSX.Element | null;
+  )) as React.JSX.Element;
 }
 
 export default AlertPopup;

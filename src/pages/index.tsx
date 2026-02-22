@@ -1,18 +1,18 @@
-import React from 'react';
-import Meta from '@/components/layout/Meta';
 import { useTranslation } from 'next-i18next';
-import Navbar from '@/components/layout/Navbar';
-import Footer from '@/components/layout/Footer';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import React from 'react';
 
 import Banner from '@/components/home/Banner';
 import Explanation from '@/components/home/Explanation';
+import Offer from '@/components/home/Offer';
 import Products from '@/components/home/Products';
 import Quality from '@/components/home/Quality';
-import Offer from '@/components/home/Offer';
 import Quote from '@/components/home/Quote';
+import Footer from '@/components/layout/Footer';
+import Meta from '@/components/layout/Meta';
+import Navbar from '@/components/layout/Navbar';
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   const { t } = useTranslation();
   return (
     <>

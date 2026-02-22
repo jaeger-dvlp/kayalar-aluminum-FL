@@ -1,5 +1,5 @@
-import { IconType } from 'react-icons';
-import { Axios } from 'axios';
+import type { Axios } from 'axios';
+import type { IconType } from 'react-icons';
 
 // ! Global Types
 
@@ -20,7 +20,7 @@ export interface NavbarLink {
 
 export interface MobileMenuProps {
   isActive: boolean;
-  children: JSX.Element[];
+  children: React.JSX.Element[];
 }
 
 export interface FooterSocialLink {
@@ -98,12 +98,12 @@ export interface IPopupContext {
   activateAlertPopup: (
     text: string,
     status: TPopupStatus,
-    onConfirm?: () => void
+    onConfirm?: () => void,
   ) => void;
   activateConfirmPopup: (
     text: string,
     onConfirm?: () => void,
-    onCancel?: () => void
+    onCancel?: () => void,
   ) => void;
 
   deactivateAlertPopup: () => void;

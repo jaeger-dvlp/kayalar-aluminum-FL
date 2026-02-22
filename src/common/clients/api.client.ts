@@ -1,7 +1,8 @@
-import { Axios } from 'axios';
+import type { Axios } from 'axios';
+
 import API from '@/common/configs/api.config';
-import { IApiClient, IClientResponse } from '@/types/boilerplate.types';
 import ClientError from '@/common/handlers/error.handler';
+import type { IApiClient, IClientResponse } from '@/types/boilerplate.types';
 
 class ApiClient implements IApiClient {
   public readonly API: Axios;

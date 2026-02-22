@@ -1,11 +1,11 @@
 import React from 'react';
-import Wait from '@/common/utils/Wait.util';
 
-import {
+import Wait from '@/common/utils/Wait.util';
+import type {
   IAlertPopup,
-  TPopupStatus,
   IConfirmPopup,
   IPopupContext,
+  TPopupStatus,
 } from '@/types/boilerplate.types';
 
 const PopupContext = React.createContext<IPopupContext>({
@@ -20,7 +20,7 @@ const PopupContext = React.createContext<IPopupContext>({
 export default function PopupWrapper({
   children,
 }: {
-  children: JSX.Element | JSX.Element[];
+  children: React.JSX.Element | React.JSX.Element[];
 }) {
   const [alertPopup, setAlertPopup] = React.useState<IAlertPopup>({
     inHTML: false,
@@ -51,7 +51,7 @@ export default function PopupWrapper({
       status: 'loading',
       text: '',
     });
-  }, [alertPopup]);
+  }, []);
 
   const activateAlertPopup = React.useCallback(
     async (text: string, status: TPopupStatus, onConfirm?: () => void) => {
@@ -72,7 +72,7 @@ export default function PopupWrapper({
         onConfirm,
       });
     },
-    [alertPopup]
+    [],
   );
 
   const activateConfirmPopup = React.useCallback(
@@ -94,7 +94,7 @@ export default function PopupWrapper({
         onCancel,
       });
     },
-    [confirmPopup]
+    [],
   );
 
   const deactivateConfirmPopup = React.useCallback(async () => {
@@ -111,7 +111,7 @@ export default function PopupWrapper({
       onConfirm: () => {},
       onCancel: () => {},
     });
-  }, [confirmPopup]);
+  }, []);
 
   const value: IPopupContext = React.useMemo(
     () => ({
@@ -122,7 +122,14 @@ export default function PopupWrapper({
       activateConfirmPopup,
       deactivateConfirmPopup,
     }),
-    [alertPopup, confirmPopup]
+    [
+      activateAlertPopup,
+      activateConfirmPopup,
+      alertPopup,
+      confirmPopup,
+      deactivateAlertPopup,
+      deactivateConfirmPopup,
+    ],
   );
 
   React.useEffect(() => {

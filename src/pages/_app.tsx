@@ -1,13 +1,14 @@
-import React from 'react';
-import type { AppProps } from 'next/app';
-import Loader from '@/components/layout/Loader';
-import { appWithTranslation } from 'next-i18next';
-import PopupWrapper from '@/contexts/Popup.context';
-import AlertPopup from '@/components/popups/Alert.popup';
-import ConfirmPopup from '@/components/popups/Confirm.popup';
-
 // ? Global styles
 import '@/styles/globals.css';
+
+import type { AppProps } from 'next/app';
+import { appWithTranslation } from 'next-i18next';
+import React from 'react';
+
+import Loader from '@/components/layout/Loader';
+import AlertPopup from '@/components/popups/Alert.popup';
+import ConfirmPopup from '@/components/popups/Confirm.popup';
+import PopupWrapper from '@/contexts/Popup.context';
 
 // * Local font implementation with @next/font/local - #1
 //

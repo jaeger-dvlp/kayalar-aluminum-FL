@@ -1,12 +1,12 @@
-import React from 'react';
 import Link from 'next/link';
-import { BsLinkedin } from 'react-icons/bs';
 import { useTranslation } from 'next-i18next';
-import { FooterSocialLink } from '@/types/boilerplate.types';
+import React from 'react';
+import { BsLinkedin } from 'react-icons/bs';
 
 import Logo from '@/public/assets/img/logo.webp';
+import type { FooterSocialLink } from '@/types/boilerplate.types';
 
-function Footer(): JSX.Element {
+function Footer(): React.JSX.Element {
   const { t } = useTranslation();
 
   const FooterSocialLinks: FooterSocialLink[] = [
@@ -41,7 +41,7 @@ function Footer(): JSX.Element {
     },
   ];
 
-  const getSocialLinks = (): JSX.Element[] => {
+  const getSocialLinks = (): React.JSX.Element[] => {
     const elements = FooterSocialLinks.map(({ id, url, icon: Icon }) => (
       <li key={`fs-elm-${id}`}>
         <a href={url} target="_blank" rel="noreferrer">
@@ -54,8 +54,8 @@ function Footer(): JSX.Element {
   };
 
   return (
-    <footer className="m-0 flex w-full flex-col flex-wrap items-center justify-center gap-0 bg-[#171614] p-0 font-theme">
-      <section className="flex w-full max-w-theme flex-wrap justify-center gap-12 p-3 py-10 lg:justify-between">
+    <footer className="font-theme m-0 flex w-full flex-col flex-wrap items-center justify-center gap-0 bg-[#171614] p-0">
+      <section className="max-w-theme flex w-full flex-wrap justify-center gap-12 p-3 py-10 lg:justify-between">
         <Link href="/" className="relative">
           <img
             alt="Logo"
@@ -68,10 +68,10 @@ function Footer(): JSX.Element {
             <Link
               href={url}
               key={`fl-elm-${id}`}
-              className="ls-navbar group relative font-theme text-sm font-normal text-white"
+              className="ls-navbar group font-theme relative text-sm font-normal text-white"
             >
               {t(name)}
-              <span className="absolute left-[calc(50%_-_1.25px)] -bottom-1 h-px w-0 -translate-x-1/2 bg-white transition-all duration-150 group-hover:w-full" />
+              <span className="absolute -bottom-1 left-[calc(50%_-_1.25px)] h-px w-0 -translate-x-1/2 bg-white transition-all duration-150 group-hover:w-full" />
             </Link>
           ))}
         </section>

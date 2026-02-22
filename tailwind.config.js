@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
-        theme: '1400px',
+        theme: '1440px',
       },
       fontFamily: {
         theme: 'Poppins, sans-serif',

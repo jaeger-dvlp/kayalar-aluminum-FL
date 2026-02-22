@@ -1,4 +1,4 @@
-import { IClientError } from '@/types/boilerplate.types';
+import type { IClientError } from '@/types/boilerplate.types';
 
 class ClientError extends Error implements IClientError {
   readonly name: string;

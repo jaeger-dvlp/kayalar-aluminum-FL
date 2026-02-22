@@ -1,9 +1,13 @@
+import { Head, Html, Main, NextScript } from 'next/document';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
-import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
+  const {
+    i18n: { language },
+  } = useTranslation();
   return (
-    <Html lang="en">
+    <Html lang={language} data-scroll-behavior="smooth">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

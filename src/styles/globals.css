@@ -1,10 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-* {
-  scroll-behavior: smooth !important;
-}
+@import 'tailwindcss';
+@config "../../tailwind.config.js";
 
 .default-zoom-in {
   opacity: 0;

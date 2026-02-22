@@ -1,14 +1,14 @@
-import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { CgMenuRight } from 'react-icons/cg';
 import { useTranslation } from 'next-i18next';
+import React from 'react';
+import { CgMenuRight } from 'react-icons/cg';
 
 import Logo from '@/public/assets/img/logo.webp';
-import {
-  NavbarLink,
+import type {
   MobileMenuProps,
   NavbarClass,
+  NavbarLink,
 } from '@/types/boilerplate.types';
 
 const ClassNames: NavbarClass = {
@@ -16,15 +16,17 @@ const ClassNames: NavbarClass = {
   mobile: 'text-white font-normal text-sm ls-navbar font-theme',
 };
 
-function MobileMenu({ isActive, children }: MobileMenuProps): JSX.Element {
+function MobileMenu({
+  isActive,
+  children,
+}: MobileMenuProps): React.JSX.Element {
   const Router = useRouter();
   const {
     i18n: { language: lang },
   } = useTranslation();
   return (
     <div
-      className={`${isActive ? 'translate-x-0' : 'translate-x-full'}
-        fixed left-0 top-0 !z-[49] flex h-full w-full flex-col items-center justify-start bg-[#1B1A18] px-5 transition-all duration-500 lg:hidden`}
+      className={`${isActive ? 'translate-x-0' : 'translate-x-full'} fixed top-0 left-0 !z-[49] flex h-full w-full flex-col items-center justify-start bg-[#1B1A18] px-5 transition-all duration-500 lg:hidden`}
     >
       <ul className="flex h-full w-full flex-col items-center justify-center gap-10 overflow-y-auto py-[150px]">
         {children}
@@ -35,7 +37,7 @@ function MobileMenu({ isActive, children }: MobileMenuProps): JSX.Element {
             href={Router.asPath}
           >
             {lang === 'tr' ? 'ENG' : 'TR'}
-            <span className="absolute left-[calc(50%_-_1.25px)] -bottom-1 h-px w-0 -translate-x-1/2 bg-white transition-all duration-150 group-hover:w-full" />
+            <span className="absolute -bottom-1 left-[calc(50%_-_1.25px)] h-px w-0 -translate-x-1/2 bg-white transition-all duration-150 group-hover:w-full" />
           </Link>
         </li>
       </ul>
@@ -43,7 +45,7 @@ function MobileMenu({ isActive, children }: MobileMenuProps): JSX.Element {
   );
 }
 
-export default function Navbar(): JSX.Element {
+export default function Navbar(): React.JSX.Element {
   const Router = useRouter();
   const {
     t,
@@ -79,7 +81,7 @@ export default function Navbar(): JSX.Element {
     },
   ];
 
-  const getDesktopElements = (): JSX.Element[] => {
+  const getDesktopElements = (): React.JSX.Element[] => {
     const elements = HeaderLinks.map(
       ({ url, name, id, classNames: { desktop: className }, external }) => (
         <li key={`d-elm-${id}`}>
@@ -91,22 +93,22 @@ export default function Navbar(): JSX.Element {
               rel="noreferrer"
             >
               {t(name)}
-              <span className="absolute left-[calc(50%_-_1.25px)] -bottom-1 h-px w-0 -translate-x-1/2 bg-white transition-all duration-150 group-hover:w-full" />
+              <span className="absolute -bottom-1 left-[calc(50%_-_1.25px)] h-px w-0 -translate-x-1/2 bg-white transition-all duration-150 group-hover:w-full" />
             </a>
           ) : (
             <Link className={`${className} group relative`} href={url}>
               {t(name)}
-              <span className="absolute left-[calc(50%_-_1.25px)] -bottom-1 h-px w-0 -translate-x-1/2 bg-white transition-all duration-150 group-hover:w-full" />
+              <span className="absolute -bottom-1 left-[calc(50%_-_1.25px)] h-px w-0 -translate-x-1/2 bg-white transition-all duration-150 group-hover:w-full" />
             </Link>
           )}
         </li>
-      )
+      ),
     );
 
     return elements;
   };
 
-  const getMobileElements = (): JSX.Element[] => {
+  const getMobileElements = (): React.JSX.Element[] => {
     const elements = HeaderLinks.map(
       ({ url, name, id, classNames: { mobile: className }, external }) => (
         <li key={`m-elm-${id}`}>
@@ -125,7 +127,7 @@ export default function Navbar(): JSX.Element {
             </Link>
           )}
         </li>
-      )
+      ),
     );
 
     return elements;
@@ -168,15 +170,13 @@ export default function Navbar(): JSX.Element {
   return (
     <>
       <header
-        className={`
-        ${
+        className={` ${
           scrolledDown
             ? 'bg-[#1B1A18]/80 shadow-black/40 backdrop-blur-md'
             : 'bg-transparent shadow-transparent'
-        }
-      fixed left-0 top-0 z-[50] flex w-full items-center justify-center font-theme shadow-2xl transition-all duration-300`}
+        } font-theme fixed top-0 left-0 z-[50] flex w-full items-center justify-center shadow-2xl transition-all duration-300`}
       >
-        <section className="flex w-full max-w-theme flex-wrap items-center justify-between gap-5 p-3 px-5">
+        <section className="max-w-theme flex w-full flex-wrap items-center justify-between gap-5 p-3 px-5">
           <Link href="/" className="relative z-[50]">
             <img
               alt="Logo"
@@ -194,7 +194,7 @@ export default function Navbar(): JSX.Element {
                   href={Router.asPath}
                 >
                   {lang === 'tr' ? 'ENG' : 'TR'}
-                  <span className="absolute left-[calc(50%_-_1.25px)] -bottom-1 h-px w-0 -translate-x-1/2 bg-white transition-all duration-150 group-hover:w-full" />
+                  <span className="absolute -bottom-1 left-[calc(50%_-_1.25px)] h-px w-0 -translate-x-1/2 bg-white transition-all duration-150 group-hover:w-full" />
                 </Link>
               </li>
             </ul>
@@ -206,7 +206,7 @@ export default function Navbar(): JSX.Element {
           >
             <CgMenuRight
               className={`${
-                mobileMenu ? ' rotate-180' : 'rotate-0'
+                mobileMenu ? 'rotate-180' : 'rotate-0'
               } h-8 w-8 text-center transition-all duration-500`}
             />
           </button>
