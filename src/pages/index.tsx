@@ -2,9 +2,9 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 
-import Explanation from '@/components/home/Explanation';
 import Hero from '@/components/home/Hero';
 import Offer from '@/components/home/Offer';
+import Production from '@/components/home/Production';
 import Products from '@/components/home/Products';
 import Quality from '@/components/home/Quality';
 import Quote from '@/components/home/Quote';
@@ -27,6 +27,7 @@ export default function Home(): React.JSX.Element {
         <Counts />
         <Products />
         <Quality />
+        <Production />
         <Offer />
         <Quote />
       </main>

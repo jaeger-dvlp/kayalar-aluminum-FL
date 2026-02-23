@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router';
 import React from 'react';
-import { AiOutlineLoading } from 'react-icons/ai';
 
 import Wait from '@/common/utils/Wait.util';
 

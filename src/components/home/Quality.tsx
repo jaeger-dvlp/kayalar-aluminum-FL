@@ -2,9 +2,9 @@ import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
 import { BiSolidBadgeCheck, BiSolidLeaf } from 'react-icons/bi';
+import { BsArrowRight } from 'react-icons/bs';
 
 import QualityBanner from '@/public/assets/img/quality-guy.webp';
-import { BsArrowRight } from 'react-icons/bs';
 
 function Quality() {
   const { t } = useTranslation();

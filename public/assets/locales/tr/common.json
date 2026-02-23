@@ -34,9 +34,6 @@
     "hero": {
       "paragraph": "1978'den beri alüminyum geri dönüşümü ve külçe üretiminde otomotiv, beyaz eşya ve bir çok sektör için güvenilir çözüm ortağı."
     },
-    "explanation": {
-      "description": "Kayalar Alüminyum, 1978 yılından beri alüminyum geri dönüşümü alanında öncü bir rol üstlenmiştir. Çevreye duyarlı üretim süreçleri ve yenilikçi teknolojilerle, atıkların yeniden değerlendirilmesine katkı sağlamaktadır. Kalitesinden ödün vermeden, sürdürülebilir çözümler sunarak, hem müşteri memnuniyetini arttırmayı hem de çevresel etkiyi en aza indirmeyi hedeflemektedir. Kayalar Alüminyum, sektördeki bilinçli ve sorumlu bir yaklaşımı temsil ederek, gelecek nesillere daha temiz bir çevre bırakma misyonunu sürdürmektedir."
-    },
     "quality": {
       "heading": {
         "mini": "KALİTE GÜVENCESİ",
@@ -44,6 +41,35 @@
       },
       "description": "Üretim süreçlerimizin her aşamasında en son teknoloji cihazlar kullanıyoruz. Alaşımların kimyasal bileşimlerini ppm hassasiyetinde analiz ediyor, hatasız üretim garantisi veriyoruz.",
       "link": "Kalite Standartlarımızı Keşfedin"
+    },
+    "production": {
+      "heading": {
+        "mini": "SÜREÇ",
+        "title": "ÜRETİM AŞAMALARI"
+      },
+      "description": "Hammaddeden nihai ürüne kadar uzanan titiz ve kontrollü üretim süreci.",
+      "steps": [
+        {
+          "title": "Hurda Temini",
+          "description": "Geri dönüştürülebilir alüminyum hurdalarının temini."
+        },
+        {
+          "title": "Ayrıştırma",
+          "description": "Materyallerin cinsine göre sınıflandırılması."
+        },
+        {
+          "title": "Ergitme",
+          "description": "Yüksek dereceli fırınlarda ergitme işlemi."
+        },
+        {
+          "title": "Analiz",
+          "description": "Spektral analiz ile alaşım kontrolü."
+        },
+        {
+          "title": "Döküm",
+          "description": "İstenilen formda külçe dökümü ve paketleme."
+        }
+      ]
     },
     "offer": {
       "title": "TEKLİF AL",
