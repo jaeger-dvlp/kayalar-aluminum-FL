@@ -53,10 +53,8 @@ function Loader(): React.JSX.Element | null {
         style={{
           transition: loader.isActive ? 'none' : 'all 0.5s',
         }}
-        className={` ${loader.isActive ? 'visible opacity-100' : 'invisible opacity-0'} fixed top-0 left-0 !z-[999999] flex h-full w-full items-center justify-center bg-[#1B1A18]`}
-      >
-        <AiOutlineLoading className="relative z-[1] h-7 w-7 animate-spin rounded-full bg-orange-500/5 p-1 text-orange-400" />
-      </div>
+        className={` ${loader.isActive ? 'visible opacity-100' : 'invisible opacity-0'} fixed top-0 left-0 z-999999! flex h-full w-full items-center justify-center bg-stone-950`}
+      />
     )) ||
     null
   );

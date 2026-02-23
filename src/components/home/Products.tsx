@@ -1,60 +1,70 @@
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
+import { BsChevronRight } from 'react-icons/bs';
 
 import PureAluminumIngot from '@/public/assets/img/ingots.webp';
 import AlloyAluminumIngot from '@/public/assets/img/packed-ingots.webp';
 import ScrapPurchasing from '@/public/assets/img/scraps.webp';
 
-type ProductProps = {
-  product: string;
+export type ProductProps = {
+  slug: string;
+  title: string;
+  description: string;
   image: string;
 };
 
-function Product({ product, image }: ProductProps) {
+export const products: ProductProps[] = [
+  {
+    slug: 'alloy-aluminum-ingot',
+    title: 'products.alloy-aluminum-ingot.title',
+    description: 'products.alloy-aluminum-ingot.description',
+    image: AlloyAluminumIngot.src,
+  },
+  {
+    slug: 'pure-aluminum-ingot',
+    title: 'products.pure-aluminum-ingot.title',
+    description: 'products.pure-aluminum-ingot.description',
+    image: PureAluminumIngot.src,
+  },
+  {
+    slug: 'scrap-purchasing',
+    title: 'products.scrap-purchasing.title',
+    description: 'products.scrap-purchasing.description',
+    image: ScrapPurchasing.src,
+  },
+];
+
+function Product({ slug, title, description, image }: ProductProps) {
   const { t } = useTranslation();
   return (
-    <li className="flex w-full flex-wrap items-center justify-start gap-10 lg:flex-nowrap lg:justify-between">
-      <section className="order-2 flex w-full flex-col items-start justify-center gap-5 lg:order-1 lg:max-w-[550px]">
-        <h3 className="text-2xl font-semibold lg:text-3xl">
-          {t(`products.${product}.title`)}
-        </h3>
-        <p className="text-sm lg:text-base">
-          {t(`products.${product}.description`)}
-        </p>
-        <Link
-          className="ls-navbar border-2 border-[#ED8E01] px-10 py-1.5 text-sm text-white transition-all duration-200 hover:bg-white/20 lg:text-base"
-          href={`/products/${product}`}
-        >
-          {t('read-more')}
-        </Link>
-      </section>
-      <section className="relative order-1 w-full lg:order-2 lg:max-w-[45%]">
-        <svg
-          viewBox="0 0 131 131"
-          className="absolute top-0 right-0 aspect-square w-[15%] scale-125"
-        >
-          <path d="M131 131L0 0H131V131Z" fill="#CB7A01" />
-        </svg>
+    <li className="font-poppins border-primary/50 relative m-0 flex h-full w-full items-center justify-center border-b-4 p-0 shadow">
+      <Link
+        href={`/products/${slug}`}
+        className="group relative m-0 flex h-full w-full items-center justify-center overflow-hidden p-0"
+      >
+        <section className="relative z-3 flex h-full w-full flex-col items-start justify-end gap-2 bg-linear-to-t from-black to-black/60 p-5 pt-[60%]">
+          <h3 className="relative text-lg font-bold text-zinc-100 lg:text-2xl">
+            {t(title)}
+          </h3>
+          <p className="font-theme text-xs text-zinc-300">{t(description)}</p>
+          <span
+            style={{
+              letterSpacing: '0.2em',
+            }}
+            className="text-primary mt-5 flex items-center justify-start gap-1 text-xs font-normal uppercase"
+          >
+            <span>{t('buttons.learn-more')}</span>
+            <BsChevronRight className="transition-all duration-150 group-hover:ml-2" />
+          </span>
+        </section>
         <img
           src={image}
-          alt={t(`products.${product}.title`)}
-          className="aspect-video w-full object-cover"
+          alt={t(title)}
+          className="absolute top-0 left-0 z-1 h-full w-full object-cover object-center transition-all duration-200 group-hover:scale-105"
         />
-      </section>
+      </Link>
     </li>
-  );
-}
-
-function ProductSeperator() {
-  return (
-    <div className="flex w-full items-center justify-center gap-4">
-      <div className="aspect-square h-1 w-1 bg-[#ED8E01]" />
-      <div className="h-px w-full max-w-[100px] bg-[#6F6F6D]" />
-      <div className="aspect-square h-1 w-1 bg-[#ED8E01]" />
-      <div className="h-px w-full max-w-[100px] bg-[#6F6F6D]" />
-      <div className="aspect-square h-1 w-1 bg-[#ED8E01]" />
-    </div>
   );
 }
 
@@ -63,29 +73,29 @@ function Products() {
   return (
     <section
       id="products"
-      className="font-theme m-0 flex w-full items-center justify-center bg-[#1B1A18] p-0"
+      className="font-theme flex w-full items-center justify-center bg-stone-900 py-20"
     >
-      <section className="max-w-theme flex w-full flex-col items-center justify-start gap-24 p-5 py-24">
-        <h2
-          style={{
-            letterSpacing: '10px',
-          }}
-          className="border-b border-b-[#CB7A01] px-3 pb-5 text-center text-4xl font-light text-[#E6DFD2] lg:text-5xl"
-        >
-          {t('products.heading')}
+      <section
+        data-aos="fade-in"
+        className="max-w-theme flex w-full flex-col items-start justify-start gap-10 px-5"
+      >
+        <h2 className="flex flex-col items-start justify-start gap-2">
+          <span
+            style={{
+              letterSpacing: '0.2em',
+            }}
+            className="text-primary text-xs font-semibold"
+          >
+            {t('products.heading.mini')}
+          </span>
+          <span className="font-black text-white lg:text-4xl">
+            {t('products.heading.title')}
+          </span>
         </h2>
-        <ul className="font-theme m-0 flex w-full max-w-xl flex-col items-center justify-start gap-24 p-0 text-left text-[#BEB7AB] lg:max-w-full">
-          <Product
-            product="alloy-aluminum-ingot"
-            image={AlloyAluminumIngot.src}
-          />
-          <ProductSeperator />
-          <Product
-            product="pure-aluminum-ingot"
-            image={PureAluminumIngot.src}
-          />
-          <ProductSeperator />
-          <Product product="scrap-purchasing" image={ScrapPurchasing.src} />
+        <ul className="grid w-full list-none grid-cols-1 place-content-stretch place-items-center gap-10 md:grid-cols-2 lg:grid-cols-3">
+          {products.map((product) => (
+            <Product key={product.slug} {...product} />
+          ))}
         </ul>
       </section>
     </section>

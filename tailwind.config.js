@@ -7,9 +7,9 @@ module.exports = {
         theme: '1440px',
       },
       fontFamily: {
-        theme: 'Poppins, sans-serif',
-        montserrat: 'Montserrat, sans-serif',
+        theme: 'Inter',
         'roboto-mono': 'Roboto Mono, monospace',
+        poppins: 'Poppins, sans-serif',
       },
     },
   },

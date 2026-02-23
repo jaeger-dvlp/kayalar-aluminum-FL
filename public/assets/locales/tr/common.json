@@ -5,15 +5,34 @@
     "userNotFound": "User not found."
   },
   "navbar": {
+    "home": "ANASAYFA",
     "products": "ÜRÜNLER",
     "quality": "KALİTE",
     "about-us": "HAKKIMIZDA",
     "contact": "İLETİŞİM"
   },
+  "buttons": {
+    "rn-request-quote": "HEMEN TEKLİF AL",
+    "request-quote": "TEKLİF AL",
+    "inspect-products": "ÜRÜNLERİ İNCELE",
+    "learn-more": "DETAYLAR"
+  },
+  "misc": {
+    "scroll-down": "KAYDIR",
+    "counts": {
+      "experience": "YILLIK TECRÜBE",
+      "annual-tonage": "YILLIK TONAJ",
+      "global-partner": "GLOBAL ORTAK",
+      "quality": "KALİTE SERTİFİKASI"
+    }
+  },
   "home": {
     "meta": {
       "title": "Kayalar Alüminyum - Alüminyum Geri Dönüşümü ve Alüminyum Külçe Üretimi",
       "description": "1978'den beri çevre dostu alüminyum geri dönüşümünde öncü olan Kayalar Alüminyum'u keşfedin. Sürdürülebilir çözümlere, yenilikçi teknolojilere ve daha temiz bir gelecek için çevresel etkiyi en aza indirmeye olan bağlılığımızı keşfedin."
+    },
+    "hero": {
+      "paragraph": "1978'den beri alüminyum geri dönüşümü ve külçe üretiminde otomotiv, beyaz eşya ve bir çok sektör için güvenilir çözüm ortağı."
     },
     "explanation": {
       "description": "Kayalar Alüminyum, 1978 yılından beri alüminyum geri dönüşümü alanında öncü bir rol üstlenmiştir. Çevreye duyarlı üretim süreçleri ve yenilikçi teknolojilerle, atıkların yeniden değerlendirilmesine katkı sağlamaktadır. Kalitesinden ödün vermeden, sürdürülebilir çözümler sunarak, hem müşteri memnuniyetini arttırmayı hem de çevresel etkiyi en aza indirmeyi hedeflemektedir. Kayalar Alüminyum, sektördeki bilinçli ve sorumlu bir yaklaşımı temsil ederek, gelecek nesillere daha temiz bir çevre bırakma misyonunu sürdürmektedir."
@@ -32,14 +51,17 @@
     }
   },
   "products": {
-    "heading": "ÜRÜNLER",
+    "heading": {
+      "mini": "ÜRETİM HATTI",
+      "title": "ÜRÜNLERİMİZ"
+    },
     "alloy-aluminum-ingot": {
       "meta": {
         "title": "Alaşımlı Alüminyum Külçe Üretimi ve Satışı | Kayalar Alüminyum",
         "description": "Kayalar Alüminyum'un alaşımlı alüminyum külçe ürünleri hakkında detaylı bilgi edinin. Yüksek kalite standartları ve çevre dostu üretim süreçleriyle üretilen külçelerimiz hakkında daha fazla bilgi alın."
       },
       "title": "Alaşımlı Alüminyum Külçe",
-      "description": "Türkiye ve Dünya standartlarındaki tüm alüminyum alaşımlarını yapan firmamız bununla birlikte istenilen özel alaşımları da yapmaktadır.",
+      "description": "Türkiye ve dünya standartlarında tüm alüminyum alaşımlarını ve özel taleplere uygun üretimleri gerçekleştiriyoruz.",
       "content": {
         "title": "Alaşımlı Alüminyum Külçe Üretimi ve Satışı",
         "description": "Firmamız, Türkiye ve dünya standartlarındaki tüm alüminyum alaşımlarını üretmenin yanı sıra, müşterilerimizin taleplerine özel olarak istenilen özel alaşımları da geliştirmektedir. Yılların deneyimi ve uzmanlığıyla, geniş bir ürün yelpazesine sahip olmanın yanı sıra, her biri yüksek kalite standartlarına uygun olarak üretilen alaşımlarımızla sektörde öncü konumdayız. Müşterilerimizin ihtiyaçlarını karşılamak için esnek bir yaklaşım benimseyerek, özel alaşımların tasarımından üretimine kadar tüm süreçlerde titizlikle çalışmaktayız. Böylece, müşterilerimize en iyi kalitede ve en uygun çözümleri sunmaktayız.\n\nÜrettiğimiz alaşımlı alüminyum ürünler, aşağıda belirtilen tabloda yer almaktadır. Daha fazla bilgi almak ve sipariş vermek için bizimle iletişime geçebilirsiniz."
@@ -51,7 +73,7 @@
         "description": "Kayalar Alüminyum'un saf alüminyum külçe ürünleri hakkında detaylı bilgi edinin. Yüksek kalite standartları ve yenilikçi üretim süreçleriyle üretilen külçelerimiz hakkında daha fazla bilgi alın."
       },
       "title": "Saf Alüminyum Külçe",
-      "description": "Kayalar Alüminyum, alaşımlı ve saf alüminyum külçe üretim ve satışını yapan firmamız 40 senedir sektöre hizmet vermektedir.",
+      "description": "Kayalar Alüminyum, 40 yıllık tecrübesiyle alaşımlı ve saf alüminyum külçe üretim ve satışında güvenilir çözüm ortağınızdır.",
       "content": {
         "title": "Saf Alüminyum Külçe Üretimi ve Satışı",
         "description": "Firmamız Kayalar Alüminyum, saf alüminyum külçe üretiminde uzmanlaşmıştır ve müşterilerimize yüksek kaliteli ürünler sunmaktadır. Yenilikçi teknolojiler ve titiz kalite kontrol yöntemleriyle desteklenen üretim süreçlerimiz, endüstri standartlarını aşan saf alüminyum külçelerin elde edilmesini sağlar. Müşterilerimizin ihtiyaçlarını karşılamak için esnek bir yaklaşım benimseyerek, özel talepleri ve gereksinimleri dikkate alarak çözüm odaklı yaklaşımlar sunmaktayız. Saf alüminyum külçe üretimindeki lider konumumuz ve mükemmeliyetçi tutumumuzla, müşterilerimize güvenilir ve yüksek performanslı ürünler sunmayı taahhüt ediyoruz.\n\nÜrettiğimiz saf alüminyum ürünler, aşağıda belirtilen tabloda yer almaktadır. Daha fazla bilgi almak ve sipariş vermek için bizimle iletişime geçebilirsiniz."
@@ -63,7 +85,7 @@
         "description": "Alüminyum geri dönüşümü yapan firmamız, tüm alüminyum hurdalarını almaktadır. Kayalar Alüminyum ile hurda alımı hakkında detaylı bilgi alın."
       },
       "title": "Hurda Alımı",
-      "description": "Alüminyum geri dönüşümü yapan firmamız bu kapsam altında tüm alüminyum hurdalarını almaktadır.",
+      "description": "Tüm alüminyum hurda türlerini alarak profesyonel geri dönüşüm hizmeti sunuyoruz.",
       "content": {
         "title": "Hurda Alımı",
         "description": "Firmamız, alüminyum geri dönüşümü konusunda uzmanlaşmış olup, bu çerçevede geniş bir yelpazedeki alüminyum hurdalarını kabul etmektedir. Endüstriyel atıklardan evsel geri dönüşüm malzemelerine kadar her türlü alüminyum hurdasını toplamak ve işlemek için özel olarak tasarlanmış tesislerimiz ve teknolojilerimiz bulunmaktadır. Geri dönüştürülebilir malzemelerin toplanması ve işlenmesinde titizlikle çalışarak, sürdürülebilir bir döngü oluşturmayı ve kaynakların etkin bir şekilde kullanılmasını sağlamaktayız. Aynı zamanda, çevreye duyarlılık ve kaynak tasarrufu ilkelerini benimseyerek, atıkların geri dönüşümü yoluyla çevresel etkiyi azaltmaya ve gelecek nesillere daha temiz bir çevre bırakmaya odaklanmaktayız.\n\nDetaylı bilgi almak ve hurda alımı hizmetlerimizden faydalanmak için bizimle iletişime geçebilirsiniz."

@@ -20,7 +20,7 @@ export interface NavbarLink {
 
 export interface MobileMenuProps {
   isActive: boolean;
-  children: React.JSX.Element[];
+  children: React.JSX.Element;
 }
 
 export interface FooterSocialLink {

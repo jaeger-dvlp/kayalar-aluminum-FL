@@ -2,8 +2,8 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 
-import Banner from '@/components/home/Banner';
 import Explanation from '@/components/home/Explanation';
+import Hero from '@/components/home/Hero';
 import Offer from '@/components/home/Offer';
 import Products from '@/components/home/Products';
 import Quality from '@/components/home/Quality';
@@ -11,6 +11,7 @@ import Quote from '@/components/home/Quote';
 import Footer from '@/components/layout/Footer';
 import Meta from '@/components/layout/Meta';
 import Navbar from '@/components/layout/Navbar';
+import Counts from '@/components/misc/Counts';
 
 export default function Home(): React.JSX.Element {
   const { t } = useTranslation();
@@ -22,8 +23,8 @@ export default function Home(): React.JSX.Element {
       />
       <Navbar />
       <main className="m-0 flex flex-col items-start justify-center gap-0 p-0">
-        <Banner />
-        <Explanation />
+        <Hero />
+        <Counts />
         <Products />
         <Quality />
         <Offer />
