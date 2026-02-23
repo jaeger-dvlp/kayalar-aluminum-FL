@@ -38,8 +38,12 @@
       "description": "Kayalar Alüminyum, 1978 yılından beri alüminyum geri dönüşümü alanında öncü bir rol üstlenmiştir. Çevreye duyarlı üretim süreçleri ve yenilikçi teknolojilerle, atıkların yeniden değerlendirilmesine katkı sağlamaktadır. Kalitesinden ödün vermeden, sürdürülebilir çözümler sunarak, hem müşteri memnuniyetini arttırmayı hem de çevresel etkiyi en aza indirmeyi hedeflemektedir. Kayalar Alüminyum, sektördeki bilinçli ve sorumlu bir yaklaşımı temsil ederek, gelecek nesillere daha temiz bir çevre bırakma misyonunu sürdürmektedir."
     },
     "quality": {
-      "title": "Üstün Kalite.",
-      "description": "Kayalar Alüminyum, 1978'den beri kalitesiyle öne çıkan ve alüminyum geri dönüşümünde güvenilir bir isim olarak tanınan bir firmadır. Müşteri memnuniyetini her zaman ön planda tutarak, çevre dostu üretim ve kaliteli hizmet anlayışıyla sektördeki saygın konumunu korumaktadır."
+      "heading": {
+        "mini": "KALİTE GÜVENCESİ",
+        "title": "Maksimum Hassasiyet, Üstün Standartlar"
+      },
+      "description": "Üretim süreçlerimizin her aşamasında en son teknoloji cihazlar kullanıyoruz. Alaşımların kimyasal bileşimlerini ppm hassasiyetinde analiz ediyor, hatasız üretim garantisi veriyoruz.",
+      "link": "Kalite Standartlarımızı Keşfedin"
     },
     "offer": {
       "title": "TEKLİF AL",

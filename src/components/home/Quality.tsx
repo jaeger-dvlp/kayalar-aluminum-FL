@@ -1,35 +1,81 @@
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
+import { BiSolidBadgeCheck, BiSolidLeaf } from 'react-icons/bi';
 
-import QualityBanner from '@/public/assets/img/quality-banner.webp';
+import QualityBanner from '@/public/assets/img/quality-guy.webp';
+import { BsArrowRight } from 'react-icons/bs';
 
 function Quality() {
   const { t } = useTranslation();
   return (
     <section
       id="quality"
-      className="grid w-full grid-cols-1 place-content-start bg-white lg:grid-cols-2"
+      className="font-theme flex w-full items-start justify-center border-y border-y-stone-800 bg-stone-950 py-20"
     >
-      <img
-        alt="Kayalar Alüminyum"
-        src={QualityBanner.src}
-        className="h-full max-h-[400px] w-full object-cover lg:max-h-[600px]"
-      />
-      <section className="relative h-full w-full max-w-xl items-center justify-center place-self-center bg-white p-5 py-10 lg:max-w-[700px] lg:place-self-auto lg:p-20">
-        <section className="font-theme flex h-full w-full flex-col items-start justify-center gap-5 bg-white text-[#7B776F]">
-          <h2 className="text-2xl font-semibold lg:text-3xl">
-            {t('home.quality.title')}
+      <section
+        data-aos="fade-in"
+        className="lg:max-w-theme grid w-full max-w-2xl grid-cols-1 place-content-center place-items-start gap-10 px-5 lg:grid-cols-2"
+      >
+        <section className="flex flex-col items-start justify-center gap-8">
+          <h2 className="flex flex-col items-start justify-start gap-2">
+            <span
+              style={{
+                letterSpacing: '0.2em',
+              }}
+              className="text-primary text-xs font-semibold"
+            >
+              <span className="flex flex-row items-center justify-center gap-2">
+                <span className="bg-primary h-px w-5" />
+                {t('home.quality.heading.mini')}
+              </span>
+            </span>
+            <span className="text-xl font-black text-white lg:text-4xl">
+              {t('home.quality.heading.title')}
+            </span>
           </h2>
-          <p className="text-sm lg:text-base">
+          <p className="font-theme max-w-xl text-sm text-zinc-400">
             {t('home.quality.description')}
           </p>
+          <ul className="flex list-none flex-wrap items-center justify-start gap-5">
+            <li className="flex flex-row items-center justify-start gap-6 border border-stone-800 bg-zinc-900 px-6 py-4">
+              <BiSolidBadgeCheck className="text-primary h-6 w-6" />
+              <section className="flex flex-col items-start justify-start gap-0">
+                <p className="text-sm font-semibold text-white uppercase">
+                  ISO 9001:2015
+                </p>
+                <p className="text-xs text-zinc-400">
+                  Kalite Yönetim Sertifikası
+                </p>
+              </section>
+            </li>
+            <li className="flex flex-row items-center justify-start gap-6 border border-stone-800 bg-zinc-900 px-6 py-4">
+              <BiSolidLeaf className="text-primary h-6 w-6" />
+              <section className="flex flex-col items-start justify-start gap-0">
+                <p className="text-sm font-semibold text-white uppercase">
+                  ISO 14001:2015
+                </p>
+                <p className="text-xs text-zinc-400">
+                  Çevre Yönetim Sertifikası
+                </p>
+              </section>
+            </li>
+          </ul>
           <Link
+            className="border-b-primary group font-poppins flex items-center justify-start gap-2 border-b pb-2 text-sm text-white"
             href="/quality"
-            className="ls-navbar border-2 border-[#ED8E01] px-10 py-1.5 text-sm text-[#000000] transition-all duration-200 hover:bg-black/20 lg:text-base"
           >
-            {t('read-more')}
+            <span>{t('home.quality.link')}</span>
+            <BsArrowRight className="transition-all duration-150 group-hover:ml-2" />
           </Link>
+        </section>
+        <section className="relative flex w-full items-center justify-center border border-stone-800">
+          <img
+            alt="Kayalar Alüminyum"
+            src={QualityBanner.src}
+            className="z-1 h-full w-full object-cover object-center"
+          />
+          <span className="absolute top-0 left-0 z-2 h-full w-full bg-linear-to-t from-black/30 to-black/0" />
         </section>
       </section>
     </section>

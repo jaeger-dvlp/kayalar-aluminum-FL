@@ -38,7 +38,7 @@ export const products: ProductProps[] = [
 function Product({ slug, title, description, image }: ProductProps) {
   const { t } = useTranslation();
   return (
-    <li className="font-poppins border-primary/50 relative m-0 flex h-full w-full items-center justify-center border-b-4 p-0 shadow">
+    <li className="font-poppins relative m-0 flex h-full w-full items-center justify-center border border-stone-800 p-0 shadow">
       <Link
         href={`/products/${slug}`}
         className="group relative m-0 flex h-full w-full items-center justify-center overflow-hidden p-0"
@@ -73,7 +73,7 @@ function Products() {
   return (
     <section
       id="products"
-      className="font-theme flex w-full items-center justify-center bg-stone-900 py-20"
+      className="font-theme flex w-full items-center justify-center border-y border-y-stone-800 bg-stone-900 py-20"
     >
       <section
         data-aos="fade-in"
@@ -86,9 +86,12 @@ function Products() {
             }}
             className="text-primary text-xs font-semibold"
           >
-            {t('products.heading.mini')}
+            <span className="flex flex-row items-center justify-center gap-2">
+              <span className="bg-primary h-px w-5" />
+              {t('products.heading.mini')}
+            </span>
           </span>
-          <span className="font-black text-white lg:text-4xl">
+          <span className="text-xl font-black text-white lg:text-4xl">
             {t('products.heading.title')}
           </span>
         </h2>
