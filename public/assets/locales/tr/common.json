@@ -71,13 +71,28 @@
         }
       ]
     },
-    "offer": {
-      "title": "TEKLİF AL",
-      "description": "Müşterilerimizin ihtiyaçlarına uygun çözümler sunmak için ücretsiz teklif taleplerini bekliyoruz.\nProfesyonel ve deneyimli ekibimiz, size en uygun fiyatlandırma ve hizmet seçeneklerini sunmak için hazır bekliyor.\nHemen bize ulaşın ve ihtiyaçlarınıza özel tekliflerimizden faydalanın.",
-      "button": "Ücretsiz Teklif Al"
-    },
-    "quote": {
-      "title": "Kalitede öncü kuruluş."
+    "sectors": {
+      "heading": {
+        "mini": "SEKTÖRLER",
+        "title": "HİZMET VERDİĞİMİZ SEKTÖRLER"
+      },
+      "sector": [
+        {
+          "title": "Otomotiv"
+        },
+        {
+          "title": "Beyaz Eşya"
+        },
+        {
+          "title": "İnşaat"
+        },
+        {
+          "title": "Makine"
+        },
+        {
+          "title": "Enerji"
+        }
+      ]
     }
   },
   "products": {

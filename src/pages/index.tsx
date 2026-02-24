@@ -3,11 +3,10 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 
 import Hero from '@/components/home/Hero';
-import Offer from '@/components/home/Offer';
 import Production from '@/components/home/Production';
 import Products from '@/components/home/Products';
 import Quality from '@/components/home/Quality';
-import Quote from '@/components/home/Quote';
+import Sectors from '@/components/home/Sectors';
 import Footer from '@/components/layout/Footer';
 import Meta from '@/components/layout/Meta';
 import Navbar from '@/components/layout/Navbar';
@@ -28,8 +27,7 @@ export default function Home(): React.JSX.Element {
         <Products />
         <Quality />
         <Production />
-        <Offer />
-        <Quote />
+        <Sectors />
       </main>
       <Footer />
     </>

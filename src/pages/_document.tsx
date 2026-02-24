@@ -41,7 +41,7 @@ export default function Document() {
         />
       </Head>
       <meta name="theme-color" content="#1B1A18" />
-      <body className="bg-[#1B1A18]">
+      <body className="bg-stone-950">
         <Main />
         <NextScript />
       </body>
