@@ -91,7 +91,7 @@ function Products() {
               {t('products.heading.mini')}
             </span>
           </span>
-          <span className="text-xl font-black text-white lg:text-4xl">
+          <span className="text-2xl font-black text-white lg:text-4xl">
             {t('products.heading.title')}
           </span>
         </h2>

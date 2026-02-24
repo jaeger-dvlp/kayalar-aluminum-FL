@@ -76,7 +76,7 @@ function Production() {
               {t('home.production.heading.mini')}
             </span>
           </span>
-          <span className="text-xl font-black text-white lg:text-4xl">
+          <span className="text-2xl font-black text-white lg:text-4xl">
             {t('home.production.heading.title')}
           </span>
         </h2>

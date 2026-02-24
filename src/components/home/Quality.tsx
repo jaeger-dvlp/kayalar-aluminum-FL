@@ -11,11 +11,15 @@ function Quality() {
   return (
     <section
       id="quality"
-      className="font-theme flex w-full items-start justify-center border-y border-y-stone-800 bg-stone-950 py-20"
+      style={{
+        backgroundImage: `url(${QualityBanner.src})`,
+      }}
+      className="font-theme relative flex w-full items-start justify-center border-y border-y-stone-800 bg-cover bg-center py-20"
     >
+      <span className="absolute top-0 left-0 z-1 h-full w-full bg-linear-to-r from-stone-950 to-stone-950/70" />
       <section
         data-aos="fade-in"
-        className="lg:max-w-theme grid w-full max-w-2xl grid-cols-1 place-content-center place-items-start gap-10 px-5 lg:grid-cols-2"
+        className="lg:max-w-theme z-2 grid w-full max-w-2xl grid-cols-1 place-content-center place-items-start gap-10 px-5 lg:grid-cols-2"
       >
         <section className="flex flex-col items-start justify-center gap-8">
           <h2 className="flex flex-col items-start justify-start gap-2">
@@ -68,14 +72,6 @@ function Quality() {
             <span>{t('home.quality.link')}</span>
             <BsArrowRight className="transition-all duration-150 group-hover:ml-2" />
           </Link>
-        </section>
-        <section className="relative flex w-full items-center justify-center border border-stone-800">
-          <img
-            alt="Kayalar Alüminyum"
-            src={QualityBanner.src}
-            className="z-1 h-full w-full object-cover object-center"
-          />
-          <span className="absolute top-0 left-0 z-2 h-full w-full bg-linear-to-t from-black/30 to-black/0" />
         </section>
       </section>
     </section>
