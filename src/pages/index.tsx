@@ -11,6 +11,7 @@ import Footer from '@/components/layout/Footer';
 import Meta from '@/components/layout/Meta';
 import Navbar from '@/components/layout/Navbar';
 import Counts from '@/components/misc/Counts';
+import CTA from '@/components/misc/CTA';
 
 export default function Home(): React.JSX.Element {
   const { t } = useTranslation();
@@ -28,6 +29,7 @@ export default function Home(): React.JSX.Element {
         <Quality />
         <Production />
         <Sectors />
+        <CTA />
       </main>
       <Footer />
     </>

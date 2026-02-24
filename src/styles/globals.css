@@ -5,6 +5,10 @@
   --color-primary: #f39200;
 }
 
+button {
+  @apply cursor-pointer;
+}
+
 .hero-anim {
   opacity: 0;
   filter: blur(20px);

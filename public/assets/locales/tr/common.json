@@ -11,11 +11,28 @@
     "about-us": "HAKKIMIZDA",
     "contact": "İLETİŞİM"
   },
+  "footer": {
+    "content": "Kalitede öncü kuruluş.",
+    "quick-links": "Hızlı Erişim",
+    "company": {
+      "title": "Kurumsal"
+    },
+    "contact-us": "Bize Ulaşın"
+  },
+  "policy": {
+    "manage-consent": "Çerez Tercihlerini Yönet",
+    "kvkk-policy": "KVKK Aydınlatma Metni",
+    "privacy-policy": "Gizlilik Politikası",
+    "terms-of-service": "Hizmet Şartları",
+    "explicit-consent": "Açık Rıza Metni",
+    "cookie-policy": "Çerez Politikası"
+  },
   "buttons": {
     "rn-request-quote": "HEMEN TEKLİF AL",
     "request-quote": "TEKLİF AL",
     "inspect-products": "ÜRÜNLERİ İNCELE",
-    "learn-more": "DETAYLAR"
+    "learn-more": "DETAYLAR",
+    "lets-contact": "İletişime Geçelim"
   },
   "misc": {
     "scroll-down": "KAYDIR",
@@ -24,6 +41,11 @@
       "annual-tonage": "YILLIK TONAJ",
       "global-partner": "GLOBAL ORTAK",
       "quality": "KALİTE SERTİFİKASI"
+    },
+    "cta": {
+      "heading": {
+        "mini": "İLETİŞİM"
+      }
     }
   },
   "home": {
