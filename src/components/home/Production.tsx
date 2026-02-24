@@ -1,3 +1,4 @@
+import { useInView } from 'motion/react';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
 import { FaRecycle } from 'react-icons/fa';
@@ -33,18 +34,24 @@ const productionSteps = [
 ];
 
 function Production() {
+  const stepsSect = React.useRef(null);
+  const isInView = useInView(stepsSect, { once: true });
   const [currentStep, setCurrentStep] = React.useState(-1);
 
   React.useEffect(() => {
-    const interval = setInterval(() => {
-      if (currentStep === productionSteps.length) {
-        setCurrentStep(-1);
-        return;
-      }
-      setCurrentStep((prev) => prev + 1);
-    }, 2000);
+    if (!isInView) return;
+    const interval = setInterval(
+      () => {
+        if (currentStep === productionSteps.length) {
+          setCurrentStep(-1);
+          return;
+        }
+        setCurrentStep((prev) => prev + 1);
+      },
+      currentStep === -1 ? 1000 : 2000,
+    );
     return () => clearInterval(interval);
-  }, [currentStep]);
+  }, [currentStep, isInView]);
 
   const { t } = useTranslation();
   return (
@@ -54,6 +61,7 @@ function Production() {
     >
       <section
         data-aos="fade-in"
+        ref={stepsSect}
         className="max-w-theme flex w-full flex-col items-start justify-start gap-5 px-5"
       >
         <h2 className="flex flex-col items-start justify-start gap-2">
