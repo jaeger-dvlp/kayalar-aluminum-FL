@@ -4,28 +4,26 @@ import { useTranslation } from 'next-i18next';
 import React from 'react';
 import { BsChevronRight } from 'react-icons/bs';
 
-import BreadCrumbBanner from '@/public/assets/img/breadcrumb-banner.webp';
-
 type Props = {
   title: string;
   path: { name: string; href: string }[];
 };
 
-function BreadCrumbs({ title, path }: Props) {
+function BreadCrumbs({ path }: Props) {
   const {
     t,
     i18n: { language: lang },
   } = useTranslation();
   return (
-    <section className="font-theme relative flex min-h-[45vh] w-full items-center justify-center border-b border-[#2f2d2a]">
-      <img
-        alt="Kayalar Alüminyum"
-        src={BreadCrumbBanner.src}
-        className="absolute top-0 left-0 z-[1] h-full w-full object-cover object-center"
-      />
-      <section className="absolute top-0 left-0 z-[2] flex h-full w-full items-center justify-center bg-black/70">
-        <section className="max-w-theme flex w-full flex-col items-start justify-center gap-5 p-5 pt-10 text-[#BEB7AB] lg:justify-between">
-          <ul className="m-0 flex w-full flex-wrap items-center justify-start gap-2 p-0 text-xs">
+    <section className="font-theme relative flex w-full items-center justify-center overflow-hidden bg-stone-950">
+      <section className="z-3 flex h-full w-full items-center justify-center pt-30 pb-5">
+        <section className="max-w-theme flex w-full flex-col items-start justify-center gap-5 p-5 text-zinc-400 lg:justify-between">
+          <ul
+            style={{
+              letterSpacing: '0.2em',
+            }}
+            className="m-0 flex w-full flex-wrap items-center justify-start gap-2 p-0 text-xs font-bold"
+          >
             <li>
               <Link
                 href="/"
@@ -44,7 +42,7 @@ function BreadCrumbs({ title, path }: Props) {
                       <Link
                         href={href}
                         locale={lang}
-                        className={` ${index === path.length - 1 && 'text-zinc-300'} uppercase transition-all duration-150 hover:text-white`}
+                        className={` ${index === path.length - 1 && 'text-white'} uppercase transition-all duration-150 hover:text-white`}
                       >
                         {t(name)}
                       </Link>
@@ -55,7 +53,6 @@ function BreadCrumbs({ title, path }: Props) {
                 </React.Fragment>
               ))}
           </ul>
-          <h2 className="text-3xl font-semibold lg:text-4xl">{t(title)}</h2>
         </section>
       </section>
     </section>

@@ -4,230 +4,200 @@ import React from 'react';
 function PureIngotTable() {
   const { t } = useTranslation();
   return (
-    <section className="font-theme my-10 flex w-full flex-col items-start justify-start gap-2 text-left text-zinc-300">
-      <h3 className="w-full text-center text-lg">
+    <section className="font-theme flex w-full flex-col items-start justify-start gap-5 text-left text-neutral-300">
+      <h3 className="w-full text-left text-lg font-semibold text-white lg:text-2xl">
         {t('tables.pure-ingot.title')}
       </h3>
       <section className="flex w-full flex-col items-start justify-start gap-2 overflow-auto">
         <table className="alu-table pure-alu-table w-full border-collapse">
           <thead>
             <tr>
-              <th
-                rowSpan={2}
-                colSpan={2}
-                className="border border-zinc-500 bg-zinc-500/30 px-2 py-1"
-              >
+              <th rowSpan={2} colSpan={2}>
                 ETINORM
               </th>
-              <th
-                rowSpan={2}
-                className="border border-zinc-500 bg-zinc-500/30 px-2 py-1"
-              >
+              <th rowSpan={2}>
                 Al<sup>1</sup>
               </th>
-              <th
-                rowSpan={2}
-                className="border border-zinc-500 bg-zinc-500/30 px-2 py-1"
-              >
+              <th rowSpan={2}>
                 Fe<sup>2</sup>
               </th>
-              <th
-                rowSpan={2}
-                className="border border-zinc-500 bg-zinc-500/30 px-2 py-1"
-              >
+              <th rowSpan={2}>
                 Si<sup>2</sup>
               </th>
-              <th
-                rowSpan={2}
-                className="border border-zinc-500 bg-zinc-500/30 px-2 py-1"
-              >
+              <th rowSpan={2}>
                 Cu<sup>2</sup>
               </th>
-              <th
-                rowSpan={2}
-                className="border border-zinc-500 bg-zinc-500/30 px-2 py-1"
-              >
+              <th rowSpan={2}>
                 Zn<sup>2</sup>
               </th>
-              <th
-                rowSpan={2}
-                className="border border-zinc-500 bg-zinc-500/30 px-2 py-1"
-              >
+              <th rowSpan={2}>
                 Ti<sup>2</sup>
               </th>
-              <th
-                rowSpan={2}
-                className="border border-zinc-500 bg-zinc-500/30 px-2 py-1"
-              >
+              <th rowSpan={2}>
                 Mn<sup>2</sup>
               </th>
 
-              <th
-                colSpan={2}
-                className="border border-zinc-500 bg-zinc-500/30 px-2 py-1"
-              >
-                {t('tables.pure-ingot.head.others')}
-              </th>
+              <th colSpan={2}>{t('tables.pure-ingot.head.others')}</th>
             </tr>
             <tr>
-              <th className="border border-zinc-500 bg-zinc-500/30 px-2 py-1">
-                {t('tables.pure-ingot.head.each-one')}
-              </th>
-              <th className="border border-zinc-500 bg-zinc-500/30 px-2 py-1">
-                {t('tables.pure-ingot.head.total')}
-              </th>
+              <th>{t('tables.pure-ingot.head.each-one')}</th>
+              <th>{t('tables.pure-ingot.head.total')}</th>
             </tr>
           </thead>
-          <tbody className="text-sm">
+          <tbody>
             <tr>
-              <td rowSpan={2} className="border border-zinc-500 px-2 py-1">
+              <td colSpan={1} rowSpan={3}>
                 {t('tables.pure-ingot.body.conductor-al')}
               </td>
-              <td className="border border-zinc-500 px-2 py-1">
+            </tr>
+            <tr>
+              <td>
                 ETİAL-7E<sup>3</sup>
               </td>
-              <td className="border border-zinc-500 px-2 py-1">99,70</td>
-              <td className="border border-zinc-500 px-2 py-1">0,25</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
-              <td className="border border-zinc-500 px-2 py-1">-</td>
-              <td className="border border-zinc-500 px-2 py-1" />
-              <td className="border border-zinc-500 px-2 py-1">-</td>
-              <td className="border border-zinc-500 px-2 py-1">-</td>
-              <td className="border border-zinc-500 px-2 py-1">0,02</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
+              <td>99,70</td>
+              <td>0,25</td>
+              <td>0,10</td>
+              <td>-</td>
+              <td />
+              <td>-</td>
+              <td>-</td>
+              <td>0,02</td>
+              <td>0,10</td>
             </tr>
             <tr>
-              <td className="border border-zinc-500 px-2 py-1">
+              <td>
                 ETİAL-6E<sup>9</sup>
               </td>
-              <td className="border border-zinc-500 px-2 py-1">99,60</td>
-              <td className="border border-zinc-500 px-2 py-1">0,30</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
-              <td className="border border-zinc-500 px-2 py-1">-</td>
-              <td className="border border-zinc-500 px-2 py-1" />
-              <td className="border border-zinc-500 px-2 py-1">-</td>
-              <td className="border border-zinc-500 px-2 py-1">-</td>
-              <td className="border border-zinc-500 px-2 py-1">0,02</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
+              <td>99,60</td>
+              <td>0,30</td>
+              <td>0,10</td>
+              <td>-</td>
+              <td />
+              <td>-</td>
+              <td>-</td>
+              <td>0,02</td>
+              <td>0,10</td>
             </tr>
             <tr>
-              <td rowSpan={9} className="border border-zinc-500 px-2 py-1">
+              <td rowSpan={10}>
                 {t('tables.pure-ingot.body.pure-commercial-al')}
               </td>
-              <td className="border border-zinc-500 px-2 py-1">
+            </tr>
+            <tr>
+              <td>
                 ETİAL-8<sup>4</sup>
               </td>
-              <td className="border border-zinc-500 px-2 py-1">99,80</td>
-              <td className="border border-zinc-500 px-2 py-1">0,15</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
-              <td className="border border-zinc-500 px-2 py-1">0,03</td>
-              <td className="border border-zinc-500 px-2 py-1">0,03</td>
-              <td className="border border-zinc-500 px-2 py-1">0,02</td>
-              <td className="border border-zinc-500 px-2 py-1">0,02</td>
-              <td className="border border-zinc-500 px-2 py-1">0,02</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
+              <td>99,80</td>
+              <td>0,15</td>
+              <td>0,10</td>
+              <td>0,03</td>
+              <td>0,03</td>
+              <td>0,02</td>
+              <td>0,02</td>
+              <td>0,02</td>
+              <td>0,10</td>
             </tr>
             <tr>
-              <td className="border border-zinc-500 px-2 py-1">ETİAL-7</td>
-              <td className="border border-zinc-500 px-2 py-1">99,70</td>
-              <td className="border border-zinc-500 px-2 py-1">0,25</td>
-              <td className="border border-zinc-500 px-2 py-1">0,15</td>
-              <td className="border border-zinc-500 px-2 py-1">0,03</td>
-              <td className="border border-zinc-500 px-2 py-1">0,04</td>
-              <td className="border border-zinc-500 px-2 py-1">0,03</td>
-              <td className="border border-zinc-500 px-2 py-1">-</td>
-              <td className="border border-zinc-500 px-2 py-1">0,03</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
+              <td>ETİAL-7</td>
+              <td>99,70</td>
+              <td>0,25</td>
+              <td>0,15</td>
+              <td>0,03</td>
+              <td>0,04</td>
+              <td>0,03</td>
+              <td>-</td>
+              <td>0,03</td>
+              <td>0,10</td>
             </tr>
             <tr>
-              <td className="border border-zinc-500 px-2 py-1">ETİAL-6</td>
-              <td className="border border-zinc-500 px-2 py-1">99,60</td>
-              <td className="border border-zinc-500 px-2 py-1">0,30</td>
-              <td className="border border-zinc-500 px-2 py-1">0,20</td>
-              <td className="border border-zinc-500 px-2 py-1">0,04</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">0,04</td>
-              <td className="border border-zinc-500 px-2 py-1">-</td>
-              <td className="border border-zinc-500 px-2 py-1">0,03</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
+              <td>ETİAL-6</td>
+              <td>99,60</td>
+              <td>0,30</td>
+              <td>0,20</td>
+              <td>0,04</td>
+              <td>0,05</td>
+              <td>0,04</td>
+              <td>-</td>
+              <td>0,03</td>
+              <td>0,10</td>
             </tr>
             <tr>
-              <td className="border border-zinc-500 px-2 py-1">ETİAL-5</td>
-              <td className="border border-zinc-500 px-2 py-1">99,50</td>
-              <td className="border border-zinc-500 px-2 py-1">0,40</td>
-              <td className="border border-zinc-500 px-2 py-1">0,25</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">0,04</td>
-              <td className="border border-zinc-500 px-2 py-1">-</td>
-              <td className="border border-zinc-500 px-2 py-1">0,03</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
+              <td>ETİAL-5</td>
+              <td>99,50</td>
+              <td>0,40</td>
+              <td>0,25</td>
+              <td>0,05</td>
+              <td>0,05</td>
+              <td>0,04</td>
+              <td>-</td>
+              <td>0,03</td>
+              <td>0,10</td>
             </tr>
             <tr>
-              <td className="border border-zinc-500 px-2 py-1">ETİAL-3</td>
-              <td className="border border-zinc-500 px-2 py-1">99,30</td>
-              <td className="border border-zinc-500 px-2 py-1">0,60</td>
-              <td className="border border-zinc-500 px-2 py-1">0,35</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">0,06</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">-</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">0,15</td>
+              <td>ETİAL-3</td>
+              <td>99,30</td>
+              <td>0,60</td>
+              <td>0,35</td>
+              <td>0,05</td>
+              <td>0,06</td>
+              <td>0,05</td>
+              <td>-</td>
+              <td>0,05</td>
+              <td>0,15</td>
             </tr>
             <tr>
-              <td className="border border-zinc-500 px-2 py-1">
+              <td>
                 ETİAL-1<sup>8</sup>
               </td>
-              <td className="border border-zinc-500 px-2 py-1">99,00</td>
-              <td className="border border-zinc-500 px-2 py-1">0,80</td>
-              <td className="border border-zinc-500 px-2 py-1">0,35</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">0,15</td>
+              <td>99,00</td>
+              <td>0,80</td>
+              <td>0,35</td>
+              <td>0,05</td>
+              <td>0,10</td>
+              <td>0,05</td>
+              <td>0,05</td>
+              <td>0,05</td>
+              <td>0,15</td>
             </tr>
             <tr>
-              <td className="border border-zinc-500 px-2 py-1">ETİAL-0</td>
-              <td className="border border-zinc-500 px-2 py-1">99,00</td>
-              <td className="border border-zinc-500 px-2 py-1">0,70</td>
-              <td className="border border-zinc-500 px-2 py-1">0,25</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05 - 0,15</td>
-              <td className="border border-zinc-500 px-2 py-1">0,06</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">-</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">0,15</td>
+              <td>ETİAL-0</td>
+              <td>99,00</td>
+              <td>0,70</td>
+              <td>0,25</td>
+              <td>0,05 - 0,15</td>
+              <td>0,06</td>
+              <td>0,05</td>
+              <td>-</td>
+              <td>0,05</td>
+              <td>0,15</td>
             </tr>
             <tr>
-              <td className="border border-zinc-500 px-2 py-1">
+              <td>
                 ETİAL-F<sup>5,6,10</sup>
               </td>
-              <td className="border border-zinc-500 px-2 py-1">95,00</td>
-              <td className="border border-zinc-500 px-2 py-1">5,00</td>
-              <td className="border border-zinc-500 px-2 py-1">1,00</td>
-              <td className="border border-zinc-500 px-2 py-1">1,50</td>
-              <td className="border border-zinc-500 px-2 py-1">1,50</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">1,00</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
-              <td className="border border-zinc-500 px-2 py-1">1,00</td>
+              <td>95,00</td>
+              <td>5,00</td>
+              <td>1,00</td>
+              <td>1,50</td>
+              <td>1,50</td>
+              <td>0,05</td>
+              <td>1,00</td>
+              <td>0,10</td>
+              <td>1,00</td>
             </tr>
             <tr>
-              <td className="border border-zinc-500 px-2 py-1">
+              <td>
                 ETİAL-F1<sup>7,11</sup>
               </td>
-              <td className="border border-zinc-500 px-2 py-1">98,00</td>
-              <td className="border border-zinc-500 px-2 py-1">0,60 - 0,99</td>
-              <td className="border border-zinc-500 px-2 py-1">0,35</td>
-              <td className="border border-zinc-500 px-2 py-1">0,15</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
-              <td className="border border-zinc-500 px-2 py-1">0,05</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
-              <td className="border border-zinc-500 px-2 py-1">0,10</td>
-              <td className="border border-zinc-500 px-2 py-1">0,00</td>
+              <td>98,00</td>
+              <td>0,60 - 0,99</td>
+              <td>0,35</td>
+              <td>0,15</td>
+              <td>0,10</td>
+              <td>0,05</td>
+              <td>0,10</td>
+              <td>0,10</td>
+              <td>0,00</td>
             </tr>
           </tbody>
         </table>

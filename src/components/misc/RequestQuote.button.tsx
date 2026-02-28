@@ -11,7 +11,7 @@ export function RequestQuoteButton({
   const { t } = useTranslation();
   return (
     <Link
-      href="#request-quote"
+      href="/request-quote"
       style={{
         letterSpacing: '0.1em',
       }}

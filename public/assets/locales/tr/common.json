@@ -32,9 +32,12 @@
     "request-quote": "TEKLİF AL",
     "inspect-products": "ÜRÜNLERİ İNCELE",
     "learn-more": "DETAYLAR",
-    "lets-contact": "İletişime Geçelim"
+    "lets-contact": "İletişime Geçelim",
+    "contact": "İLETİŞİME GEÇ"
   },
   "misc": {
+    "product": "ÜRÜN",
+    "more": "Ve daha fazlası...",
     "scroll-down": "KAYDIR",
     "counts": {
       "experience": "YILLIK TECRÜBE",
@@ -50,7 +53,7 @@
   },
   "home": {
     "meta": {
-      "title": "Kayalar Alüminyum - Alüminyum Geri Dönüşümü ve Alüminyum Külçe Üretimi",
+      "title": "Kayalar Alüminyum | Alüminyum Geri Dönüşümü ve Alüminyum Külçe Üretimi",
       "description": "1978'den beri çevre dostu alüminyum geri dönüşümünde öncü olan Kayalar Alüminyum'u keşfedin. Sürdürülebilir çözümlere, yenilikçi teknolojilere ve daha temiz bir gelecek için çevresel etkiyi en aza indirmeye olan bağlılığımızı keşfedin."
     },
     "hero": {
@@ -131,7 +134,25 @@
       "description": "Türkiye ve dünya standartlarında tüm alüminyum alaşımlarını ve özel taleplere uygun üretimleri gerçekleştiriyoruz.",
       "content": {
         "title": "Alaşımlı Alüminyum Külçe Üretimi ve Satışı",
-        "description": "Firmamız, Türkiye ve dünya standartlarındaki tüm alüminyum alaşımlarını üretmenin yanı sıra, müşterilerimizin taleplerine özel olarak istenilen özel alaşımları da geliştirmektedir. Yılların deneyimi ve uzmanlığıyla, geniş bir ürün yelpazesine sahip olmanın yanı sıra, her biri yüksek kalite standartlarına uygun olarak üretilen alaşımlarımızla sektörde öncü konumdayız. Müşterilerimizin ihtiyaçlarını karşılamak için esnek bir yaklaşım benimseyerek, özel alaşımların tasarımından üretimine kadar tüm süreçlerde titizlikle çalışmaktayız. Böylece, müşterilerimize en iyi kalitede ve en uygun çözümleri sunmaktayız.\n\nÜrettiğimiz alaşımlı alüminyum ürünler, aşağıda belirtilen tabloda yer almaktadır. Daha fazla bilgi almak ve sipariş vermek için bizimle iletişime geçebilirsiniz."
+        "description": "Alaşımlı alüminyum külçelerimiz, Türkiye ve uluslararası standartlara uygun olarak üretilir ve talep edilen kimyasal bileşim değerlerine göre optimize edilir. Her üretim partisi, ergitme sonrası spektral analiz ile doğrulanır ve hedef alaşım toleransları kontrol altında tutulur. Müşteri gereksinimine göre özel alaşım tasarımı yapılabilir; mekanik dayanım, akışkanlık ve işlenebilirlik kriterleri doğrultusunda üretim planlaması gerçekleştirilir. Parti bazlı izlenebilirlik ve kontrollü döküm süreci sayesinde kararlı ve tekrarlanabilir kalite sağlanır. Alaşım seçenekleri ve kimyasal bileşim limitleri aşağıdaki tabloda yer almaktadır. Teknik detay ve sipariş talepleri için bizimle iletişime geçebilirsiniz.",
+        "specs": [
+          {
+            "title": "MAKSİMUM AKIŞKANLIK",
+            "description": "Yüksek Kalite Döküm"
+          },
+          {
+            "title": "TESLİMAT FORMU",
+            "description": "6-8 kg Standart Külçe"
+          }
+        ],
+        "production-process": {
+          "title": "ÜRETİM SÜRECİ",
+          "description": "Alaşımlı külçe üretimimiz, hurda temininden sevkiyata kadar kontrollü bir prosesle yürütülür. Gelen malzemeler türüne göre ayrıştırılır, uygun şarj planlaması yapılır ve ergitme sürecinde proses parametreleri takip edilir. Ergitme sonrası numune alınarak spektral analiz ile kimyasal bileşim doğrulanır ve hedef alaşım değerleri tutturulur. Uygun görülen parti, istenen formda külçeye dökülür ve soğutma/paketleme aşamasına alınır. Sevkiyat öncesi son kontroller tamamlanır, parti izlenebilirliği korunarak müşteriye teslim edilir."
+        },
+        "application-areas": {
+          "title": "UYGULAMA ALANLARI",
+          "description": "Alaşımlı alüminyum külçeler; mekanik dayanım, işlenebilirlik ve korozyon performansı gerektiren birçok endüstride tercih edilir. Otomotiv ve yan sanayide döküm parçalar, motor ve şasi bileşenleri için kullanılır. Beyaz eşya sektöründe gövde ve yardımcı parçaların üretiminde yaygın olarak değerlendirilir. Makine ve ekipman üretiminde, farklı alaşım ihtiyaçlarına uygun çözüm sunar. Talebe göre alaşım tasarımıyla, müşteri prosesine ve ürün gereksinimine göre optimize edilebilir."
+        }
       }
     },
     "pure-aluminum-ingot": {
@@ -143,7 +164,25 @@
       "description": "Kayalar Alüminyum, 40 yıllık tecrübesiyle alaşımlı ve saf alüminyum külçe üretim ve satışında güvenilir çözüm ortağınızdır.",
       "content": {
         "title": "Saf Alüminyum Külçe Üretimi ve Satışı",
-        "description": "Firmamız Kayalar Alüminyum, saf alüminyum külçe üretiminde uzmanlaşmıştır ve müşterilerimize yüksek kaliteli ürünler sunmaktadır. Yenilikçi teknolojiler ve titiz kalite kontrol yöntemleriyle desteklenen üretim süreçlerimiz, endüstri standartlarını aşan saf alüminyum külçelerin elde edilmesini sağlar. Müşterilerimizin ihtiyaçlarını karşılamak için esnek bir yaklaşım benimseyerek, özel talepleri ve gereksinimleri dikkate alarak çözüm odaklı yaklaşımlar sunmaktayız. Saf alüminyum külçe üretimindeki lider konumumuz ve mükemmeliyetçi tutumumuzla, müşterilerimize güvenilir ve yüksek performanslı ürünler sunmayı taahhüt ediyoruz.\n\nÜrettiğimiz saf alüminyum ürünler, aşağıda belirtilen tabloda yer almaktadır. Daha fazla bilgi almak ve sipariş vermek için bizimle iletişime geçebilirsiniz."
+        "description": "Saf alüminyum külçelerimiz, hedeflenen kimyasal saflık değerlerine uygun olarak kontrollü üretim süreciyle elde edilir. Ergitme sonrası numune alınarak spektral analiz yapılır ve parti bazlı bileşim doğrulaması sağlanır. Üretim sürecinde kirlilik kontrolü ve kararlı kompozisyon önceliklidir. Elektrik iletkenliği ve saflık gerektiren uygulamalar için uygun kalite sınıflarında tedarik sağlanır. Parti izlenebilirliği korunarak, sevkiyat öncesi son kontroller tamamlanır. Kimyasal bileşim limitleri ve kalite sınıfları aşağıdaki tabloda yer almaktadır. Teknik bilgi ve sipariş talepleri için bizimle iletişime geçebilirsiniz.",
+        "specs": [
+          {
+            "title": "MAKSİMUM AKIŞKANLIK",
+            "description": "Yüksek Kalite Döküm"
+          },
+          {
+            "title": "TESLİMAT FORMU",
+            "description": "6-8 kg Standart Külçe"
+          }
+        ],
+        "production-process": {
+          "title": "ÜRETİM SÜRECİ",
+          "description": "Saf alüminyum külçe üretiminde hedef; kimyasal saflığı ve parti stabilitesini koruyarak kararlı ürün sağlamaktır. Seçilen hammaddeler kontrollü şekilde ergitilir ve proses boyunca kirlilik riskini azaltacak adımlar uygulanır. Ergitme sonrası numune alınır ve spektral analiz ile bileşim doğrulanır. Uygun bulunan parti, istenen ölçü ve formda külçeye dökülerek standart soğutma ve paketleme sürecinden geçirilir. Sevkiyat öncesi son kontroller tamamlanır ve parti kayıtlarıyla izlenebilirlik sağlanır."
+        },
+        "application-areas": {
+          "title": "UYGULAMA ALANLARI",
+          "description": "Saf alüminyum külçeler, yüksek iletkenlik ve kararlı bileşim gerektiren uygulamalarda tercih edilir. Elektrik ve enerji uygulamalarında iletkenlik odaklı üretim ihtiyaçlarını karşılamada kullanılır. Dökümhanelerde belirli ürün grupları için temel girdi malzemesi olarak değerlendirilir. Ayrıca farklı alaşımların üretiminde baz metal olarak proses başlangıcında kullanılabilir. Müşteri gereksinimine göre hedef kalite sınıfı doğrultusunda tedarik planlaması yapılır."
+        }
       }
     },
     "scrap-purchasing": {
@@ -154,8 +193,37 @@
       "title": "Hurda Alımı",
       "description": "Tüm alüminyum hurda türlerini alarak profesyonel geri dönüşüm hizmeti sunuyoruz.",
       "content": {
-        "title": "Hurda Alımı",
-        "description": "Firmamız, alüminyum geri dönüşümü konusunda uzmanlaşmış olup, bu çerçevede geniş bir yelpazedeki alüminyum hurdalarını kabul etmektedir. Endüstriyel atıklardan evsel geri dönüşüm malzemelerine kadar her türlü alüminyum hurdasını toplamak ve işlemek için özel olarak tasarlanmış tesislerimiz ve teknolojilerimiz bulunmaktadır. Geri dönüştürülebilir malzemelerin toplanması ve işlenmesinde titizlikle çalışarak, sürdürülebilir bir döngü oluşturmayı ve kaynakların etkin bir şekilde kullanılmasını sağlamaktayız. Aynı zamanda, çevreye duyarlılık ve kaynak tasarrufu ilkelerini benimseyerek, atıkların geri dönüşümü yoluyla çevresel etkiyi azaltmaya ve gelecek nesillere daha temiz bir çevre bırakmaya odaklanmaktayız.\n\nDetaylı bilgi almak ve hurda alımı hizmetlerimizden faydalanmak için bizimle iletişime geçebilirsiniz."
+        "heading": {
+          "mini": "MATERYAL KATEGORİLERİ",
+          "title": "Alım Yaptığımız Hurda Türleri"
+        },
+        "description": "Kayalar Alüminyum, alüminyum geri dönüşümü alanında uzmanlaşmış olup geniş hurda kabul kapsamıyla çalışmaktadır. Endüstriyel üretim atıklarından çeşitli alüminyum hurdalarına kadar farklı malzemeler, tesislerimizde sınıflandırılarak değerlendirilir. Süreçlerimiz, kaynakların verimli kullanımı ve sürdürülebilir üretim prensipleri doğrultusunda yönetilir."
+      },
+      "scraps": {
+        "wheel": {
+          "title": "Hurda Jant",
+          "short-desc": "OTOMOTİV GRUBU"
+        },
+        "engine": {
+          "title": "Hurda Motor Blokları",
+          "short-desc": "YÜKSEK ALAŞIM"
+        },
+        "shaving": {
+          "title": "Hurda Talaş",
+          "short-desc": "İŞLEME ARTIKLARI"
+        },
+        "slag": {
+          "title": "Hurda Cüruf",
+          "short-desc": "METAL GERİ KAZANIMI"
+        },
+        "radiator": {
+          "title": "Hurda Radyatör",
+          "short-desc": "DİĞER HURDA TÜRLERİ"
+        },
+        "alloy": {
+          "title": "Hurda Alüminyum",
+          "short-desc": "SERT / YUMUŞAK VS."
+        }
       }
     }
   },
@@ -168,8 +236,8 @@
     "content": {
       "title": "Kalite Kontrol",
       "paragraph": [
-        "Firmamız, Türkiye ve dünya standartlarındaki tüm alüminyum alaşımlarını üretmenin yanı sıra, müşterilerimizin özel taleplerini karşılamak için istenilen özel alaşımları da üretmektedir. Bu sayede, müşterilerimizin farklı endüstriyel ihtiyaçlarını karşılamak için geniş bir ürün yelpazesi sunmaktayız. Gerekli testlerden geçen ürünlerimiz, kalite kontrol süreçlerinden geçirilerek müşterilerimize sevk edilmektedir. Bu sayede, müşterilerimiz ürünlerimizin kalitesine güvenebilir ve kalite standartlarını karşıladığından emin olabilirler.",
-        "Firmamız, yüksek kalite bilincini en üst düzeyde tutarak, kalite kontrol cihazlarını bünyesinde bulundurmaktadır. Bu cihazlar, üretim süreçlerimizde kalite standartlarını sıkı bir şekilde takip etmemize ve ürünlerimizin kalitesini sağlamaya yardımcı olmaktadır. Ürünlerimizin bileşimlerini belirlemek için FOUNDRY MASTER UV Vakum CCD SPEKTROMETRE gibi modern analiz teknolojilerini kullanıyoruz. Bu analizler, ürünlerimizin kalitesini artırmamıza ve müşterilerimize en iyi ürünleri sunmamıza yardımcı olmaktadır."
+        "Firmamız, Türkiye ve dünya standartlarındaki tüm alüminyum alaşımlarını üretmenin yanı sıra, müşterilerimizin özel taleplerini karşılamak için istenilen özel alaşımları da üretmektedir. Bu sayede farklı endüstriyel ihtiyaçlara uygun geniş bir ürün gamı sunar. Üretim partileri sevkiyat öncesinde kalite kontrol süreçlerinden geçirilir ve kimyasal bileşim doğrulaması yapılmadan sevkiyat gerçekleştirilmez. Böylece müşterilerimiz, ürünlerimizin ilgili kalite beklentilerini karşıladığından emin olur.",
+        "Kalite bilincini üretimin her aşamasında koruyabilmek için analiz altyapımızı tesis bünyesinde konumlandırıyoruz. Ürün bileşimlerini belirlemek ve parti stabilitesini doğrulamak amacıyla NOBLE T7 Optik Emisyon Spektrometre gibi modern analiz teknolojilerini kullanıyoruz. Bu sayede alaşım hedeflerinin tutarlılığını koruyor, müşteri taleplerine uygun üretimi ölçülebilir verilerle güvence altına alıyoruz."
       ]
     }
   },
@@ -197,11 +265,11 @@
   },
   "tables": {
     "alloy-ingot": {
-      "title": "ALAŞIMLI KÜLÇELERİN KİMYASAL BİLEŞİM LİMİTLERİ ( % AĞIRLIK )",
+      "title": "Alaşımlı Külçelerin Kimyasal Bileşim Limitleri ( % Ağırlık )",
       "notes": ["Limitler verilmemiş ise azami değerdir.", "Mn+Fe=1,30 en çok"]
     },
     "pure-ingot": {
-      "title": "İLETKEN VE TİCARİ ALÜMİNYUM KİMYASAL BİLEŞİM LİMİTLERİ ( % AĞIRLIK )",
+      "title": "İletken ve Ticari Alüminyum Külçelerin Kimyasal Bileşim Limitleri ( % Ağırlık )",
       "head": {
         "others": "DİĞERLERİ",
         "each-one": "HER BİRİ",

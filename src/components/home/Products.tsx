@@ -3,9 +3,9 @@ import { useTranslation } from 'next-i18next';
 import React from 'react';
 import { BsChevronRight } from 'react-icons/bs';
 
-import PureAluminumIngot from '@/public/assets/img/ingots.webp';
-import AlloyAluminumIngot from '@/public/assets/img/packed-ingots.webp';
-import ScrapPurchasing from '@/public/assets/img/scraps.webp';
+import AlloyAluminumIngot from '@/public/assets/img/products/alloy-ingots.webp';
+import PureAluminumIngot from '@/public/assets/img/products/pure-ingot.webp';
+import ScrapPurchasing from '@/public/assets/img/products/scrap-wheel.webp';
 
 export type ProductProps = {
   slug: string;

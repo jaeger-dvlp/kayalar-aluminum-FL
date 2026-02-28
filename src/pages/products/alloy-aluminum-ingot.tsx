@@ -2,15 +2,15 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 
-import Offer from '@/components/home/Offer';
 import BreadCrumbs from '@/components/layout/BreadCrumbs';
 import Footer from '@/components/layout/Footer';
 import Meta from '@/components/layout/Meta';
 import Navbar from '@/components/layout/Navbar';
+import CTA from '@/components/misc/CTA';
 import AlloyIngotTable from '@/components/tables/AlloyIngot.Table';
-import IngotsBanner from '@/public/assets/img/ingots-banner.webp';
+import Ingots from '@/public/assets/img/products/alloy-ingots.webp';
 
-export default function Home(): React.JSX.Element {
+export default function AlloyAluminumIngot(): React.JSX.Element {
   const { t } = useTranslation();
   return (
     <>
@@ -19,7 +19,7 @@ export default function Home(): React.JSX.Element {
         description={t('products.alloy-aluminum-ingot.meta.description')}
       />
       <Navbar />
-      <main className="m-0 flex min-h-screen flex-col items-center justify-start gap-0 p-0">
+      <main className="font-theme m-0 flex flex-col items-start justify-start gap-0 p-0">
         <BreadCrumbs
           title="products.alloy-aluminum-ingot.title"
           path={[
@@ -30,40 +30,111 @@ export default function Home(): React.JSX.Element {
             },
           ]}
         />
-        <section className="font-theme flex w-full flex-col items-center justify-start py-10">
-          <section className="max-w-theme flex w-full flex-col items-center justify-start gap-5 p-5">
-            <section className="flex w-full flex-col items-start justify-start gap-5 text-left text-zinc-200">
-              <h2 className="text-xl font-medium lg:text-2xl">
-                {t('products.alloy-aluminum-ingot.content.title')}
-              </h2>
-              <p className="text-sm whitespace-pre-wrap text-zinc-300">
-                {t('products.alloy-aluminum-ingot.content.description')}
-              </p>
+        <section className="m-0 flex w-full flex-col items-center justify-start bg-stone-950 pb-20">
+          <section className="max-w-theme grid w-full grid-cols-1 place-content-start place-items-start gap-14 px-5 md:grid-cols-1 lg:grid-cols-2">
+            <section className="h-full w-full">
+              <img
+                src={Ingots.src}
+                alt="Alloy Aluminum Ingots"
+                className="aspect-video h-full max-h-125 w-full border border-stone-700 bg-stone-900 object-cover object-center p-2"
+              />
             </section>
+            <section className="grid h-full w-full grid-cols-1 place-content-between place-items-start">
+              <section className="flex w-full flex-col items-start justify-start gap-10">
+                <h2 className="flex flex-col items-start justify-start gap-1 text-3xl font-extrabold text-white lg:text-6xl">
+                  <span
+                    style={{
+                      letterSpacing: '0.2em',
+                    }}
+                    className="text-primary flex flex-row items-center justify-center gap-2 text-xs font-normal"
+                  >
+                    <span className="bg-primary h-px w-5" />
+                    {t('misc.product')}
+                  </span>
+                  {t('products.alloy-aluminum-ingot.title')}
+                </h2>
+                <p className="text-sm text-zinc-400">
+                  {t('products.alloy-aluminum-ingot.content.description')}
+                </p>
+              </section>
+              <span className="my-10 h-px w-full bg-stone-700" />
+              <ul className="m-0 grid w-full grid-cols-1 place-content-start place-items-start gap-5 p-0 md:grid-cols-2 lg:grid-cols-2">
+                <li className="flex w-full flex-col items-start justify-start gap-1">
+                  <h3 className="text-xs font-bold text-zinc-500 uppercase">
+                    {t('products.alloy-aluminum-ingot.content.specs.0.title')}
+                  </h3>
+                  <p className="text-lg font-normal text-zinc-100">
+                    {t(
+                      'products.alloy-aluminum-ingot.content.specs.0.description',
+                    )}
+                  </p>
+                </li>
+                <li className="flex w-full flex-col items-start justify-start gap-1">
+                  <h3 className="text-xs font-bold text-zinc-500 uppercase">
+                    {t('products.alloy-aluminum-ingot.content.specs.1.title')}
+                  </h3>
+                  <p className="text-lg font-normal text-zinc-100">
+                    {t(
+                      'products.alloy-aluminum-ingot.content.specs.1.description',
+                    )}
+                  </p>
+                </li>
+              </ul>
+            </section>
+          </section>
+        </section>
+        <section className="bg flex w-full flex-col items-center justify-start border-y border-y-stone-700 bg-neutral-900 py-20">
+          <ul className="max-w-theme gird-cols-1 m-0 grid w-full place-content-start place-items-center gap-20 px-5 md:grid-cols-2 lg:grid-cols-2">
+            <li className="flex h-full w-full flex-col items-start justify-start gap-4">
+              <h3
+                style={{
+                  letterSpacing: '0.2em',
+                }}
+                className="flex flex-row items-center justify-start gap-2 text-xs font-semibold text-zinc-200"
+              >
+                <span className="bg-primary h-px w-5" />
+                <span>
+                  {t(
+                    'products.alloy-aluminum-ingot.content.production-process.title',
+                  )}
+                </span>
+              </h3>
+              <p className="text-xs text-neutral-500">
+                {t(
+                  'products.alloy-aluminum-ingot.content.production-process.description',
+                )}
+              </p>
+            </li>
+            <li className="flex h-full w-full flex-col items-start justify-start gap-4">
+              <h3
+                style={{
+                  letterSpacing: '0.2em',
+                }}
+                className="flex flex-row items-center justify-start gap-2 text-xs font-semibold text-zinc-200"
+              >
+                <span className="bg-primary h-px w-5" />
+                <span>
+                  {t(
+                    'products.alloy-aluminum-ingot.content.application-areas.title',
+                  )}
+                </span>
+              </h3>
+              <p className="text-xs text-neutral-500">
+                {t(
+                  'products.alloy-aluminum-ingot.content.application-areas.description',
+                )}
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section className="font-theme flex w-full flex-col items-center justify-start py-20">
+          <section className="max-w-theme flex w-full flex-col items-center justify-start gap-5 px-5">
             <section className="w-full overflow-auto">
               <AlloyIngotTable />
             </section>
           </section>
         </section>
-        <section className="relative flex min-h-[500px] w-full items-center justify-center bg-black">
-          <img
-            alt="Kayalar Alüminyum"
-            src={IngotsBanner.src}
-            className="absolute top-0 left-0 z-[1] h-full w-full object-cover object-center"
-          />
-          <section className="absolute top-0 left-0 z-[2] flex h-full w-full flex-col items-center justify-center gap-5 bg-black/70 p-5 text-center">
-            <svg className="-mt-1" width="24" height="23">
-              <path
-                d="M5.25413 0.767996H8.61413L5.54213 14.304C7.36613 14.784 8.61413 16.32 8.61413 18.24C8.61413 20.544 6.88613 22.272 4.67813 22.272C2.27813 22.272 0.646125 20.448 0.646125 18.24C0.646125 16.896 0.838125 15.936 1.51013 13.824L5.25413 0.767996ZM20.2301 14.304C22.0541 14.784 23.3021 16.32 23.3021 18.24C23.3021 20.544 21.5741 22.272 19.3661 22.272C16.9661 22.272 15.3341 20.448 15.3341 18.24C15.3341 16.896 15.5261 15.936 16.1981 13.824L19.9421 0.767996H23.3021L20.2301 14.304Z"
-                fill="#CB7A01"
-              />
-            </svg>
-            <p className="font-theme -mt-1 text-xl font-light text-white lg:text-2xl">
-              {t('home.quote.title')}
-            </p>
-          </section>
-        </section>
-        <Offer />
+        <CTA />
       </main>
       <Footer />
     </>

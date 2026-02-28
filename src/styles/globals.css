@@ -77,25 +77,34 @@ button {
 
 .alu-table td {
   white-space: nowrap;
+  @apply text-xs lg:text-sm;
+}
+
+.alu-table thead tr {
+  @apply bg-neutral-950 text-neutral-400;
+
+  & th {
+    @apply sticky top-0 border border-neutral-800 px-5 py-5 font-black;
+  }
+}
+
+.alu-table tbody tr td:first-child {
+  @apply sticky left-0 z-5 bg-neutral-950;
 }
 
 .alu-table tbody tr {
-  @apply transition-all duration-150 hover:bg-zinc-100/10;
+  @apply bg-neutral-900 transition-all duration-150 focus-within:bg-zinc-100/10 hover:bg-zinc-100/10 hover:text-white;
+
+  & td {
+    @apply border border-neutral-800 px-5 py-2;
+  }
 }
 
 .alloy-alu-table tbody tr td:not(:first-child) {
   text-align: center;
 }
 
-.alloy-alu-table thead tr th {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .alloy-alu-table thead tr th:not(:first-child) {
-  width: 120px;
-  min-width: 120px;
-  max-width: 120px;
   text-align: center;
 }
 
