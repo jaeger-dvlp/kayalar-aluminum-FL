@@ -1,8 +1,16 @@
+import emailjs from '@emailjs/browser';
 import type { Axios } from 'axios';
 
 import API from '@/common/configs/api.config';
-import ClientError from '@/common/handlers/error.handler';
-import type { IApiClient, IClientResponse } from '@/types/boilerplate.types';
+import type { IApiClient } from '@/types/boilerplate.types';
+import type { ContactFormData, QuoteFormData } from '@/types/form.types';
+
+const {
+  NEXT_PUBLIC_EMAILJS_SERVICE_ID: serviceId = '',
+  NEXT_PUBLIC_EMAILJS_CONTACT_TEMPLATE_ID: contactTemplateId = '',
+  NEXT_PUBLIC_EMAILJS_QUOTE_TEMPLATE_ID: quoteTemplateId = '',
+  NEXT_PUBLIC_EMAILJS_PUBLIC_KEY: publicKey = '',
+} = process.env;
 
 class ApiClient implements IApiClient {
   public readonly API: Axios;
@@ -14,21 +22,67 @@ class ApiClient implements IApiClient {
     this.defaultError = 'errors.default';
   }
 
-  public async getCountries() {
+  public async sendContactMail(data: ContactFormData): Promise<{
+    success: boolean;
+    data?: any;
+    error?: {
+      message: string;
+      code?: string | number;
+    };
+  }> {
     try {
-      const { data } = await this.API.get('/countries').catch((error) => {
-        throw new ClientError(this.errorHandler(error));
-      });
+      const response = await emailjs.send(
+        serviceId,
+        contactTemplateId,
+        data as Record<string, unknown>,
+        publicKey,
+      );
 
       return {
-        data,
-        error: null,
-      } as IClientResponse<{ name: string }[], null>;
-    } catch (error: any) {
+        success: true,
+        data: response,
+      };
+    } catch (error) {
+      const { message, code } = this.errorHandler(error);
       return {
-        data: null,
-        error: error?.message || this.defaultError,
-      } as IClientResponse<null, string>;
+        success: false,
+        error: {
+          message,
+          code,
+        },
+      };
+    }
+  }
+
+  public async sendQuoteMail(data: QuoteFormData): Promise<{
+    success: boolean;
+    data?: any;
+    error?: {
+      message: string;
+      code?: string | number;
+    };
+  }> {
+    try {
+      const response = await emailjs.send(
+        serviceId,
+        quoteTemplateId,
+        data as Record<string, unknown>,
+        publicKey,
+      );
+
+      return {
+        success: true,
+        data: response,
+      };
+    } catch (error) {
+      const { message, code } = this.errorHandler(error);
+      return {
+        success: false,
+        error: {
+          message,
+          code,
+        },
+      };
     }
   }
 

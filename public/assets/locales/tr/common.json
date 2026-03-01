@@ -260,6 +260,38 @@
       ]
     }
   },
+  "contact": {
+    "meta": {
+      "title": "İletişim | Kayalar Alüminyum",
+      "description": "Kayalar Alüminyum ile iletişime geçin. Sorularınız, işbirliği teklifleri veya diğer konularda bizimle iletişim kurmak için detaylı iletişim bilgilerine ulaşın."
+    },
+    "heading": {
+      "mini": "İLETİŞİM",
+      "title": "Bize Ulaşın"
+    },
+    "content": {
+      "description": "Projeleriniz çin özel alaşım çözümleri,  geri dönüşüm hizmetleri ve rekabetçi fiyat teklifleri için uzman ekibimizle iletişime geçin.",
+      "form": {
+        "title": "İLETİŞİM FORMU"
+      }
+    }
+  },
+  "request-quote": {
+    "meta": {
+      "title": "Teklif Talebi | Kayalar Alüminyum",
+      "description": "Kayalar Alüminyum'dan teklif talep edin. Projeleriniz için özel alaşım çözümleri, geri dönüşüm hizmetleri ve rekabetçi fiyat teklifleri hakkında bilgi almak için bizimle iletişime geçin."
+    },
+    "heading": {
+      "mini": "TEKLİF",
+      "title": "Teklif Talebi"
+    },
+    "content": {
+      "description": "Projeleriniz için özel alaşım çözümleri, geri dönüşüm hizmetleri ve rekabetçi fiyat teklifleri hakkında bilgi almak için uzman ekibimizle iletişime geçin.",
+      "form": {
+        "title": "TEKLİF TALEP FORMU"
+      }
+    }
+  },
   "breadcrumbs": {
     "homepage": "Anasayfa"
   },
@@ -292,6 +324,72 @@
         "Mg=1,00 en çok",
         "Mg=0,10 en çok"
       ]
+    }
+  },
+  "forms": {
+    "name": {
+      "label": "İsim",
+      "placeholder": "İsminizi giriniz"
+    },
+    "surname": {
+      "label": "Soyisim",
+      "placeholder": "Soyisminizi giriniz"
+    },
+    "fullname": {
+      "label": "İsim Soyisim",
+      "placeholder": "İsim ve soyisminizi giriniz"
+    },
+    "company": {
+      "label": "Firma Ünvanı",
+      "placeholder": "Firma ünvanınızı giriniz"
+    },
+    "email": {
+      "label": "E-posta",
+      "placeholder": "E-posta adresinizi giriniz"
+    },
+    "phone": {
+      "label": "Telefon",
+      "placeholder": "Telefon numaranızı giriniz"
+    },
+    "taxNumber": {
+      "label": "Vergi Numarası",
+      "placeholder": "Vergi numaranızı giriniz"
+    },
+    "product": {
+      "label": "İlgilendiğiniz Ürün/Hizmet",
+      "placeholder": "Lütfen ilgilendiğiniz ürün veya hizmeti seçiniz",
+      "options-group": "Ürünler",
+      "options": {
+        "alloy-aluminum-ingot": "Alaşımlı Alüminyum Külçe",
+        "pure-aluminum-ingot": "Saf Alüminyum Külçe",
+        "scrap-purchasing-selling": "Hurda Alım-Satım",
+        "other": "Diğer"
+      }
+    },
+    "message": {
+      "label": "Mesaj",
+      "placeholder": "Mesajınızı giriniz"
+    },
+    "project": {
+      "label": "Proje Detayları",
+      "placeholder": "Projenizle ilgili detayları giriniz"
+    },
+    "submit": "GÖNDER",
+    "submitting": "GÖNDERİLİYOR...",
+    "error": {
+      "required": "Bu alan zorunludur.",
+      "email-invalid": "Geçersiz e-posta adresi.",
+      "phone-invalid": "Geçersiz telefon numarası."
+    },
+    "contact-success": "Mesajınız başarıyla gönderildi. En kısa sürede sizinle iletişime geçeceğiz.",
+    "contact-fail": "Mesajınız gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "quote-success": "Teklif talebiniz başarıyla gönderildi. En kısa sürede sizinle iletişime geçeceğiz.",
+    "quote-fail": "Teklif talebiniz gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "info": {
+      "hq": "Merkez Ofis",
+      "get-direction": "Yol Tarifi Al",
+      "phone": "Telefon",
+      "email": "E-posta"
     }
   }
 }

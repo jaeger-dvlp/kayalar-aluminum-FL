@@ -15,8 +15,8 @@ function BreadCrumbs({ path }: Props) {
     i18n: { language: lang },
   } = useTranslation();
   return (
-    <section className="font-theme relative flex w-full items-center justify-center overflow-hidden bg-stone-950">
-      <section className="z-3 flex h-full w-full items-center justify-center pt-30 pb-5">
+    <section className="font-theme relative flex w-full items-center justify-center overflow-hidden bg-transparent">
+      <section className="z-3 flex h-full w-full items-center justify-center pt-0 pb-5">
         <section className="max-w-theme flex w-full flex-col items-start justify-center gap-5 p-5 text-zinc-400 lg:justify-between">
           <ul
             style={{
