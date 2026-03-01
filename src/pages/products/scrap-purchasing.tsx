@@ -3,6 +3,7 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 
+import BreadCrumbs from '@/components/layout/BreadCrumbs';
 import Footer from '@/components/layout/Footer';
 import Meta from '@/components/layout/Meta';
 import Navbar from '@/components/layout/Navbar';
@@ -27,8 +28,18 @@ export default function ScrapPurchasing(): React.JSX.Element {
           }}
           className="relative grid min-h-[80vh] w-full grid-cols-1 place-content-stretch place-items-stretch overflow-hidden bg-cover bg-center"
         >
-          <section className="flex h-full w-full flex-col items-center justify-center bg-black/80 backdrop-blur-xs">
-            <section className="max-w-theme flex w-full flex-col items-start justify-start gap-5 px-5 py-20">
+          <section className="flex h-full w-full flex-col items-center justify-center bg-black/80 py-20 backdrop-blur-xs">
+            <BreadCrumbs
+              title="products.alloy-aluminum-ingot.title"
+              path={[
+                { name: 'navbar.products', href: '/#products' },
+                {
+                  name: 'products.scrap-purchasing.title',
+                  href: '/products/scrap-purchasing',
+                },
+              ]}
+            />
+            <section className="max-w-theme flex w-full flex-col items-start justify-start gap-5 px-5">
               <h2 className="flex flex-col items-start justify-start gap-1 text-3xl font-extrabold text-white lg:text-6xl">
                 <span
                   style={{

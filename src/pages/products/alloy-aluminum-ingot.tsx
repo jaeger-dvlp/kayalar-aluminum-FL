@@ -20,17 +20,17 @@ export default function AlloyAluminumIngot(): React.JSX.Element {
       />
       <Navbar />
       <main className="font-theme m-0 flex flex-col items-start justify-start gap-0 p-0">
-        <BreadCrumbs
-          title="products.alloy-aluminum-ingot.title"
-          path={[
-            { name: 'navbar.products', href: '/#products' },
-            {
-              name: 'products.alloy-aluminum-ingot.title',
-              href: '/products/alloy-aluminum-ingot',
-            },
-          ]}
-        />
-        <section className="m-0 flex w-full flex-col items-center justify-start bg-stone-950 pb-20">
+        <section className="m-0 flex w-full flex-col items-center justify-start bg-stone-950 py-20 pt-30">
+          <BreadCrumbs
+            title="products.alloy-aluminum-ingot.title"
+            path={[
+              { name: 'navbar.products', href: '/#products' },
+              {
+                name: 'products.alloy-aluminum-ingot.title',
+                href: '/products/alloy-aluminum-ingot',
+              },
+            ]}
+          />
           <section className="max-w-theme grid w-full grid-cols-1 place-content-start place-items-start gap-14 px-5 md:grid-cols-1 lg:grid-cols-2">
             <section className="h-full w-full">
               <img
