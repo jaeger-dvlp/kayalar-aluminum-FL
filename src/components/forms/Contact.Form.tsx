@@ -9,6 +9,8 @@ import { trapSpacesForRequiredFields } from '@/common/utils/Form.util';
 import type { ContactFormData } from '@/types/form.types';
 
 import FormError from './Error.Form';
+import { BiSolidMessageEdit } from 'react-icons/bi';
+import Label from './Label.Form';
 
 function ContactForm() {
   const {
@@ -40,18 +42,17 @@ function ContactForm() {
       onSubmit={(e) => {
         void handleSubmit(onSubmit)(e);
       }}
-      className="grid h-full w-full grid-cols-1 place-content-start gap-5 border border-stone-700 bg-stone-800 p-5 lg:grid-cols-2 lg:p-10"
+      className="grid h-full w-full grid-cols-1 place-content-start gap-5 rounded-md border border-stone-700 bg-stone-800 p-5 shadow-xl lg:grid-cols-2 lg:p-10"
     >
-      <h3 className="col-span-full flex flex-row items-start justify-start gap-2 text-left text-2xl font-bold text-white italic">
-        {t('contact.content.form.title')}
+      <h3 className="col-span-full flex flex-row items-center justify-start gap-2 text-left text-lg font-bold text-white lg:text-xl">
+        <BiSolidMessageEdit className="text-primary h-6 w-6" />
+        <span>{t('contact.content.form.title')}</span>
       </h3>
       <label
         htmlFor="name"
         className="col-span-full flex w-full flex-col items-start justify-start gap-1 lg:col-span-1"
       >
-        <span className="text-sm font-medium text-zinc-300">
-          {t('forms.name.label')}
-        </span>
+        <Label>{t('forms.name.label')}</Label>
         <input
           id="name"
           placeholder={t('forms.name.placeholder')}
@@ -60,7 +61,7 @@ function ContactForm() {
             validate: (value) =>
               trapSpacesForRequiredFields(value) || t('forms.error.required'),
           })}
-          className="focus:border-primary w-full border border-stone-600 p-2 text-sm text-white placeholder-stone-500 ring-0! outline-0! transition-all duration-200"
+          className="focus:border-primary w-full rounded-sm border border-stone-700 bg-stone-900 p-3 text-sm text-white placeholder-zinc-500 ring-0! outline-0! transition-all duration-200"
         />
         <FormError error={errors.name?.message} />
       </label>
@@ -68,9 +69,7 @@ function ContactForm() {
         htmlFor="surname"
         className="col-span-full flex w-full flex-col items-start justify-start gap-1 lg:col-span-1"
       >
-        <span className="text-sm font-medium text-zinc-300">
-          {t('forms.surname.label')}
-        </span>
+        <Label>{t('forms.surname.label')}</Label>
         <input
           id="surname"
           placeholder={t('forms.surname.placeholder')}
@@ -79,7 +78,7 @@ function ContactForm() {
             validate: (value) =>
               trapSpacesForRequiredFields(value) || t('forms.error.required'),
           })}
-          className="focus:border-primary w-full border border-stone-600 p-2 text-sm text-white placeholder-stone-500 ring-0! outline-0! transition-all duration-200"
+          className="focus:border-primary w-full rounded-sm border border-stone-700 bg-stone-900 p-3 text-sm text-white placeholder-zinc-500 ring-0! outline-0! transition-all duration-200"
         />
         <FormError error={errors.surname?.message} />
       </label>
@@ -87,9 +86,7 @@ function ContactForm() {
         htmlFor="email"
         className="col-span-full flex w-full flex-col items-start justify-start gap-1 lg:col-span-1"
       >
-        <span className="text-sm font-medium text-zinc-300">
-          {t('forms.email.label')}
-        </span>
+        <Label>{t('forms.email.label')}</Label>
         <input
           id="email"
           placeholder={t('forms.email.placeholder')}
@@ -100,7 +97,7 @@ function ContactForm() {
               return emailRegex.test(value) || t('forms.error.email-invalid');
             },
           })}
-          className="focus:border-primary w-full border border-stone-600 p-2 text-sm text-white placeholder-stone-500 ring-0! outline-0! transition-all duration-200"
+          className="focus:border-primary w-full rounded-sm border border-stone-700 bg-stone-900 p-3 text-sm text-white placeholder-zinc-500 ring-0! outline-0! transition-all duration-200"
         />
         <FormError error={errors.email?.message} />
       </label>
@@ -109,9 +106,7 @@ function ContactForm() {
         htmlFor="phone"
         className="col-span-full flex w-full flex-col items-start justify-start gap-1 lg:col-span-1"
       >
-        <span className="text-sm font-medium text-zinc-300">
-          {t('forms.phone.label')}
-        </span>
+        <Label>{t('forms.phone.label')}</Label>
         <input
           id="phone"
           placeholder={t('forms.phone.placeholder')}
@@ -123,7 +118,7 @@ function ContactForm() {
               return phoneRegex.test(value) || t('forms.error.phone-invalid');
             },
           })}
-          className="focus:border-primary w-full border border-stone-600 p-2 text-sm text-white placeholder-stone-500 ring-0! outline-0! transition-all duration-200"
+          className="focus:border-primary w-full rounded-sm border border-stone-700 bg-stone-900 p-3 text-sm text-white placeholder-zinc-500 ring-0! outline-0! transition-all duration-200"
         />
         <FormError error={errors.phone?.message} />
       </label>
@@ -131,9 +126,7 @@ function ContactForm() {
         htmlFor="message"
         className="col-span-full flex w-full flex-col items-start justify-start gap-1"
       >
-        <span className="text-sm font-medium text-zinc-300">
-          {t('forms.message.label')}
-        </span>
+        <Label>{t('forms.message.label')}</Label>
         <textarea
           id="message"
           placeholder={t('forms.message.placeholder')}
@@ -142,7 +135,7 @@ function ContactForm() {
             validate: (value) =>
               trapSpacesForRequiredFields(value) || t('forms.error.required'),
           })}
-          className="focus:border-primary min-h-20 w-full border border-stone-600 p-2 text-sm text-white placeholder-stone-500 ring-0! outline-0! transition-all duration-200"
+          className="focus:border-primary w-full rounded-sm border border-stone-700 bg-stone-900 p-3 text-sm text-white placeholder-zinc-500 ring-0! outline-0! transition-all duration-200"
         />
         <FormError error={errors.message?.message} />
       </label>
@@ -150,16 +143,16 @@ function ContactForm() {
         htmlFor="kvkk"
         className="col-span-full flex w-full flex-col items-start justify-start gap-1"
       >
-        <div className="flex items-center gap-2">
+        <div className="flex items-start justify-start gap-2">
           <input
             id="kvkk"
             type="checkbox"
             {...register('kvkk', {
               required: t('forms.error.required'),
             })}
-            className="form-checkbox text-primary focus:ring-primary h-4 w-4 border border-zinc-300 bg-stone-500"
+            className="form-checkbox text-primary focus:ring-primary h-5 w-5 rounded-sm border border-stone-700 bg-stone-900"
           />
-          <span className="text-sm text-zinc-300">
+          <span className="text-sm text-neutral-300">
             {i18n.language === 'tr' ? (
               <>
                 <Link
@@ -198,7 +191,7 @@ function ContactForm() {
             letterSpacing: '0.2em',
           }}
           disabled={isSubmitting}
-          className="text-md border-primary bg-primary cursor-pointer border px-6 py-3 text-center font-bold text-black uppercase transition-all duration-300 hover:bg-white hover:text-black disabled:opacity-50"
+          className="text-md border-primary bg-primary cursor-pointer rounded-md border px-6 py-3 text-center font-bold text-black uppercase transition-all duration-300 hover:bg-white hover:text-black disabled:opacity-50"
         >
           {isSubmitting ? t('forms.submitting') : t('forms.submit')}
         </button>
