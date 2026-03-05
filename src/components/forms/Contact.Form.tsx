@@ -3,13 +3,13 @@ import { useTranslation } from 'next-i18next';
 import React from 'react';
 import type { SubmitHandler } from 'react-hook-form';
 import { useForm } from 'react-hook-form';
+import { BiSolidMessageEdit } from 'react-icons/bi';
 
 import apiClient from '@/common/clients/api.client';
 import { trapSpacesForRequiredFields } from '@/common/utils/Form.util';
 import type { ContactFormData } from '@/types/form.types';
 
 import FormError from './Error.Form';
-import { BiSolidMessageEdit } from 'react-icons/bi';
 import Label from './Label.Form';
 
 function ContactForm() {

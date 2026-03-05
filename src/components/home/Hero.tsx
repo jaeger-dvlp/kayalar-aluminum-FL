@@ -23,11 +23,11 @@ function Hero() {
     }
 
     return (
-      <>
+      <span>
         <span className="text-white">A LEADING COMPANY</span>
         <br />
         <span className="hero-gradient-text">IN QUALITY.</span>
-      </>
+      </span>
     );
   };
 
