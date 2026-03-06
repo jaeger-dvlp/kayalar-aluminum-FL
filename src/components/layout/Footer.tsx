@@ -13,7 +13,7 @@ function Footer(): React.JSX.Element {
     {
       id: 0,
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/company/kayalar-aluminum',
+      url: 'https://www.linkedin.com/company/kayalaral%C3%BCminyum',
       icon: BsLinkedin,
     },
     {

@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
@@ -12,8 +13,50 @@ import Ingots from '@/public/assets/img/products/alloy-ingots.webp';
 
 export default function AlloyAluminumIngot(): React.JSX.Element {
   const { t } = useTranslation();
+
+  const productSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: t('products.alloy-aluminum-ingot.title'),
+    description: t('products.alloy-aluminum-ingot.content.description'),
+    brand: {
+      '@type': 'Brand',
+      name: 'Kayalar Alüminyum',
+    },
+    manufacturer: {
+      '@type': 'Organization',
+      name: 'Kayalar Alüminyum',
+    },
+    category: t('products.alloy-aluminum-ingot.title'),
+    material: t('products.alloy-aluminum-ingot.meta.material'),
+    additionalProperty: [
+      {
+        '@type': 'PropertyValue',
+        name: t(
+          'products.alloy-aluminum-ingot.meta.production-standards.title',
+        ),
+        value: t(
+          'products.alloy-aluminum-ingot.meta.production-standards.description',
+        ),
+      },
+      {
+        '@type': 'PropertyValue',
+        name: t('products.alloy-aluminum-ingot.meta.delivery-form.title'),
+        value: t(
+          'products.alloy-aluminum-ingot.meta.delivery-form.description',
+        ),
+      },
+    ],
+  };
+
   return (
     <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+        />
+      </Head>
       <Meta
         title={t('products.alloy-aluminum-ingot.meta.title')}
         description={t('products.alloy-aluminum-ingot.meta.description')}

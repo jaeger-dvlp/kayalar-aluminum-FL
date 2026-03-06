@@ -127,11 +127,20 @@
     },
     "alloy-aluminum-ingot": {
       "meta": {
-        "title": "Alaşımlı Alüminyum Külçe Üretimi ve Satışı | Kayalar Alüminyum",
-        "description": "Kayalar Alüminyum'un alaşımlı alüminyum külçe ürünleri hakkında detaylı bilgi edinin. Yüksek kalite standartları ve çevre dostu üretim süreçleriyle üretilen külçelerimiz hakkında daha fazla bilgi alın."
+        "title": "Alaşımlı Alüminyum Külçe | Standart ve Özel Alaşım Üretimi | Kayalar Alüminyum",
+        "description": "Kayalar Alüminyum; ETİAL, EN AC, EN AB ve özel taleplere uygun alaşımlı alüminyum külçe üretimi yapar. Kimyasal bileşim kontrolü, spektral analiz doğrulaması ve parti bazlı izlenebilirlik ile güvenilir üretim sunar.",
+        "material": "Alaşımlı Alüminyum Külçe",
+        "production-standards": {
+          "title": "Üretim Standartları",
+          "description": "ETİAL, EN AC, EN AB ve müşteri talebine özel spesifikasyonlarda üretim"
+        },
+        "delivery-form": {
+          "title": "Teslimat Formu",
+          "description": "6-8 kg standart külçe"
+        }
       },
       "title": "Alaşımlı Alüminyum Külçe",
-      "description": "Türkiye ve dünya standartlarında tüm alüminyum alaşımlarını ve özel taleplere uygun üretimleri gerçekleştiriyoruz.",
+      "description": "ETİAL, EN AC, EN AB ve müşteri talebine özel spesifikasyonlarda alaşımlı alüminyum külçe üretimi gerçekleştiriyoruz.",
       "content": {
         "title": "Alaşımlı Alüminyum Külçe Üretimi ve Satışı",
         "description": "Alaşımlı alüminyum külçelerimiz, Türkiye ve uluslararası standartlara uygun olarak üretilir ve talep edilen kimyasal bileşim değerlerine göre optimize edilir. Her üretim partisi, ergitme sonrası spektral analiz ile doğrulanır ve hedef alaşım toleransları kontrol altında tutulur. Müşteri gereksinimine göre özel alaşım tasarımı yapılabilir; mekanik dayanım, akışkanlık ve işlenebilirlik kriterleri doğrultusunda üretim planlaması gerçekleştirilir. Parti bazlı izlenebilirlik ve kontrollü döküm süreci sayesinde kararlı ve tekrarlanabilir kalite sağlanır. Alaşım seçenekleri ve kimyasal bileşim limitleri aşağıdaki tabloda yer almaktadır. Teknik detay ve sipariş talepleri için bizimle iletişime geçebilirsiniz.",
@@ -157,18 +166,27 @@
     },
     "pure-aluminum-ingot": {
       "meta": {
-        "title": "Saf Alüminyum Külçe Üretimi ve Satışı | Kayalar Alüminyum",
-        "description": "Kayalar Alüminyum'un saf alüminyum külçe ürünleri hakkında detaylı bilgi edinin. Yüksek kalite standartları ve yenilikçi üretim süreçleriyle üretilen külçelerimiz hakkında daha fazla bilgi alın."
+        "title": "Saf Alüminyum Külçe | Yüksek Saflıkta Alüminyum Üretimi | Kayalar Alüminyum",
+        "description": "Kayalar Alüminyum, yüksek saflık değerlerine sahip saf alüminyum külçe üretimi yapar. Spektral analiz doğrulaması, kontrollü ergitme süreci ve parti bazlı izlenebilirlik ile güvenilir tedarik sağlar.",
+        "material": "Saf Alüminyum Külçe",
+        "production-standards": {
+          "title": "Üretim Standartları",
+          "description": "Yüksek saflık değerlerine uygun kontrollü üretim"
+        },
+        "delivery-form": {
+          "title": "Teslimat Formu",
+          "description": "6-8 kg standart külçe"
+        }
       },
       "title": "Saf Alüminyum Külçe",
-      "description": "Kayalar Alüminyum, 40 yıllık tecrübesiyle alaşımlı ve saf alüminyum külçe üretim ve satışında güvenilir çözüm ortağınızdır.",
+      "description": "Yüksek saflık gerektiren uygulamalar için kontrollü üretim süreciyle saf alüminyum külçe tedarik ediyoruz.",
       "content": {
         "title": "Saf Alüminyum Külçe Üretimi ve Satışı",
-        "description": "Saf alüminyum külçelerimiz, hedeflenen kimyasal saflık değerlerine uygun olarak kontrollü üretim süreciyle elde edilir. Ergitme sonrası numune alınarak spektral analiz yapılır ve parti bazlı bileşim doğrulaması sağlanır. Üretim sürecinde kirlilik kontrolü ve kararlı kompozisyon önceliklidir. Elektrik iletkenliği ve saflık gerektiren uygulamalar için uygun kalite sınıflarında tedarik sağlanır. Parti izlenebilirliği korunarak, sevkiyat öncesi son kontroller tamamlanır. Kimyasal bileşim limitleri ve kalite sınıfları aşağıdaki tabloda yer almaktadır. Teknik bilgi ve sipariş talepleri için bizimle iletişime geçebilirsiniz.",
+        "description": "Saf alüminyum külçelerimiz, hedeflenen kimyasal saflık değerlerine uygun olarak kontrollü üretim süreciyle elde edilir. Ergitme sonrası numune alınarak spektral analiz yapılır ve parti bazlı bileşim doğrulaması sağlanır. Üretim sürecinde kirlilik kontrolü ve kararlı kompozisyon önceliklidir. Elektrik iletkenliği ve yüksek saflık gerektiren uygulamalar için uygun kalite sınıflarında tedarik sağlanır. Parti izlenebilirliği korunarak sevkiyat öncesi son kontroller tamamlanır. Kimyasal bileşim limitleri ve kalite sınıfları aşağıdaki tabloda yer almaktadır. Teknik bilgi ve sipariş talepleri için bizimle iletişime geçebilirsiniz.",
         "specs": [
           {
-            "title": "MAKSİMUM AKIŞKANLIK",
-            "description": "Yüksek Kalite Döküm"
+            "title": "YÜKSEK SAFLIK",
+            "description": "Kontrollü Üretim Süreci"
           },
           {
             "title": "TESLİMAT FORMU",
@@ -181,23 +199,32 @@
         },
         "application-areas": {
           "title": "UYGULAMA ALANLARI",
-          "description": "Saf alüminyum külçeler, yüksek iletkenlik ve kararlı bileşim gerektiren uygulamalarda tercih edilir. Elektrik ve enerji uygulamalarında iletkenlik odaklı üretim ihtiyaçlarını karşılamada kullanılır. Dökümhanelerde belirli ürün grupları için temel girdi malzemesi olarak değerlendirilir. Ayrıca farklı alaşımların üretiminde baz metal olarak proses başlangıcında kullanılabilir. Müşteri gereksinimine göre hedef kalite sınıfı doğrultusunda tedarik planlaması yapılır."
+          "description": "Saf alüminyum külçeler, yüksek iletkenlik ve kararlı kimyasal bileşim gerektiren uygulamalarda kullanılır. Elektrik ve enerji sektöründe iletkenlik odaklı üretimlerde tercih edilir. Ayrıca dökümhanelerde baz metal olarak alaşım üretiminin başlangıç hammaddesi olarak kullanılabilir. Müşteri gereksinimine göre hedef kalite sınıfına uygun tedarik planlaması yapılır."
         }
       }
     },
     "scrap-purchasing": {
       "meta": {
-        "title": "Hurda Alımı | Kayalar Alüminyum",
-        "description": "Alüminyum geri dönüşümü yapan firmamız, tüm alüminyum hurdalarını almaktadır. Kayalar Alüminyum ile hurda alımı hakkında detaylı bilgi alın."
+        "title": "Alüminyum Hurda Alımı | Farklı Hurda Türleri İçin Tedarik ve Geri Dönüşüm | Kayalar Alüminyum",
+        "description": "Kayalar Alüminyum; hurda jant, motor blokları, talaş, cüruf, radyatör ve farklı alüminyum hurda türlerinin alımını gerçekleştirir. Sınıflandırma, geri kazanım ve kontrollü değerlendirme süreçleriyle profesyonel hurda tedarik çözümü sunar.",
+        "material": "Alüminyum Hurda",
+        "accepted-types": {
+          "tilte": "Kabul Edilen Hurda Türleri",
+          "description": "Hurda jant, motor blokları, talaş, cüruf, radyatör ve farklı alüminyum hurda türleri"
+        },
+        "process": {
+          "title": "İşlem Süreci",
+          "description": "Sınıflandırma, geri kazanım ve kontrollü değerlendirme"
+        }
       },
       "title": "Hurda Alımı",
-      "description": "Tüm alüminyum hurda türlerini alarak profesyonel geri dönüşüm hizmeti sunuyoruz.",
+      "description": "Farklı alüminyum hurda türlerini alarak geri dönüşüm süreçlerinde değerlendiriyor ve endüstriyel tedarik zincirine yeniden kazandırıyoruz.",
       "content": {
         "heading": {
           "mini": "MATERYAL KATEGORİLERİ",
           "title": "Alım Yaptığımız Hurda Türleri"
         },
-        "description": "Kayalar Alüminyum, alüminyum geri dönüşümü alanında uzmanlaşmış olup geniş hurda kabul kapsamıyla çalışmaktadır. Endüstriyel üretim atıklarından çeşitli alüminyum hurdalarına kadar farklı malzemeler, tesislerimizde sınıflandırılarak değerlendirilir. Süreçlerimiz, kaynakların verimli kullanımı ve sürdürülebilir üretim prensipleri doğrultusunda yönetilir."
+        "description": "Kayalar Alüminyum, farklı sektörlerden gelen alüminyum hurdalarını kabul ederek kontrollü geri dönüşüm sürecine dahil eder. Hurda malzemeler, türüne ve yapısına göre sınıflandırılır; metal geri kazanımı ve proses verimliliği gözetilerek değerlendirilir. Endüstriyel üretim atıkları, otomotiv kaynaklı hurdalar ve çeşitli alüminyum hurda grupları profesyonel şekilde işlenerek yeniden üretim zincirine kazandırılır."
       },
       "scraps": {
         "wheel": {
