@@ -141,7 +141,7 @@ export default function Navbar(): React.JSX.Element {
 
   React.useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 50) {
         setScrolledDown(true);
       } else {
         setScrolledDown(false);

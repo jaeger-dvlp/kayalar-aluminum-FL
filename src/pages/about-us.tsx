@@ -1,14 +1,20 @@
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
+import { BiLeaf, BiShield, BiWorld } from 'react-icons/bi';
+import { BsCheckCircleFill } from 'react-icons/bs';
 
-import Offer from '@/components/home/Offer';
+import Sectors from '@/components/home/Sectors';
 import BreadCrumbs from '@/components/layout/BreadCrumbs';
 import Footer from '@/components/layout/Footer';
 import Meta from '@/components/layout/Meta';
 import Navbar from '@/components/layout/Navbar';
-import AboutBanner from '@/public/assets/img/about-banner.webp';
+import Counts from '@/components/misc/Counts';
+import CTA from '@/components/misc/CTA';
+import { RequestQuoteButton } from '@/components/misc/RequestQuote.button';
+import FurnaceBanner from '@/public/assets/img/furnace-banner.webp';
 import IngotsBanner from '@/public/assets/img/ingots-banner.webp';
+import QualityBanner from '@/public/assets/img/quality-guy.webp';
 
 export default function Home(): React.JSX.Element {
   const { t } = useTranslation();
@@ -19,65 +25,196 @@ export default function Home(): React.JSX.Element {
         description={t('about-us.meta.description')}
       />
       <Navbar />
-      <main className="m-0 flex min-h-screen flex-col items-center justify-start gap-0 p-0">
-        <BreadCrumbs
-          title="about-us.title"
-          path={[{ name: 'navbar.about-us', href: '/quality' }]}
-        />
-        <section className="font-theme flex w-full flex-col items-center justify-start py-10">
-          <section className="max-w-theme flex w-full flex-col items-center justify-start gap-5 p-5">
-            <section className="flex w-full flex-col items-start justify-start gap-5 text-left text-zinc-200">
-              <h2 className="text-xl font-medium lg:text-2xl">
-                {t('about-us.content.title')}
+      <main className="font-theme m-0 flex flex-col items-start justify-start gap-0 p-0">
+        <section
+          style={{
+            backgroundImage: `url(${FurnaceBanner.src})`,
+          }}
+          className="relative grid min-h-[70vh] w-full grid-cols-1 place-content-stretch place-items-stretch overflow-hidden border-y border-y-stone-800 bg-stone-950 bg-cover bg-center"
+        >
+          <section className="flex h-full w-full flex-col items-center justify-center bg-black/80 py-20">
+            <BreadCrumbs
+              title="products.scrap-purchasing.title"
+              path={[
+                {
+                  name: 'about-us.title',
+                  href: '/about-us',
+                },
+              ]}
+            />
+            <section className="max-w-theme flex w-full flex-col items-start justify-start gap-5 px-5">
+              <h2 className="flex flex-col items-start justify-start gap-1 text-3xl font-extrabold text-white italic lg:text-5xl">
+                KAYALAR
+                <span className="text-primary">ALÜMİNYUM</span>
               </h2>
-              <p className="text-sm whitespace-pre-wrap text-zinc-300">
-                {t('about-us.content.paragraph.0')}
+              <p className="max-w-xl text-xs text-neutral-400 lg:text-lg">
+                Alüminyum geri dönüşümü ve külçe üretiminde uzun yıllarada
+                dayanan deneyimle sektörün geleceğini şekillendiriyoruz.
               </p>
-              <p className="text-sm whitespace-pre-wrap text-zinc-300">
-                {t('about-us.content.paragraph.1')}
-              </p>
-              <p className="text-sm font-medium whitespace-pre-wrap text-zinc-300">
-                {t('about-us.content.paragraph.2')}
-              </p>
-              <h3 className="border-b border-b-orange-500 pr-10 pb-2 text-xl whitespace-pre-wrap text-zinc-300">
-                {t('about-us.content.paragraph.3')}
-              </h3>
-              <p className="text-sm whitespace-pre-wrap text-zinc-300">
-                {t('about-us.content.paragraph.4')}
-              </p>
-              <h3 className="border-b border-b-orange-500 pr-10 pb-2 text-xl whitespace-pre-wrap text-zinc-300">
-                {t('about-us.content.paragraph.5')}
-              </h3>
-              <p className="text-sm whitespace-pre-wrap text-zinc-300">
-                {t('about-us.content.paragraph.6')}
-              </p>
-              <img
-                alt="Kayalar Alüminyum"
-                src={AboutBanner.src}
-                className="w-full object-cover"
-              />
+              <section className="flex w-fit flex-wrap items-start justify-start gap-5">
+                <RequestQuoteButton />
+              </section>
             </section>
           </section>
         </section>
-        <section className="relative flex min-h-[500px] w-full items-center justify-center bg-black">
-          <img
-            alt="Kayalar Alüminyum"
-            src={IngotsBanner.src}
-            className="absolute top-0 left-0 z-[1] h-full w-full object-cover object-center"
-          />
-          <section className="absolute top-0 left-0 z-[2] flex h-full w-full flex-col items-center justify-center gap-5 bg-black/70 p-5 text-center">
-            <svg className="-mt-1" width="24" height="23">
-              <path
-                d="M5.25413 0.767996H8.61413L5.54213 14.304C7.36613 14.784 8.61413 16.32 8.61413 18.24C8.61413 20.544 6.88613 22.272 4.67813 22.272C2.27813 22.272 0.646125 20.448 0.646125 18.24C0.646125 16.896 0.838125 15.936 1.51013 13.824L5.25413 0.767996ZM20.2301 14.304C22.0541 14.784 23.3021 16.32 23.3021 18.24C23.3021 20.544 21.5741 22.272 19.3661 22.272C16.9661 22.272 15.3341 20.448 15.3341 18.24C15.3341 16.896 15.5261 15.936 16.1981 13.824L19.9421 0.767996H23.3021L20.2301 14.304Z"
-                fill="#CB7A01"
-              />
-            </svg>
-            <p className="font-theme -mt-1 text-xl font-light text-white lg:text-2xl">
-              {t('home.quote.title')}
-            </p>
+        <Counts fadeIn={false} />
+        <section className="font-theme relative flex w-full items-start justify-center border-y border-y-stone-800 bg-stone-900 bg-cover bg-center py-20">
+          <section
+            data-aos="fade-in"
+            className="lg:max-w-theme z-2 grid w-full max-w-2xl grid-cols-1 place-content-center place-items-start gap-10 px-5 lg:grid-cols-2"
+          >
+            <section className="order-2 flex flex-col items-start justify-center gap-8">
+              <h2 className="flex flex-col items-start justify-start gap-2">
+                <span
+                  style={{
+                    letterSpacing: '0.2em',
+                  }}
+                  className="text-primary text-xs font-semibold"
+                >
+                  <span className="flex flex-row items-center justify-center gap-2">
+                    <span className="bg-primary h-px w-5" />
+                    {t('about-us.content.corporate.mini')}
+                  </span>
+                </span>
+                <span className="text-2xl font-black text-white uppercase lg:text-4xl">
+                  {t('about-us.content.corporate.title')}
+                </span>
+              </h2>
+              <p className="max-w-2xl text-sm whitespace-pre-wrap text-neutral-400">
+                {t('about-us.content.corporate.description')}
+              </p>
+              <ul className="flex flex-wrap items-start justify-start gap-8">
+                <li className="flex items-start justify-start gap-2">
+                  <BiShield className="text-primary h-5 w-5" />
+                  <section className="flex flex-col items-start justify-start gap-0">
+                    <span className="text-sm text-neutral-400">
+                      {t('about-us.content.corporate.list.1.title')}
+                    </span>
+                    <span className="text-xs text-neutral-500">
+                      {t('about-us.content.corporate.list.1.description')}
+                    </span>
+                  </section>
+                </li>
+                <li className="flex items-start justify-start gap-2">
+                  <BiWorld className="text-primary h-5 w-5" />
+                  <section className="flex flex-col items-start justify-start gap-0">
+                    <span className="text-sm text-neutral-400">
+                      {t('about-us.content.corporate.list.2.title')}
+                    </span>
+                    <span className="text-xs text-neutral-500">
+                      {t('about-us.content.corporate.list.2.description')}
+                    </span>
+                  </section>
+                </li>
+                <li className="flex items-start justify-start gap-2">
+                  <BiLeaf className="text-primary h-5 w-5" />
+                  <section className="flex flex-col items-start justify-start gap-0">
+                    <span className="text-sm text-neutral-400">
+                      {t('about-us.content.corporate.list.0.title')}
+                    </span>
+                    <span className="text-xs text-neutral-500">
+                      {t('about-us.content.corporate.list.0.description')}
+                    </span>
+                  </section>
+                </li>
+              </ul>
+            </section>
           </section>
         </section>
-        <Offer />
+        <section
+          style={{
+            backgroundImage: `url(${IngotsBanner.src})`,
+          }}
+          className="font-theme relative flex w-full items-start justify-center border-y border-y-stone-800 bg-cover bg-center py-20"
+        >
+          <span className="absolute top-0 left-0 z-1 h-full w-full bg-linear-to-r from-stone-950 to-stone-950/80" />
+          <section
+            data-aos="fade-in"
+            className="lg:max-w-theme z-2 grid w-full max-w-2xl grid-cols-1 place-content-center place-items-start gap-10 px-5 lg:grid-cols-2"
+          >
+            <section className="order-2 flex max-w-xl flex-col items-start justify-center gap-8">
+              <h2 className="flex flex-col items-start justify-start gap-2">
+                <span
+                  style={{
+                    letterSpacing: '0.2em',
+                  }}
+                  className="text-primary text-xs font-semibold"
+                >
+                  <span className="flex flex-row items-center justify-center gap-2">
+                    <span className="bg-primary h-px w-5" />
+                    {t('about-us.content.vision.mini')}
+                  </span>
+                </span>
+                <span className="text-2xl font-black text-white uppercase lg:text-4xl">
+                  {t('about-us.content.vision.title')}
+                </span>
+              </h2>
+              <p className="text-sm whitespace-pre-wrap text-neutral-400">
+                {t('about-us.content.vision.description')}
+              </p>
+              <blockquote className="border-l-primary max-w-xs border-l-2 pl-5 text-xs text-neutral-500 italic">
+                {t('about-us.content.vision.quote')}
+              </blockquote>
+            </section>
+          </section>
+        </section>
+        <section
+          style={{
+            backgroundImage: `url(${QualityBanner.src})`,
+          }}
+          className="font-theme relative flex w-full items-start justify-center border-y border-y-stone-800 bg-cover bg-center py-20"
+        >
+          <span className="absolute top-0 left-0 z-1 h-full w-full bg-linear-to-r from-stone-950 to-stone-950/70" />
+          <section
+            data-aos="fade-in"
+            className="lg:max-w-theme z-2 grid w-full max-w-2xl grid-cols-1 place-content-center place-items-start gap-10 px-5 lg:grid-cols-2"
+          >
+            <section className="order-2 flex max-w-xl flex-col items-start justify-center gap-8">
+              <h2 className="flex flex-col items-start justify-start gap-2">
+                <span
+                  style={{
+                    letterSpacing: '0.2em',
+                  }}
+                  className="text-primary text-xs font-semibold"
+                >
+                  <span className="flex flex-row items-center justify-center gap-2">
+                    <span className="bg-primary h-px w-5" />
+                    {t('about-us.content.production.mini')}
+                  </span>
+                </span>
+                <span className="text-2xl font-black text-white uppercase lg:text-4xl">
+                  {t('about-us.content.production.title')}
+                </span>
+              </h2>
+              <p className="text-sm whitespace-pre-wrap text-neutral-400">
+                {t('about-us.content.production.description')}
+              </p>
+              <ul className="m-0 flex flex-col items-start justify-start gap-3 p-0">
+                <li className="flex items-start justify-start gap-2">
+                  <BsCheckCircleFill className="text-primary h-5 w-5" />
+                  <span className="mt-1 text-xs text-neutral-400">
+                    {t('about-us.content.production.list.0')}
+                  </span>
+                </li>
+                <li className="flex items-start justify-start gap-2">
+                  <BsCheckCircleFill className="text-primary h-5 w-5" />
+                  <span className="mt-1 text-xs text-neutral-400">
+                    {t('about-us.content.production.list.1')}
+                  </span>
+                </li>
+                <li className="flex items-start justify-start gap-2">
+                  <BsCheckCircleFill className="text-primary h-5 w-5" />
+                  <span className="mt-1 text-xs text-neutral-400">
+                    {t('about-us.content.production.list.2')}
+                  </span>
+                </li>
+              </ul>
+            </section>
+          </section>
+        </section>
+
+        <Sectors />
+        <CTA />
       </main>
       <Footer />
     </>

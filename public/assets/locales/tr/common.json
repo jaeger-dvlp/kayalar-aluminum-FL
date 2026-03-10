@@ -278,7 +278,43 @@
     },
     "title": "Hakkımızda",
     "content": {
-      "title": "KAYALAR ALÜMİNYUM LEVHA SAN. ve TİC. LTD. ŞTİ.",
+      "title": "KAYALAR ALÜMİNYUM",
+      "description": "Alüminyum geri dönüşümü ve külçe üretiminde uzun yıllarada dayanan deneyimle sektörün geleceğini şekillendiriyoruz.",
+      "vision": {
+        "mini": "VİZYON",
+        "title": "Hakkımızda",
+        "description": "Kayalar Alüminyum, uzun yıllara dayanan tecrübesiyle alüminyum geri dönüşümü ve yüksek kaliteli külçe üretiminde sektörü öncüleri arasında yer almaktadır.\n\nModern tesislerimizde sürdürülebilir üretim teknikleri kullanarak küresel standartlarda metal çözümleri sunuyoruz. Mühendislik odaklı yaklaşımımızla her dökümde mükemmelliği hedefliyoruz.",
+        "quote": "\"Metalurjide hassasiyet, üretimde güven ve sürdürülebilir bir gelecek için çalışıyoruz.\""
+      },
+      "production": {
+        "mini": "ÜRETİM",
+        "title": "Üretim Yaklaşımımız",
+        "description": "Üretim süreçlerimizi uçtan uca kontrol eden gelişmiş döküm hatlarımız ve uzman mühendiz kadromuzla, hata payını minimize ediyoruz. Endüstriyel gücümüzü modern laboratuvar analizleri ve kalite kontrol protokolleriyle birleştiriyoruz.",
+        "list": [
+          "Yüksek teknoloji döküm hatları",
+          "Uzman mühendislik kadrosu",
+          "Hassas süreç yönetimi"
+        ]
+      },
+      "corporate": {
+        "mini": "KURUMSAL",
+        "title": "Kurumsal Yaklaşımımız",
+        "description": "Sürdürülebilirlik ilkelerimiz doğrultusunda, alüminyum geri dönüşümünü ekonomik bir faaliyetin ötesinde bir çevre sorumluluğu olarak görüyoruz. Şeffaf kurumsal yapımız ve güvenilir iş ortaklığımız ile küresel pazarda rekabet gücümüzü artırıyoruz.",
+        "list": [
+          {
+            "title": "Sürdürülebilirlik",
+            "description": "DÜŞÜK KARBON AYAK İZİ"
+          },
+          {
+            "title": "Güvenilirlik",
+            "description": "70+ YILLIK İTİBAR"
+          },
+          {
+            "title": "Global Standart",
+            "description": "ISO BELGELİ KALİTE"
+          }
+        ]
+      },
       "paragraph": [
         "Kayalar Alüminyum, alaşımlı ve saf alüminyum külçe üretim ve satışıyla 30 yıldan fazla süredir sektörde hizmet vermektedir. Kurumsal yapılanmasını tamamlamış olan firmamız, yüksek kalite ve müşteri memnuniyetini her zaman en üst düzeyde tutarak müşterilerine en iyi ürünü sunmayı amaçlamaktadır. Yıllık 6000 ton kapasitesi olan firmamız, ürünlerini genel piyasa fiyatları içinde sunarken kalitesinden ödün vermemekte ve bu sayede sektörde takdir toplamaktadır. Ürün kalitesini her zaman en üst düzeyde tutan firmamız, çalıştığı firmalar arasında saygın bir konuma sahip olmuştur.",
         "Firmamız, beyaz eşya, otomotiv, mobilya aksesuarları ve yapı sektörüne hizmet veren metal enjeksiyon ve kum döküm firmalarına malzeme tedariki yapmaktadır. Bu süreçte, müşteri firmaların tüm üretim aşamalarında yanlarında olan firmamız, müşterilerine adeta bir alt firma gibi destek vererek müşteri memnuniyetini en üst düzeyde tutmayı amaçlamaktadır.",
