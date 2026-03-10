@@ -1,9 +1,10 @@
 import { useTranslation } from 'next-i18next';
 import React from 'react';
 import { BiSolidFridge, BiSolidZap } from 'react-icons/bi';
-import { BsBuildingFill, BsCarFrontFill } from 'react-icons/bs';
+import { BsBuildingFill, BsCarFrontFill, BsThreeDots } from 'react-icons/bs';
 import { GiMechanicalArm } from 'react-icons/gi';
 
+import MoreIMG from '@/public/assets/img/products/scrap-wheel.webp';
 import AutomotiveIMG from '@/public/assets/img/sectors/automotive.webp';
 import ConstructionIMG from '@/public/assets/img/sectors/construction.webp';
 import EnergyIMG from '@/public/assets/img/sectors/energy.webp';
@@ -41,6 +42,12 @@ const allSectors = [
     slug: 'energy',
     image: EnergyIMG.src,
   },
+  {
+    id: 5,
+    icon: BsThreeDots,
+    slug: 'more',
+    image: MoreIMG.src,
+  },
 ];
 
 function Sectors() {
@@ -67,7 +74,7 @@ function Sectors() {
             {t('home.sectors.heading.title')}
           </span>
         </h2>
-        <ul className="grid w-full list-none grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        <ul className="grid w-full list-none grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 lg:gap-10">
           {allSectors.map((sector) => (
             <li
               key={`home-sector-${sector.id}`}
@@ -77,8 +84,8 @@ function Sectors() {
               className="group relative flex aspect-square w-full flex-col items-center justify-center gap-1 border border-stone-800 bg-black bg-cover bg-center"
             >
               <span className="absolute top-0 left-0 z-1 h-full w-full bg-black/80 transition-all duration-200 group-hover:bg-black/40" />
-              <sector.icon className="text-primary z-2 h-8 w-8" />
-              <h3 className="z-2 px-5 text-lg font-bold text-white uppercase lg:text-xl">
+              <sector.icon className="text-primary z-2 h-5 w-5 lg:h-8 lg:w-8" />
+              <h3 className="z-2 px-2 text-center text-xs font-bold text-white uppercase last:text-xs! lg:text-xl">
                 {t(`home.sectors.sector.${sector.id}.title`)}
               </h3>
             </li>

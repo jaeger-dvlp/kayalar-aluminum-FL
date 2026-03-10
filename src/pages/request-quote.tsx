@@ -15,8 +15,8 @@ function RequestQuote() {
   return (
     <>
       <Meta
-        title={t('request-quote.title')}
-        description={t('request-quote.description')}
+        title={t('request-quote.meta.title')}
+        description={t('request-quote.meta.description')}
       />
       <Navbar />
       <main className="font-theme m-0 flex flex-col items-start justify-start gap-0 p-0">

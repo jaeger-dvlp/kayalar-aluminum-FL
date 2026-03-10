@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -11,7 +12,6 @@ import CTA from '@/components/misc/CTA';
 import { RequestQuoteButton } from '@/components/misc/RequestQuote.button';
 import Scraps from '@/components/misc/Scraps';
 import ScrapsWheel from '@/public/assets/img/products/scrap-wheel.webp';
-import Head from 'next/head';
 
 export default function ScrapPurchasing(): React.JSX.Element {
   const { t } = useTranslation();
@@ -63,7 +63,7 @@ export default function ScrapPurchasing(): React.JSX.Element {
           style={{
             backgroundImage: `url(${ScrapsWheel.src})`,
           }}
-          className="relative grid min-h-[80vh] w-full grid-cols-1 place-content-stretch place-items-stretch overflow-hidden bg-cover bg-center"
+          className="relative grid min-h-[75vh] w-full grid-cols-1 place-content-stretch place-items-stretch overflow-hidden bg-cover bg-center"
         >
           <section className="flex h-full w-full flex-col items-center justify-center bg-black/80 py-20 backdrop-blur-xs">
             <BreadCrumbs
@@ -77,7 +77,7 @@ export default function ScrapPurchasing(): React.JSX.Element {
               ]}
             />
             <section className="max-w-theme flex w-full flex-col items-start justify-start gap-5 px-5">
-              <h2 className="flex flex-col items-start justify-start gap-1 text-3xl font-extrabold text-white lg:text-6xl">
+              <h2 className="flex flex-col items-start justify-start gap-1 text-2xl font-extrabold text-white lg:text-5xl">
                 <span
                   style={{
                     letterSpacing: '0.2em',
@@ -89,7 +89,7 @@ export default function ScrapPurchasing(): React.JSX.Element {
                 </span>
                 {t('products.scrap-purchasing.title')}
               </h2>
-              <p className="max-w-2xl text-sm text-neutral-400 lg:text-lg">
+              <p className="max-w-xl text-xs text-neutral-400 lg:text-sm">
                 {t('products.scrap-purchasing.content.description')}
               </p>
               <section className="flex w-fit flex-wrap items-start justify-start gap-5">

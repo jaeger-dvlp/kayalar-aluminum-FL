@@ -116,6 +116,9 @@
         },
         {
           "title": "Enerji"
+        },
+        {
+          "title": "Ve daha fazlası..."
         }
       ]
     }
@@ -186,7 +189,7 @@
         "specs": [
           {
             "title": "YÜKSEK SAFLIK",
-            "description": "Kontrollü Üretim Süreci"
+            "description": "Yüksek Kalite Döküm"
           },
           {
             "title": "TESLİMAT FORMU",

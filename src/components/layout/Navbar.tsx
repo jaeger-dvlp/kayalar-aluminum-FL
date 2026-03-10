@@ -77,7 +77,7 @@ function MobileMenu({
             locale={lang === 'tr' ? 'en' : 'tr'}
             href={Router.asPath}
           >
-            {lang === 'tr' ? 'ENG' : 'TR'}
+            {lang === 'tr' ? '🇹🇷' : '🇬🇧'}
             <span className="absolute -bottom-1 left-[calc(50%-1.25px)] h-px w-0 -translate-x-1/2 bg-white transition-all duration-150 group-hover:w-full" />
           </Link>
         </li>
@@ -189,7 +189,7 @@ export default function Navbar(): React.JSX.Element {
             <ul className="flex w-fit items-center justify-end gap-8">
               <DesktopElems />
               <li>
-                ,<RequestQuoteButton text="buttons.request-quote" />
+                <RequestQuoteButton text="buttons.request-quote" />
               </li>
               <li>
                 <Link
@@ -197,7 +197,7 @@ export default function Navbar(): React.JSX.Element {
                   locale={lang === 'tr' ? 'en' : 'tr'}
                   href={Router.asPath}
                 >
-                  {lang === 'tr' ? '🇬🇧' : '🇹🇷'}
+                  {lang === 'tr' ? '🇹🇷' : '🇬🇧'}
                   <span className="absolute -bottom-1 left-[calc(50%-1.25px)] h-px w-0 -translate-x-1/2 bg-white transition-all duration-150 group-hover:w-full" />
                 </Link>
               </li>
