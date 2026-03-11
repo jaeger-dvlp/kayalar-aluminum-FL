@@ -33,11 +33,6 @@ function Hero() {
 
   return (
     <section className="font-theme relative m-0 flex h-screen w-full items-center justify-center overflow-hidden p-0">
-      {/* <img
-        className="absolute left-0 top-0 z-[1] m-0 h-full w-full object-cover p-0"
-        src={BannerImg.src}
-        alt="Kayalar Alüminyum"
-      /> */}
       <video
         className="absolute top-0 left-0 z-1 m-0 h-full w-full object-cover p-0"
         loop
@@ -62,7 +57,7 @@ function Hero() {
             className="text-primary flex items-center justify-start gap-2 text-xs font-normal"
           >
             <span className="bg-primary h-px w-8" />
-            <span>SINCE 1978</span>
+            <span>SINCE 1976</span>
           </span>
           {getHeadingByLang()}
         </h2>

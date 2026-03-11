@@ -46,10 +46,10 @@ function Quality() {
               <BiSolidBadgeCheck className="text-primary h-6 w-6" />
               <section className="flex flex-col items-start justify-start gap-0">
                 <p className="text-sm font-semibold text-white uppercase">
-                  ISO 9001:2015
+                  {t('home.quality.qualities.iso.title')}
                 </p>
                 <p className="text-xs text-zinc-400">
-                  Kalite Yönetim Sertifikası
+                  {t('home.quality.qualities.iso.description')}
                 </p>
               </section>
             </li>
@@ -57,10 +57,10 @@ function Quality() {
               <BiSolidLeaf className="text-primary h-6 w-6" />
               <section className="flex flex-col items-start justify-start gap-0">
                 <p className="text-sm font-semibold text-white uppercase">
-                  ISO 14001:2015
+                  {t('home.quality.qualities.ced.title')}
                 </p>
                 <p className="text-xs text-zinc-400">
-                  Çevre Yönetim Sertifikası
+                  {t('home.quality.qualities.ced.description')}
                 </p>
               </section>
             </li>

@@ -33,7 +33,9 @@
     "inspect-products": "ÜRÜNLERİ İNCELE",
     "learn-more": "DETAYLAR",
     "lets-contact": "İletişime Geçelim",
-    "contact": "İLETİŞİME GEÇ"
+    "contact": "İLETİŞİME GEÇ",
+    "download": "İNDİR",
+    "close": "KAPAT"
   },
   "misc": {
     "product": "ÜRÜN",
@@ -54,10 +56,10 @@
   "home": {
     "meta": {
       "title": "Kayalar Alüminyum | Alüminyum Geri Dönüşümü ve Alüminyum Külçe Üretimi",
-      "description": "1978'den beri çevre dostu alüminyum geri dönüşümünde öncü olan Kayalar Alüminyum'u keşfedin. Sürdürülebilir çözümlere, yenilikçi teknolojilere ve daha temiz bir gelecek için çevresel etkiyi en aza indirmeye olan bağlılığımızı keşfedin."
+      "description": "1976'den beri çevre dostu alüminyum geri dönüşümünde öncü olan Kayalar Alüminyum'u keşfedin. Sürdürülebilir çözümlere, yenilikçi teknolojilere ve daha temiz bir gelecek için çevresel etkiyi en aza indirmeye olan bağlılığımızı keşfedin."
     },
     "hero": {
-      "paragraph": "1978'den beri alüminyum geri dönüşümü ve külçe üretiminde otomotiv, beyaz eşya ve bir çok sektör için güvenilir çözüm ortağı."
+      "paragraph": "1976'den beri alüminyum geri dönüşümü ve külçe üretiminde otomotiv, beyaz eşya ve bir çok sektör için güvenilir çözüm ortağı."
     },
     "quality": {
       "heading": {
@@ -65,6 +67,16 @@
         "title": "Maksimum Hassasiyet, Üstün Standartlar"
       },
       "description": "Üretim süreçlerimizin her aşamasında en son teknoloji cihazlar kullanıyoruz. Alaşımların kimyasal bileşimlerini ppm hassasiyetinde analiz ediyor, hatasız üretim garantisi veriyoruz.",
+      "qualities": {
+        "iso": {
+          "title": "ISO 9001:2015",
+          "description": "Kalite Yönetim Sertifikası"
+        },
+        "ced": {
+          "title": "T.C. ÇSB",
+          "description": "Çevre İzin ve Lisans Belgesi"
+        }
+      },
       "link": "Kalite Standartlarımızı Keşfedin"
     },
     "production": {
@@ -264,11 +276,32 @@
     },
     "title": "Kalite",
     "content": {
-      "title": "Kalite Kontrol",
-      "paragraph": [
-        "Firmamız, Türkiye ve dünya standartlarındaki tüm alüminyum alaşımlarını üretmenin yanı sıra, müşterilerimizin özel taleplerini karşılamak için istenilen özel alaşımları da üretmektedir. Bu sayede farklı endüstriyel ihtiyaçlara uygun geniş bir ürün gamı sunar. Üretim partileri sevkiyat öncesinde kalite kontrol süreçlerinden geçirilir ve kimyasal bileşim doğrulaması yapılmadan sevkiyat gerçekleştirilmez. Böylece müşterilerimiz, ürünlerimizin ilgili kalite beklentilerini karşıladığından emin olur.",
-        "Kalite bilincini üretimin her aşamasında koruyabilmek için analiz altyapımızı tesis bünyesinde konumlandırıyoruz. Ürün bileşimlerini belirlemek ve parti stabilitesini doğrulamak amacıyla NOBLE T7 Optik Emisyon Spektrometre gibi modern analiz teknolojilerini kullanıyoruz. Bu sayede alaşım hedeflerinin tutarlılığını koruyor, müşteri taleplerine uygun üretimi ölçülebilir verilerle güvence altına alıyoruz."
-      ]
+      "title": "KALİTE VE ÜRETİM STANDARTLARI",
+      "description": "Kayalar Alüminyum'da üretim, talep edilen alaşım değerlerine uygunluk ve kararlı ürün kalitesi prensibiyle yürütülür.",
+      "certificates": {
+        "mini": "GÜVENCE",
+        "title": "KALİTE SERTİFİKALARIMIZ",
+        "description": "Ürünlerimizin kalitesini ve güvenilirliğini belgeleyen sertifikalarımızla tanışın. Her sertifika, üretim süreçlerimizdeki yüksek standartları ve müşteri memnuniyetine verdiğimiz önemi yansıtır."
+      },
+      "analysis": {
+        "mini": "TEKNİK ÜSTÜNLÜK",
+        "title": "ALAŞIM KONTROLÜ VE TEKNİK ANALİZ",
+        "description": "Laboratuvar ortamında gerçekleştirilen spektrometre analizleri ile hammaddeden nihai ürüne kadar tam izlenebilirlik sağlıyoruz.",
+        "list": [
+          {
+            "title": "Hassas Analiz",
+            "description": "Modern laboratuvarlarımızda spektral analizler ve metalurjik kontrollerle her dökümün kalitesini garanti altına alıyoruz. %99.8 hassasiyetle alaşım doğrulaması yapıyoruz."
+          },
+          {
+            "title": "Yapı Muayenesi",
+            "description": "Külçelerin iç yapısı, boyutu ve homojenliği metalurjik araçlarla kontrol edilir."
+          },
+          {
+            "title": "Sertifikalı Üretim",
+            "description": "Tüm ürünlerimiz ISO kalite sertifikası ile izlenebilirlik standartlarında teslim edilir."
+          }
+        ]
+      }
     }
   },
   "about-us": {
@@ -314,16 +347,7 @@
             "description": "ISO BELGELİ KALİTE"
           }
         ]
-      },
-      "paragraph": [
-        "Kayalar Alüminyum, alaşımlı ve saf alüminyum külçe üretim ve satışıyla 30 yıldan fazla süredir sektörde hizmet vermektedir. Kurumsal yapılanmasını tamamlamış olan firmamız, yüksek kalite ve müşteri memnuniyetini her zaman en üst düzeyde tutarak müşterilerine en iyi ürünü sunmayı amaçlamaktadır. Yıllık 6000 ton kapasitesi olan firmamız, ürünlerini genel piyasa fiyatları içinde sunarken kalitesinden ödün vermemekte ve bu sayede sektörde takdir toplamaktadır. Ürün kalitesini her zaman en üst düzeyde tutan firmamız, çalıştığı firmalar arasında saygın bir konuma sahip olmuştur.",
-        "Firmamız, beyaz eşya, otomotiv, mobilya aksesuarları ve yapı sektörüne hizmet veren metal enjeksiyon ve kum döküm firmalarına malzeme tedariki yapmaktadır. Bu süreçte, müşteri firmaların tüm üretim aşamalarında yanlarında olan firmamız, müşterilerine adeta bir alt firma gibi destek vererek müşteri memnuniyetini en üst düzeyde tutmayı amaçlamaktadır.",
-        "Firmamızın farkı, yüksek kalite bilinci ve şeffaf fiyat anlayışıdır.",
-        "Vizyonumuz",
-        "Sektörün bugününü iyi analiz eden, yarınını da bugünden planlayabilen, fark yaratmaya ve değer katmaya inanan, gerçekçi, yapılabilir ve ölçülebilir hedeflerin takipçisi olan kurumsallık ve profesyonellik anlayışını sürdürmektir.",
-        "Misyonumuz",
-        "Hedeflerimize ulaşma yolunda, çağdaş bilgi ve teknolojileri kullanarak, kuruluşumuzda kalite anlayışını, şeffaflığı ve katılımcı yaklaşımı ilke edinmek ve tüm iş ortaklarımıza değer katacak bir yönetim şekli sunmaktır."
-      ]
+      }
     }
   },
   "contact": {
