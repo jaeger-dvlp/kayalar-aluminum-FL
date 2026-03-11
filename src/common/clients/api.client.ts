@@ -5,13 +5,6 @@ import API from '@/common/configs/api.config';
 import type { IApiClient } from '@/types/boilerplate.types';
 import type { ContactFormData, QuoteFormData } from '@/types/form.types';
 
-const {
-  NEXT_PUBLIC_EMAILJS_SERVICE_ID: serviceId = '',
-  NEXT_PUBLIC_EMAILJS_CONTACT_TEMPLATE_ID: contactTemplateId = '',
-  NEXT_PUBLIC_EMAILJS_QUOTE_TEMPLATE_ID: quoteTemplateId = '',
-  NEXT_PUBLIC_EMAILJS_PUBLIC_KEY: publicKey = '',
-} = process.env;
-
 class ApiClient implements IApiClient {
   public readonly API: Axios;
 
@@ -32,10 +25,10 @@ class ApiClient implements IApiClient {
   }> {
     try {
       const response = await emailjs.send(
-        serviceId,
-        contactTemplateId,
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '',
+        process.env.NEXT_PUBLIC_EMAILJS_CONTACT_TEMPLATE_ID || '',
         data as Record<string, unknown>,
-        publicKey,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || '',
       );
 
       return {
@@ -64,10 +57,10 @@ class ApiClient implements IApiClient {
   }> {
     try {
       const response = await emailjs.send(
-        serviceId,
-        quoteTemplateId,
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '',
+        process.env.NEXT_PUBLIC_EMAILJS_QUOTE_TEMPLATE_ID || '',
         data as Record<string, unknown>,
-        publicKey,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || '',
       );
 
       return {
