@@ -14,13 +14,18 @@ import PureIngotTable from '@/components/tables/PureIngot.Table';
 import PureIngots from '@/public/assets/img/products/pure-ingot.webp';
 
 export default function PureAluminumIngot(): React.JSX.Element {
-  const { t } = useTranslation();
+  const {
+    t,
+    i18n: { language },
+  } = useTranslation();
 
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: t('products.pure-aluminum-ingot.title'),
     description: t('products.pure-aluminum-ingot.content.description'),
+    image: `${process.env.NEXT_PUBLIC_APP_URL}/assets/img/products/pure-ingot.webp`,
+    url: `${process.env.NEXT_PUBLIC_APP_URL}${language === 'tr' ? '' : `/${language}`}/products/pure-aluminum-ingot`,
     brand: {
       '@type': 'Brand',
       name: 'Kayalar Alüminyum',
@@ -88,7 +93,7 @@ export default function PureAluminumIngot(): React.JSX.Element {
                     className="text-primary flex flex-row items-center justify-center gap-2 text-xs font-normal"
                   >
                     <span className="bg-primary h-px w-5" />
-                    {t('misc.product-purity')}
+                    {t('misc.product-mini')}
                   </span>
                   {t('products.pure-aluminum-ingot.title')}
                 </h1>
