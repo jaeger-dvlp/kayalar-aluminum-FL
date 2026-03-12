@@ -1,106 +1,390 @@
 {
-  "read-more": "SEE MORE",
+  "read-more": "DETAIL",
   "errors": {
     "default": "Something went wrong. Please try again later.",
     "userNotFound": "User not found."
   },
   "navbar": {
+    "home": "HOME",
     "products": "PRODUCTS",
     "quality": "QUALITY",
     "about-us": "ABOUT US",
     "contact": "CONTACT"
   },
+  "footer": {
+    "content": "A pioneer institution in quality.",
+    "quick-links": "Quick Links",
+    "company": {
+      "title": "Corporate"
+    },
+    "contact-us": "Contact Us"
+  },
+  "policy": {
+    "popup-desc": "Cookies are used on our website to improve service quality and analyze website usage.",
+    "explicit-consent": "Explicit Consent Statement",
+    "privacy-policy": "Privacy Policy",
+    "kvkk-policy": "KVKK Disclosure Statement",
+    "terms-of-service": "Terms of Service",
+    "cookie-policy": "Cookie Policy",
+    "accept-all": "Accept All",
+    "accept-necessary": "Accept Necessary Only",
+    "manage-consent": "Manage Cookie Preferences"
+  },
+  "buttons": {
+    "rn-request-quote": "REQUEST A QUOTE NOW",
+    "request-quote": "REQUEST A QUOTE",
+    "inspect-products": "VIEW PRODUCTS",
+    "learn-more": "DETAILS",
+    "lets-contact": "Let's Get in Touch",
+    "contact": "CONTACT US",
+    "download": "DOWNLOAD",
+    "download-technical-sheet": "DOWNLOAD TECHNICAL PDF",
+    "close": "CLOSE"
+  },
+  "misc": {
+    "product": "PRODUCT",
+    "product-purity": "HIGH PURITY PRODUCTION",
+    "more": "And more...",
+    "scroll-down": "SCROLL",
+    "counts": {
+      "experience": "YEARS OF EXPERIENCE",
+      "annual-tonnage": "ANNUAL TONNAGE",
+      "global-partner": "GLOBAL PARTNER",
+      "quality": "QUALITY CERTIFICATE"
+    },
+    "cta": {
+      "heading": {
+        "mini": "CONTACT"
+      }
+    }
+  },
   "home": {
     "meta": {
-      "title": "Kayalar Aluminum - Aluminum Recycling and Aluminum Ingot Production",
-      "description": "Discover Kayalar Aluminum's pioneering role in environmentally conscious aluminum recycling since 1976. Explore our commitment to sustainable solutions, innovative technologies, and minimizing environmental impact for a cleaner future.S"
+      "title": "Kayalar Alüminyum | Aluminum Recycling and Aluminum Ingot Production",
+      "description": "Discover Kayalar Alüminyum, operating in aluminum recycling and ingot production since 1976. We provide reliable supply solutions to industry through controlled production processes, a verified quality approach, and sustainable metal recovery."
     },
-    "explanation": {
-      "description": "Kayalar Aluminum has been playing a leading role in aluminum recycling since 1976. Through environmentally conscious production processes and innovative technologies, it contributes to the revaluation of waste. Without compromising on quality, it aims to increase customer satisfaction and minimize environmental impact by providing sustainable solutions. Representing a conscious and responsible approach in the industry, Kayalar Aluminum continues its mission of leaving a cleaner environment for future generations."
+    "hero": {
+      "paragraph": "Since 1976, a reliable solution partner in aluminum recycling and ingot production for automotive, white goods, and many other industries."
     },
     "quality": {
-      "title": "Superior Quality.",
-      "description": "Kayalar Aluminum has been a renowned name for its quality since 1976 and is recognized as a reliable entity in aluminum recycling. Upholding customer satisfaction as a top priority, it maintains its esteemed position in the industry through eco-friendly production and a commitment to quality service."
+      "heading": {
+        "mini": "QUALITY ASSURANCE",
+        "title": "Controlled Production, Consistent Standards"
+      },
+      "description": "At every stage of our production processes, alloy composition is controlled, analyses are verified, and product quality is secured in line with target values.",
+      "qualities": {
+        "iso": {
+          "title": "ISO 9001:2015",
+          "description": "Quality Management Certificate"
+        },
+        "ced": {
+          "title": "Republic of Türkiye MoEUCC",
+          "description": "Environmental Permit and License Certificate"
+        }
+      },
+      "link": "Explore Our Quality Standards"
     },
-    "offer": {
-      "title": "REQUEST A QUOTE",
-      "description": "We are waiting for free quote requests to offer solutions tailored to our customers' needs.\nOur professional and experienced team is ready to provide you with the most suitable pricing and service options.\nContact us now and benefit from our special offers tailored to your needs.",
-      "button": "Get a Free Quote"
+    "production": {
+      "heading": {
+        "mini": "PROCESS",
+        "title": "PRODUCTION STAGES"
+      },
+      "description": "A controlled and well-planned production process carried out from raw material to final product.",
+      "steps": [
+        {
+          "title": "Scrap Supply",
+          "description": "Controlled procurement of recyclable aluminum scrap."
+        },
+        {
+          "title": "Separation",
+          "description": "Sorting and classification of materials by type."
+        },
+        {
+          "title": "Melting",
+          "description": "Controlled melting under suitable process values."
+        },
+        {
+          "title": "Analysis",
+          "description": "Verification and monitoring of chemical composition through analysis."
+        },
+        {
+          "title": "Casting",
+          "description": "Casting, cooling, and packaging of ingots in the desired form."
+        }
+      ]
     },
-    "quote": {
-      "title": "Leading company in quality."
+    "sectors": {
+      "heading": {
+        "mini": "SECTORS",
+        "title": "SECTORS WE SERVE"
+      },
+      "sector": [
+        {
+          "title": "Automotive"
+        },
+        {
+          "title": "White Goods"
+        },
+        {
+          "title": "Construction"
+        },
+        {
+          "title": "Machinery"
+        },
+        {
+          "title": "Energy"
+        },
+        {
+          "title": "And more..."
+        }
+      ]
     }
   },
   "products": {
-    "heading": "PRODUCTS",
+    "heading": {
+      "mini": "PRODUCTION LINE",
+      "title": "OUR PRODUCTS"
+    },
     "alloy-aluminum-ingot": {
       "meta": {
-        "title": "Alloy Aluminum Ingot Production and Sales | Kayalar Aluminum",
-        "description": "Learn more about Kayalar Aluminum's alloyed aluminum ingots. Discover detailed information about our ingots produced with high-quality standards and environmentally friendly manufacturing processes."
+        "title": "Alloy Aluminum Ingot | Standard and Custom Alloy Production | Kayalar Alüminyum",
+        "description": "Kayalar Alüminyum produces alloy aluminum ingots in compliance with ETIAL, EN AC, EN AB, and custom specifications. We provide reliable production through chemical composition control and verified analysis processes.",
+        "material": "Alloy Aluminum Ingot",
+        "production-standards": {
+          "title": "Production Standards",
+          "description": "Production in ETIAL, EN AC, EN AB, and customer-specific specifications"
+        },
+        "delivery-form": {
+          "title": "Delivery Form",
+          "description": "6-8 kg standard ingot"
+        }
       },
       "title": "Alloy Aluminum Ingot",
-      "description": "Our company produces all aluminum alloys in accordance with Turkish and international standards, and also manufactures custom alloys as per specific requirements.",
+      "description": "We produce alloy aluminum ingots in ETIAL, EN AC, EN AB, and customer-specific specifications.",
       "content": {
-        "title": "Alloy Aluminum Ingot Production and Sales",
-        "description": "Our company not only produces aluminum alloys according to Turkish and international standards but also develops custom alloys based on our clients' specific requirements. With years of experience and expertise, we hold a leading position in the industry with a wide range of products, each manufactured to high-quality standards. Embracing a flexible approach to meet our clients' needs, we meticulously oversee all processes from alloy design to production, ensuring the delivery of the best quality and most suitable solutions to our customers.\n\nThe alloyed aluminum products we produce are listed in the table below. For further information and to place an order, please feel free to contact us."
+        "title": "Alloy Aluminum Ingot Production and Supply",
+        "description": "Our alloy aluminum ingots are produced in accordance with Turkish and international standards and kept under control according to targeted chemical composition values. Samples taken after production are analyzed to verify alloy accuracy. Custom alloy designs can be developed according to customer needs; production planning is carried out based on mechanical strength, fluidity, and machinability criteria. Consistent and repeatable quality is achieved through a controlled casting process. Alloy options and chemical composition limits are listed in the table below. Please contact us for technical details and order requests.",
+        "specs": [
+          {
+            "title": "ORIGIN",
+            "description": "Türkiye"
+          },
+          {
+            "title": "CERTIFICATION",
+            "description": "ISO 9001"
+          },
+          {
+            "title": "PACKAGING",
+            "description": "650 KG / PALLET"
+          },
+          {
+            "title": "FORM",
+            "description": "HIERARCHICAL INGOT"
+          }
+        ]
       }
     },
     "pure-aluminum-ingot": {
       "meta": {
-        "title": "Pure Aluminum Ingot Production and Sales | Kayalar Aluminum",
-        "description": "Learn more about Kayalar Aluminum's pure aluminum ingot products. Discover detailed information about our ingots produced with high-quality standards and innovative production processes."
+        "title": "Pure Aluminum Ingot | High Purity Aluminum Production | Kayalar Alüminyum",
+        "description": "Kayalar Alüminyum produces pure aluminum ingots with high purity values. It provides reliable supply through controlled melting and verified analysis processes.",
+        "material": "Pure Aluminum Ingot",
+        "production-standards": {
+          "title": "Production Standards",
+          "description": "Controlled production in line with high purity values"
+        },
+        "delivery-form": {
+          "title": "Delivery Form",
+          "description": "6-8 kg standard ingot"
+        }
       },
       "title": "Pure Aluminum Ingot",
-      "description": "Our company, Kayalar Aluminum, has been serving the industry for 40 years by producing and selling both alloyed and pure aluminum ingots.",
+      "description": "We supply pure aluminum ingots through a controlled production process for applications requiring high purity.",
       "content": {
-        "title": "Pure Aluminum Ingot Production and Sales",
-        "description": "Our company, Kayalar Aluminum, specializes in the production of pure aluminum ingots and delivers high-quality products to our customers. Supported by innovative technologies and meticulous quality control methods, our production processes ensure the attainment of pure aluminum ingots that surpass industry standards. Embracing a flexible approach to meet our customers' needs, we offer solution-oriented approaches by considering special requests and requirements. With our leading position in pure aluminum ingot production and our commitment to excellence, we pledge to provide our customers with reliable and high-performance products.\n\nThe pure aluminum products we produce are listed in the table below. For further information and to place an order, please feel free to contact us."
+        "title": "Pure Aluminum Ingot Production and Supply",
+        "description": "Our pure aluminum ingots are produced through a controlled process in line with targeted chemical purity values. After melting, samples are taken, composition analyses are verified, and the quality grade is checked. Throughout production, contamination control and composition stability are monitored as priorities. Suitable quality grades are supplied for applications requiring electrical conductivity and high purity. Chemical composition limits and quality grades are listed in the table below. Please contact us for technical information and order requests.",
+        "specs": [
+          {
+            "title": "ORIGIN",
+            "description": "Türkiye"
+          },
+          {
+            "title": "CERTIFICATION",
+            "description": "ISO 9001"
+          },
+          {
+            "title": "PACKAGING",
+            "description": "650 KG / PALLET"
+          },
+          {
+            "title": "FORM",
+            "description": "HIERARCHICAL INGOT"
+          }
+        ]
       }
     },
     "scrap-purchasing": {
       "meta": {
-        "title": "Scrap Purchasing | Kayalar Aluminum",
-        "description": "Our company, specializing in aluminum recycling, purchases all types of aluminum scraps. Get detailed information about scrap purchasing with Kayalar Aluminum."
+        "title": "Aluminum Scrap Purchasing | Supply and Recycling for Various Scrap Types | Kayalar Alüminyum",
+        "description": "Kayalar Alüminyum purchases wheel scrap, engine blocks, chips, slag, radiators, and various aluminum scrap types. It offers a professional scrap supply solution through classification, recovery, and controlled evaluation processes.",
+        "material": "Aluminum Scrap",
+        "accepted-types": {
+          "title": "Accepted Scrap Types",
+          "description": "Wheel scrap, engine blocks, chips, slag, radiators, and various aluminum scrap types"
+        },
+        "process": {
+          "title": "Process",
+          "description": "Classification, recovery, and controlled evaluation"
+        }
       },
       "title": "Scrap Purchasing",
-      "description": "Our company, specializing in aluminum recycling, purchases all types of aluminum scraps within this scope.",
+      "description": "We evaluate different types of aluminum scrap within recycling processes and return them to the industrial supply chain.",
       "content": {
-        "title": "Scrap Purchasing",
-        "description": "Our company specializes in aluminum recycling and thus accepts a wide range of aluminum scraps. From industrial waste to household recycling materials, our facilities and technologies are specially designed to collect and process all types of aluminum scrap. We work diligently in collecting and processing recyclable materials to create a sustainable cycle and effectively utilize resources. Additionally, we focus on reducing environmental impact and leaving a cleaner environment for future generations by embracing principles of environmental awareness and resource conservation through recycling. \n\nFor more information and to take advantage of our scrap purchasing services, please feel free to contact us."
+        "heading": {
+          "mini": "MATERIAL CATEGORIES",
+          "title": "Types of Scrap We Purchase"
+        },
+        "description": "Kayalar Alüminyum accepts aluminum scrap from different sectors and includes it in a controlled recycling process. Scrap materials are classified according to type and structure; they are evaluated with metal recovery and process efficiency in mind. Industrial production waste, automotive-origin scrap, and various aluminum scrap groups are professionally processed and returned to the production chain."
+      },
+      "scraps": {
+        "wheel": {
+          "title": "Scrap Wheel",
+          "short-desc": "AUTOMOTIVE GROUP"
+        },
+        "engine": {
+          "title": "Scrap Engine Blocks",
+          "short-desc": "HIGH ALLOY"
+        },
+        "shaving": {
+          "title": "Scrap Chips",
+          "short-desc": "MACHINING RESIDUES"
+        },
+        "slag": {
+          "title": "Scrap Slag",
+          "short-desc": "METAL RECOVERY"
+        },
+        "radiator": {
+          "title": "Scrap Radiator",
+          "short-desc": "OTHER SCRAP TYPES"
+        },
+        "alloy": {
+          "title": "Scrap Aluminum",
+          "short-desc": "HARD / SOFT"
+        }
       }
     }
   },
   "quality": {
     "meta": {
-      "title": "Quality | Kayalar Aluminum",
-      "description": "Access detailed information about Kayalar Aluminum's quality standards and quality control processes. Learn more about our customer satisfaction and product quality-oriented approach."
+      "title": "Quality | Kayalar Alüminyum",
+      "description": "Access detailed information about Kayalar Alüminyum’s quality standards and quality control processes. Explore our controlled production approach and quality philosophy."
     },
     "title": "Quality",
     "content": {
-      "title": "Quality Control",
-      "paragraph": [
-        "Our company not only produces aluminum alloys according to Turkish and international standards but also manufactures custom alloys to meet our customers' specific requirements. As a result, we offer a wide range of products to meet our customers' diverse industrial needs. Our products undergo necessary tests and are shipped to our customers after passing through quality control processes. This ensures that our customers can trust the quality of our products and be confident that they meet quality standards.",
-        "Our company maintains a high level of quality awareness by having quality control devices in place. These devices help us closely monitor quality standards in our production processes and ensure the quality of our products. We use modern analysis technologies such as FOUNDRY MASTER UV Vacuum CCD SPECTROMETER to determine the compositions of our products. These analyses help us improve the quality of our products and provide our customers with the best possible products."
-      ]
+      "title": "QUALITY AND PRODUCTION STANDARDS",
+      "description": "At Kayalar Alüminyum, production is carried out in line with the principle of compliance with requested alloy values and consistent product quality.",
+      "certificates": {
+        "mini": "ASSURANCE",
+        "title": "OUR QUALITY CERTIFICATES",
+        "description": "Our certificates documenting the compliance of our production processes with quality standards support our controlled production approach and corporate reliability."
+      },
+      "analysis": {
+        "mini": "TECHNICAL SUPERIORITY",
+        "title": "ALLOY CONTROL AND TECHNICAL ANALYSIS",
+        "description": "Through analyses carried out during the production process, alloy composition is verified and the target composition values of products are kept under control.",
+        "list": [
+          {
+            "title": "Precision Analysis",
+            "description": "Production samples are analyzed regularly, alloy values are verified, and target composition ranges are maintained."
+          },
+          {
+            "title": "Structural Control",
+            "description": "The form, structure, and production stability of ingots are monitored throughout the process, and product standards are evaluated according to defined criteria."
+          },
+          {
+            "title": "Certified Production",
+            "description": "Production processes are supported by quality certificates, and product reliability is maintained through controlled production and verification steps."
+          }
+        ]
+      }
     }
   },
   "about-us": {
     "meta": {
-      "title": "About Us | Kayalar Aluminum",
-      "description": "Learn more about Kayalar Aluminum. Access detailed information about our company's mission, vision, and values."
+      "title": "About Us | Kayalar Alüminyum",
+      "description": "Learn more about Kayalar Alüminyum. Access detailed information about our production approach, corporate structure, and industry experience."
     },
     "title": "About Us",
     "content": {
-      "title": "KAYALAR ALÜMİNYUM LEVHA SAN. ve TİC. LTD. ŞTİ.",
-      "paragraph": [
-        "Kayalar Aluminum has been providing services in the industry for over 30 years with alloy and pure aluminum ingot production and sales. Our company, with its completed corporate structuring, aims to always provide the best product to its customers by maintaining high quality and customer satisfaction at the highest level. With an annual capacity of 6000 tons, our company does not compromise on quality while offering its products at general market prices, thus earning appreciation in the industry. Our company, which always maintains the highest level of product quality, has earned a reputable position among the companies it works with.",
-        "Our company supplies materials to metal injection and sand casting companies serving the white goods, automotive, furniture accessories, and construction sectors. Throughout this process, our company, which stands by its customer companies at every stage of production, aims to maintain customer satisfaction at the highest level by providing support similar to a subsidiary to its customers.",
-        "The difference of our company is its high quality awareness and transparent pricing policy.",
-        "Our Vision",
-        "To maintain a corporate and professional understanding that analyzes today's industry well, plans tomorrow from today, believes in making a difference and adding value, and continues the understanding of realism, achievable, and measurable goals.",
-        "Our Mission",
-        "To adopt a quality understanding, transparency, and participatory approach in our organization by using contemporary knowledge and technologies on the road to achieving our goals and to provide a management style that adds value to all our business partners."
-      ]
+      "title": "KAYALAR ALÜMİNYUM",
+      "description": "With years of experience in aluminum recycling and ingot production, we are shaping the future of the industry.",
+      "vision": {
+        "mini": "ABOUT US",
+        "title": "Our Corporate Strength",
+        "description": "Kayalar Alüminyum has been operating in aluminum recycling and ingot production with many years of experience.\n\nThanks to production processes carried out across multiple facilities, we provide solutions tailored to the needs of different sectors while combining a controlled production approach with a sustainable industrial perspective.",
+        "quote": "\"We work with the principles of consistency in production, reliability in supply, and discipline in process management.\""
+      },
+      "production": {
+        "mini": "PRODUCTION",
+        "title": "Our Production Approach",
+        "description": "We manage our production processes through end-to-end controlled casting lines and our experienced technical team. We support our industrial strength with analysis discipline, process tracking, and a quality control approach.",
+        "list": [
+          "Controlled casting lines",
+          "Experienced technical team",
+          "Consistent process management"
+        ]
+      },
+      "corporate": {
+        "mini": "CORPORATE",
+        "title": "Our Corporate Approach",
+        "description": "Kayalar Alüminyum sees recycling and production processes not only as a commercial activity but also as part of a sustainable industrial approach. It strengthens its corporate structure through transparent business practices, a reliable supply approach, and long-term business partnerships.",
+        "list": [
+          {
+            "title": "Sustainability",
+            "description": "CONTROLLED RECYCLING"
+          },
+          {
+            "title": "Reliability",
+            "description": "LONG-TERM SUPPLY APPROACH"
+          },
+          {
+            "title": "Quality Standard",
+            "description": "CERTIFIED AND VERIFIED PRODUCTION"
+          }
+        ]
+      }
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact | Kayalar Alüminyum",
+      "description": "Get in touch with Kayalar Alüminyum. Access our contact information for your questions, business cooperation requests, or other matters."
+    },
+    "heading": {
+      "mini": "CONTACT",
+      "title": "Get in Touch"
+    },
+    "content": {
+      "description": "Contact our expert team for custom alloy solutions, recycling services, and pricing requests for your projects.",
+      "form": {
+        "title": "CONTACT FORM"
+      }
+    }
+  },
+  "request-quote": {
+    "meta": {
+      "title": "Request a Quote | Kayalar Alüminyum",
+      "description": "Request a quote from Kayalar Alüminyum. Contact us for custom alloy solutions, recycling services, and pricing requests."
+    },
+    "heading": {
+      "mini": "QUOTE",
+      "title": "Request a Quote"
+    },
+    "content": {
+      "description": "Contact our expert team to get information about custom alloy solutions, recycling services, and pricing requests for your projects.",
+      "form": {
+        "title": "QUOTE REQUEST FORM"
+      }
     }
   },
   "breadcrumbs": {
@@ -108,36 +392,102 @@
   },
   "tables": {
     "alloy-ingot": {
-      "title": "CHEMICAL COMPOSITION LIMITS OF ALLOYED INGOTS (% BY WEIGHT)",
+      "title": "Chemical Composition Limits of Alloy Ingots ( % Weight )",
       "notes": [
-        "If no limits are specified, the maximum value applies.",
-        "Mn+Fe=1,30 max"
+        "If limits are not specified, they are maximum values.",
+        "Mn+Fe = 1.30 max"
       ]
     },
     "pure-ingot": {
-      "title": "CHEMICAL COMPOSITION LIMITS OF CONDUCTIVE AND COMMERCIAL ALUMINUM (% BY WEIGHT)",
+      "title": "Chemical Composition Limits of Conductive and Commercial Aluminum Ingots ( % Weight )",
       "head": {
         "others": "OTHERS",
-        "each-one": "EACH ONE",
+        "each-one": "EACH",
         "total": "TOTAL"
       },
       "body": {
-        "conductor-al": "Conductor Al",
+        "conductor-al": "Conductive Al",
         "pure-commercial-al": "Pure Commercial Al"
       },
       "notes": [
-        "Minimum values.",
-        "Maximum values if no limits are specified.",
-        "Ti+V+Mn+Cr=%0.02 maximum, Fe/Si=2.00 minimum. Fe+Si <= 0.30",
-        "Fe+Si=0.20 maximum",
-        "Fe+Si=5.00 maximum",
-        "Mn=1.00 maximum",
-        "Fe+Si=0.96-1.34",
-        "Fe+Si=0.95 maximum",
-        "Ti+V+Mn+Cr=%0.02 maximum, Fe/Si=2.00 minimum, Fe+Si=0.31-0.35",
-        "Mg=1.00 maximum",
-        "Mg=0.10 maximum"
+        "These are minimum values.",
+        "If limits are not specified, they are maximum values.",
+        "Ti+V+Mn+Cr = 0.02% max, Fe/Si = 2.00 min. Fe+Si <= 0.30",
+        "Fe+Si = 0.20 max",
+        "Fe+Si = 5.00 max",
+        "Mn = 1.00 max",
+        "Fe+Si = 0.96-1.34",
+        "Fe+Si = 0.95 max",
+        "Ti+V+Mn+Cr = 0.02% max, Fe/Si = 2.00 min, Fe+Si = 0.31-0.35",
+        "Mg = 1.00 max",
+        "Mg = 0.10 max"
       ]
+    }
+  },
+  "forms": {
+    "name": {
+      "label": "Name",
+      "placeholder": "Enter your name"
+    },
+    "surname": {
+      "label": "Surname",
+      "placeholder": "Enter your surname"
+    },
+    "fullname": {
+      "label": "Full Name",
+      "placeholder": "Enter your full name"
+    },
+    "company": {
+      "label": "Company Name",
+      "placeholder": "Enter your company name"
+    },
+    "email": {
+      "label": "E-mail",
+      "placeholder": "Enter your e-mail address"
+    },
+    "phone": {
+      "label": "Phone",
+      "placeholder": "Enter your phone number"
+    },
+    "taxNumber": {
+      "label": "Tax Number",
+      "placeholder": "Enter your tax number"
+    },
+    "product": {
+      "label": "Product/Service of Interest",
+      "placeholder": "Please select the product or service you are interested in",
+      "options-group": "Products",
+      "options": {
+        "alloy-aluminum-ingot": "Alloy Aluminum Ingot",
+        "pure-aluminum-ingot": "Pure Aluminum Ingot",
+        "scrap-purchasing-selling": "Scrap Purchasing & Trading",
+        "other": "Other"
+      }
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Enter your message"
+    },
+    "project": {
+      "label": "Project Details",
+      "placeholder": "Enter details about your project"
+    },
+    "submit": "SUBMIT",
+    "submitting": "SUBMITTING...",
+    "error": {
+      "required": "This field is required.",
+      "email-invalid": "Invalid e-mail address.",
+      "phone-invalid": "Invalid phone number."
+    },
+    "contact-success": "Your message has been sent successfully. We will contact you as soon as possible.",
+    "contact-fail": "An error occurred while sending your message. Please try again later.",
+    "quote-success": "Your quote request has been sent successfully. We will contact you as soon as possible.",
+    "quote-fail": "An error occurred while sending your quote request. Please try again later.",
+    "info": {
+      "hq": "Head Office",
+      "get-direction": "Get Directions",
+      "phone": "Phone",
+      "email": "E-mail"
     }
   }
 }
