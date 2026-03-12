@@ -14,20 +14,20 @@ function Hero() {
   const getHeadingByLang = () => {
     if (lang === 'tr') {
       return (
-        <h1>
+        <span>
           <span className="text-white">KALİTEDE</span>
           <br />
           <span className="hero-gradient-text">ÖNCÜ KURULUŞ.</span>
-        </h1>
+        </span>
       );
     }
 
     return (
-      <h1>
+      <span>
         <span className="text-white">A LEADING COMPANY</span>
         <br />
         <span className="hero-gradient-text">IN QUALITY.</span>
-      </h1>
+      </span>
     );
   };
 
@@ -45,7 +45,7 @@ function Hero() {
       </video>
       <section className="absolute top-0 left-0 z-2 h-full w-full bg-black/75" />
       <section className="max-w-theme hero-anim relative z-3 flex w-full flex-col items-start justify-center gap-5 p-5 text-left!">
-        <h2
+        <h1
           style={{
             lineHeight: '1.2em',
           }}
@@ -61,7 +61,7 @@ function Hero() {
             <span>SINCE 1976</span>
           </span>
           {getHeadingByLang()}
-        </h2>
+        </h1>
         <p className="lg:text-md max-w-lg text-sm text-slate-300">
           {t('home.hero.paragraph')}
         </p>
