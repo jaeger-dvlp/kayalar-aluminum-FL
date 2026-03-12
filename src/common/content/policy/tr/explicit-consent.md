@@ -25,4 +25,4 @@ bildiğimi beyan ederim.
 Dilediğim zaman KVKK kapsamındaki haklarımı kullanabileceğimi biliyorum.
 
 İletişim:  
-info@kayalaraluminyum.com
+info@kayalaraluminyum.com.tr

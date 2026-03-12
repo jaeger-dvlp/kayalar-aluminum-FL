@@ -29,7 +29,7 @@ Phone
 +90 (212) 485 24 29
 
 E-mail  
-info@kayalaraluminyum.com
+info@kayalaraluminyum.com.tr
 
 Tax Number  
 5360031769
@@ -118,7 +118,7 @@ Pursuant to Article 11 of KVKK, you have the following rights:
 
 You may submit your requests regarding these rights via the following e-mail address:
 
-**info@kayalaraluminyum.com**
+**info@kayalaraluminyum.com.tr**
 
 ---
 

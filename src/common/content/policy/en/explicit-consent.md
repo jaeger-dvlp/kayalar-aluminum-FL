@@ -21,4 +21,4 @@ I declare that I am aware that my personal data:
 I understand that I may exercise my rights under KVKK at any time.
 
 Contact:  
-info@kayalaraluminyum.com
+info@kayalaraluminyum.com.tr

@@ -28,7 +28,7 @@ Telefon
 +90 (212) 485 24 29
 
 E-posta  
-info@kayalaraluminyum.com
+info@kayalaraluminyum.com.tr
 
 Vergi No  
 5360031769
@@ -119,7 +119,7 @@ KVKK'nın 11. maddesi uyarınca aşağıdaki haklara sahipsiniz:
 
 Bu haklara ilişkin taleplerinizi aşağıdaki e-posta adresine iletebilirsiniz:
 
-**info@kayalaraluminyum.com**
+**info@kayalaraluminyum.com.tr**
 
 ---
 

@@ -106,10 +106,10 @@ function Contact() {
                   </h3>
 
                   <a
-                    href="mailto:info@kayalaraluminyum.com"
+                    href="mailto:info@kayalaraluminyum.com.tr"
                     className="text-xs text-zinc-400 transition-all duration-200 hover:text-white hover:underline"
                   >
-                    info@kayalaraluminyum.com
+                    info@kayalaraluminyum.com.tr
                   </a>
                 </section>
               </section>

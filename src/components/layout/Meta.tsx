@@ -25,7 +25,7 @@ function Meta({
     url: process.env.NEXT_PUBLIC_APP_URL,
     logo: `${process.env.NEXT_PUBLIC_APP_URL}/assets/img/logo.webp`,
     foundingDate: '1976',
-    email: 'info@kayalaraluminyum.com',
+    email: 'info@kayalaraluminyum.com.tr',
     telephone: '+90-212-485-24-28',
     sameAs: [
       'https://www.linkedin.com/company/kayalaral%C3%BCminyum',
