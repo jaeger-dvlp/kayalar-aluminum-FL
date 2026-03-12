@@ -208,7 +208,7 @@ export default function Home(): React.JSX.Element {
                 {t('quality.content.analysis.description')}
               </p>
               <ul className="m-0 grid w-full grid-cols-1 place-content-stretch place-items-start gap-5 p-0 sm:grid-cols-2 lg:grid-cols-3">
-                <li className="flex h-full w-full flex-col items-start justify-start gap-5 rounded-xl bg-stone-950/50 p-5 lg:p-10">
+                <li className="flex h-full w-full flex-col items-start justify-start gap-5 rounded-xl bg-stone-950/50 p-10">
                   <FaMicroscope className="text-primary h-6 w-6" />
                   <h3 className="text-sm font-bold text-white lg:text-lg">
                     {t('quality.content.analysis.list.0.title')}
@@ -217,7 +217,7 @@ export default function Home(): React.JSX.Element {
                     {t('quality.content.analysis.list.0.description')}
                   </p>
                 </li>
-                <li className="flex h-full w-full flex-col items-start justify-start gap-5 rounded-xl bg-stone-950/50 p-5 lg:p-10">
+                <li className="flex h-full w-full flex-col items-start justify-start gap-5 rounded-xl bg-stone-950/50 p-10">
                   <HiCubeTransparent className="text-primary h-6 w-6" />
                   <h3 className="text-sm font-bold text-white lg:text-lg">
                     {t('quality.content.analysis.list.1.title')}
@@ -226,7 +226,7 @@ export default function Home(): React.JSX.Element {
                     {t('quality.content.analysis.list.1.description')}
                   </p>
                 </li>
-                <li className="flex h-full w-full flex-col items-start justify-start gap-5 rounded-xl bg-stone-950/50 p-5 lg:p-10">
+                <li className="flex h-full w-full flex-col items-start justify-start gap-5 rounded-xl bg-stone-950/50 p-10">
                   <IoShieldCheckmark className="text-primary h-6 w-6" />
                   <h3 className="text-sm font-bold text-white lg:text-lg">
                     {t('quality.content.analysis.list.2.title')}

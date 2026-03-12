@@ -64,7 +64,7 @@ function MobileMenu({
   } = useTranslation();
   return (
     <div
-      className={`${isActive ? 'translate-x-0' : 'translate-x-full'} fixed top-0 left-0 z-49! flex h-full w-full flex-col items-center justify-start bg-[#1B1A18] px-5 transition-all duration-500 lg:hidden`}
+      className={`${isActive ? 'translate-x-0' : 'translate-x-full'} fixed top-0 left-0 z-49! flex h-full w-full flex-col items-center justify-start bg-stone-950/80 px-5 backdrop-blur-md transition-all duration-500 lg:hidden`}
     >
       <ul className="mt-30 flex h-full w-full flex-col items-center justify-start gap-10 overflow-y-auto pt-10">
         {children}
