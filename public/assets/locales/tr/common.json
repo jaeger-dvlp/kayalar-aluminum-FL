@@ -20,12 +20,15 @@
     "contact-us": "Bize Ulaşın"
   },
   "policy": {
-    "manage-consent": "Çerez Tercihlerini Yönet",
-    "kvkk-policy": "KVKK Aydınlatma Metni",
-    "privacy-policy": "Gizlilik Politikası",
-    "terms-of-service": "Hizmet Şartları",
+    "popup-desc": "Web sitemizde, hizmet kalitesini artırmak ve site kullanımını analiz etmek amacıyla çerezler kullanılmaktadır.",
     "explicit-consent": "Açık Rıza Metni",
-    "cookie-policy": "Çerez Politikası"
+    "privacy-policy": "Gizlilik Politikası",
+    "kvkk-policy": "KVKK Aydınlatma Metni",
+    "terms-of-service": "Hizmet Şartları",
+    "cookie-policy": "Çerez Politikası",
+    "accept-all": "Tümünü Kabul Et",
+    "accept-necessary": "Yalnızca Gerekli Olanları Kabul Et",
+    "manage-consent": "Çerez Tercihlerini Yönet"
   },
   "buttons": {
     "rn-request-quote": "HEMEN TEKLİF AL",

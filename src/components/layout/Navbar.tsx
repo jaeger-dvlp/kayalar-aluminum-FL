@@ -137,7 +137,7 @@ export default function Navbar(): React.JSX.Element {
 
   React.useEffect(() => {
     setMobileMenu(false);
-  }, [Router]);
+  }, [Router.asPath]);
 
   React.useEffect(() => {
     const handleScroll = () => {
@@ -148,7 +148,7 @@ export default function Navbar(): React.JSX.Element {
       }
     };
 
-    handleScroll();
+    setTimeout(handleScroll, 0);
 
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('load', handleScroll);

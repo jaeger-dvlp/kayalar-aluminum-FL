@@ -8,9 +8,8 @@ import { appWithTranslation } from 'next-i18next';
 import React from 'react';
 
 import Loader from '@/components/layout/Loader';
-import AlertPopup from '@/components/popups/Alert.popup';
-import ConfirmPopup from '@/components/popups/Confirm.popup';
-import PopupWrapper from '@/contexts/Popup.context';
+import CookiePopup from '@/components/misc/Cookie.popup';
+import ConsentGTM from '@/components/misc/ConsentGTM';
 
 // * Local font implementation with @next/font/local - #1
 //
@@ -39,34 +38,10 @@ function App({ Component, pageProps }: AppProps) {
   }, []);
   return (
     <>
-      {/* 
-      //* Local font implementation with @next/font/local - #2
-      //? eslint-disable-next-line react/no-unknown-property 
-      //  <style jsx global> 
-      //  {`
-      //     :root {
-      //       --font-poppins: ${Inter.style.fontFamily};
-      //     }
-      //  `} 
-      //  </style>
-      //  <Script id="google-analytics" strategy="afterInteractive">
-      //     {`
-      //       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      //       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      //       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      //       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      //!      ga('create', 'YOUR-GA-CODE', 'auto');
-      //       ga('send', 'pageview');
-      //     `}
-      //  </Script> 
-      */}
-
-      <PopupWrapper>
-        <Loader />
-        <AlertPopup />
-        <ConfirmPopup />
-        <Component {...pageProps} />
-      </PopupWrapper>
+      <Loader />
+      <CookiePopup />
+      <ConsentGTM />
+      <Component {...pageProps} />
     </>
   );
 }
