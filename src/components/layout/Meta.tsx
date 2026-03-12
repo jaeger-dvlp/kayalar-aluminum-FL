@@ -88,7 +88,7 @@ function Meta({
           url: `${process.env.NEXT_PUBLIC_APP_URL}${router.asPath}`,
           images: [
             {
-              url: '/assets/img/furnace-banner.webp',
+              url: `${process.env.NEXT_PUBLIC_APP_URL}/assets/img/furnace-banner.webp`,
             },
           ],
           type: 'website',
