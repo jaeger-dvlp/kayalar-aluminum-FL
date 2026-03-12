@@ -22,7 +22,13 @@ function Meta({
     name: 'Kayalar Alüminyum',
     url: process.env.NEXT_PUBLIC_APP_URL,
     logo: `${process.env.NEXT_PUBLIC_APP_URL}/assets/img/logo.webp`,
-    sameAs: [],
+    foundingDate: '1976',
+    email: 'info@kayalaraluminyum.com',
+    telephone: '+90-212-485-24-28',
+    sameAs: [
+      'https://www.linkedin.com/company/kayalaral%C3%BCminyum',
+      'https://www.instagram.com/kayalaraluminyum',
+    ],
     contactPoint: [
       {
         '@type': 'ContactPoint',
@@ -55,6 +61,11 @@ function Meta({
         />
         <link
           rel="alternate"
+          hrefLang="x-default"
+          href={`${process.env.NEXT_PUBLIC_APP_URL}${router.asPath.replace(/^\/(tr|en)/, '')}`}
+        />
+        <link
+          rel="alternate"
           hrefLang="tr"
           href={`${process.env.NEXT_PUBLIC_APP_URL}${router.asPath.replace(/^\/(tr|en)/, '')}`}
         />
@@ -65,11 +76,7 @@ function Meta({
         />
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_APP_URL}/en${router.asPath.replace(/^\/(tr|en)/, '')}`}
-        />
-        <link
-          rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_APP_URL}/tr${router.asPath.replace(/^\/(tr|en)/, '')}`}
+          href={`${process.env.NEXT_PUBLIC_APP_URL}${router.asPath}`}
         />
       </Head>
       <NextSeo
@@ -78,6 +85,13 @@ function Meta({
         openGraph={{
           title,
           description,
+          url: `${process.env.NEXT_PUBLIC_APP_URL}${router.asPath}`,
+          images: [
+            {
+              url: '/assets/img/furnace-banner.webp',
+            },
+          ],
+          type: 'website',
           site_name: process.env.NEXT_PUBLIC_APP_NAME,
         }}
       />
