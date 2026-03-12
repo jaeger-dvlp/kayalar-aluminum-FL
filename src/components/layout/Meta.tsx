@@ -7,14 +7,12 @@ type MetaProps = {
   title: string;
   description: string;
   favIconType?: 'png' | 'jpg' | 'jpeg' | 'ico'; // ? You can add more types..
-  cannonicals?: string[];
 };
 
 function Meta({
   title,
   description,
   favIconType = 'ico',
-  cannonicals = [],
 }: MetaProps): React.JSX.Element {
   const router = useRouter();
 
@@ -22,8 +20,8 @@ function Meta({
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Kayalar Alüminyum',
-    url: 'https://www.kayalaraluminyum.com',
-    logo: 'https://www.kayalaraluminyum.com/assets/img/logo.webp',
+    url: process.env.NEXT_PUBLIC_APP_URL,
+    logo: `${process.env.NEXT_PUBLIC_APP_URL}/assets/img/logo.webp`,
     sameAs: [],
     contactPoint: [
       {
@@ -55,14 +53,21 @@ function Meta({
             __html: JSON.stringify(organizationSchema),
           }}
         />
-        {cannonicals &&
-          cannonicals.map((cannonical) => (
-            <link
-              key={cannonical}
-              rel="canonical"
-              href={`${process.env.NEXT_PUBLIC_APP_URL}${cannonical}`}
-            />
-          ))}
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href={`${process.env.NEXT_PUBLIC_APP_URL}${router.asPath.replace(/^\/(tr|en)/, '')}`}
+        />
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href={`${process.env.NEXT_PUBLIC_APP_URL}/en${router.asPath.replace(/^\/(tr|en)/, '')}`}
+        />
+        <link
+          rel="alternate"
+          hrefLang="tr"
+          href={`${process.env.NEXT_PUBLIC_APP_URL}/tr${router.asPath.replace(/^\/(tr|en)/, '')}`}
+        />
       </Head>
       <NextSeo
         title={title}

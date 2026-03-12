@@ -42,7 +42,7 @@ function Counts({
             style={{ letterSpacing: '0.2em' }}
             className="text-xs font-bold lg:text-sm"
           >
-            {t('misc.counts.annual-tonage').toUpperCase()}
+            {t('misc.counts.annual-tonnage').toUpperCase()}
           </p>
         </li>
         <li className="flex flex-col items-center justify-center gap-0 lg:items-start">

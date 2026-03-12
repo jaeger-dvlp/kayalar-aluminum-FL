@@ -48,7 +48,7 @@ const allCertificates: Certificate[] = [
   {
     slug: 'road-transport-vehicle-waste-compliance-certificate',
     name: {
-      tr: 'TSE - Karayolu le Atık Taşıma Aracı Uygunluk Sertifikası',
+      tr: 'TSE - Karayolu ile Atık Taşıma Aracı Uygunluk Sertifikası',
       en: 'TSE - Road Transport Vehicle Waste Compliance Certificate',
     },
     pdf: 'road-transport-vehicle-waste-compliance-certificate.pdf',

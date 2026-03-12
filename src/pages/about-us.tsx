@@ -48,8 +48,7 @@ export default function Home(): React.JSX.Element {
                 <span className="text-primary">ALÜMİNYUM</span>
               </h2>
               <p className="max-w-xl text-xs text-neutral-400 lg:text-lg">
-                Alüminyum geri dönüşümü ve külçe üretiminde uzun yıllarada
-                dayanan deneyimle sektörün geleceğini şekillendiriyoruz.
+                {t('about-us.content.description')}
               </p>
               <section className="flex w-fit flex-wrap items-start justify-start gap-5">
                 <RequestQuoteButton />

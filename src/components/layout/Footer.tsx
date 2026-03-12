@@ -24,7 +24,10 @@ function Footer(): React.JSX.Element {
     },
   ];
 
-  const manageConsent = () => {};
+  const manageConsent = () => {
+    localStorage.removeItem('ntm-cookie-consent');
+    window.location.reload();
+  };
 
   return (
     <footer className="font-theme m-0 flex min-h-25 w-full flex-col flex-wrap items-center justify-center gap-0 border-y border-y-stone-800 bg-stone-950 p-0">
