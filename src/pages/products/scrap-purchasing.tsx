@@ -77,7 +77,7 @@ export default function ScrapPurchasing(): React.JSX.Element {
               ]}
             />
             <section className="max-w-theme flex w-full flex-col items-start justify-start gap-5 px-5">
-              <h2 className="flex flex-col items-start justify-start gap-1 text-2xl font-extrabold text-white lg:text-5xl">
+              <h1 className="flex flex-col items-start justify-start gap-1 text-2xl font-extrabold text-white lg:text-5xl">
                 <span
                   style={{
                     letterSpacing: '0.2em',
@@ -88,7 +88,7 @@ export default function ScrapPurchasing(): React.JSX.Element {
                   {t('misc.product')}
                 </span>
                 {t('products.scrap-purchasing.title')}
-              </h2>
+              </h1>
               <p className="max-w-xl text-xs text-neutral-400 lg:text-sm">
                 {t('products.scrap-purchasing.content.description')}
               </p>

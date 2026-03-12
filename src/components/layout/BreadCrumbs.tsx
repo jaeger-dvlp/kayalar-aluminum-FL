@@ -24,13 +24,13 @@ function BreadCrumbs({ path }: Props) {
         '@type': 'ListItem',
         position: 1,
         name: t('breadcrumbs.homepage'),
-        item: `${process.env.NEXT_PUBLIC_APP_URL}/${lang}`,
+        item: `${process.env.NEXT_PUBLIC_APP_URL}/${lang === 'tr' ? '' : lang}`,
       },
       ...path.map(({ name, href }, index) => ({
         '@type': 'ListItem',
         position: index + 2,
         name: t(name),
-        item: `${process.env.NEXT_PUBLIC_APP_URL}/${lang}${href}`,
+        item: `${process.env.NEXT_PUBLIC_APP_URL}/${lang === 'tr' ? '' : lang}${href}`,
       })),
     ],
   };

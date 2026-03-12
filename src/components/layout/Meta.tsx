@@ -16,6 +16,8 @@ function Meta({
 }: MetaProps): React.JSX.Element {
   const router = useRouter();
 
+  const isProductPage = router.pathname.includes('/products/');
+
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
@@ -91,7 +93,7 @@ function Meta({
               url: `${process.env.NEXT_PUBLIC_APP_URL}/assets/img/furnace-banner.webp`,
             },
           ],
-          type: 'website',
+          type: isProductPage ? 'product' : 'website',
           site_name: process.env.NEXT_PUBLIC_APP_NAME,
         }}
       />

@@ -84,7 +84,7 @@ export default function AlloyAluminumIngot(): React.JSX.Element {
             />
             <section className="grid h-full w-full grid-cols-1 place-content-between place-items-start gap-5">
               <section className="flex w-full flex-col items-start justify-start gap-10">
-                <h2 className="flex flex-col items-start justify-start gap-1 text-xl font-bold text-white lg:text-4xl">
+                <h1 className="flex flex-col items-start justify-start gap-1 text-xl font-bold text-white lg:text-4xl">
                   <span
                     style={{
                       letterSpacing: '0.2em',
@@ -95,7 +95,7 @@ export default function AlloyAluminumIngot(): React.JSX.Element {
                     {t('misc.product-purity')}
                   </span>
                   {t('products.alloy-aluminum-ingot.title')}
-                </h2>
+                </h1>
                 <p className="text-sm text-zinc-400">
                   {t('products.alloy-aluminum-ingot.content.description')}
                 </p>
