@@ -77,15 +77,15 @@ button {
 
 .alu-table td {
   white-space: nowrap;
-  @apply text-xs lg:text-sm;
+  @apply text-xs!;
 }
 
 .alu-table thead tr {
-  @apply bg-neutral-950 text-neutral-400;
+  @apply bg-neutral-950 text-xs! font-bold text-neutral-200;
 }
 
 .alu-table thead tr th {
-  @apply sticky top-0 border border-neutral-800 px-5 py-5 font-black;
+  @apply border border-neutral-800 px-3 py-4 font-black;
 }
 
 .alu-table tbody tr td:first-child {
@@ -97,19 +97,19 @@ button {
 }
 
 .alu-table tbody tr td {
-  @apply border border-neutral-800 px-5 py-2;
+  @apply border border-neutral-800 px-3 py-3 font-medium text-neutral-50;
 }
 
 .alloy-alu-table tbody tr td:not(:first-child) {
-  text-align: center;
+  text-align: left;
 }
 
 .alloy-alu-table thead tr th:not(:first-child) {
-  text-align: center;
+  text-align: left;
 }
 
 .pure-alu-table {
-  text-align: center;
+  text-align: left;
 }
 
 .pure-alu-table thead th {

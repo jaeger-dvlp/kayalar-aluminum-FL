@@ -52,7 +52,7 @@ function PureIngotTable() {
             </tr>
             <tr>
               <td>
-                ETİAL-7E<sup>3</sup>
+                ETIAL-7E<sup>3</sup>
               </td>
               <td>99,70</td>
               <td>0,25</td>
@@ -66,7 +66,7 @@ function PureIngotTable() {
             </tr>
             <tr>
               <td>
-                ETİAL-6E<sup>9</sup>
+                ETIAL-6E<sup>9</sup>
               </td>
               <td>99,60</td>
               <td>0,30</td>
@@ -85,7 +85,7 @@ function PureIngotTable() {
             </tr>
             <tr>
               <td>
-                ETİAL-8<sup>4</sup>
+                ETIAL-8<sup>4</sup>
               </td>
               <td>99,80</td>
               <td>0,15</td>
@@ -98,7 +98,7 @@ function PureIngotTable() {
               <td>0,10</td>
             </tr>
             <tr>
-              <td>ETİAL-7</td>
+              <td>ETIAL-7</td>
               <td>99,70</td>
               <td>0,25</td>
               <td>0,15</td>
@@ -110,7 +110,7 @@ function PureIngotTable() {
               <td>0,10</td>
             </tr>
             <tr>
-              <td>ETİAL-6</td>
+              <td>ETIAL-6</td>
               <td>99,60</td>
               <td>0,30</td>
               <td>0,20</td>
@@ -122,7 +122,7 @@ function PureIngotTable() {
               <td>0,10</td>
             </tr>
             <tr>
-              <td>ETİAL-5</td>
+              <td>ETIAL-5</td>
               <td>99,50</td>
               <td>0,40</td>
               <td>0,25</td>
@@ -134,7 +134,7 @@ function PureIngotTable() {
               <td>0,10</td>
             </tr>
             <tr>
-              <td>ETİAL-3</td>
+              <td>ETIAL-3</td>
               <td>99,30</td>
               <td>0,60</td>
               <td>0,35</td>
@@ -147,7 +147,7 @@ function PureIngotTable() {
             </tr>
             <tr>
               <td>
-                ETİAL-1<sup>8</sup>
+                ETIAL-1<sup>8</sup>
               </td>
               <td>99,00</td>
               <td>0,80</td>
@@ -160,7 +160,7 @@ function PureIngotTable() {
               <td>0,15</td>
             </tr>
             <tr>
-              <td>ETİAL-0</td>
+              <td>ETIAL-0</td>
               <td>99,00</td>
               <td>0,70</td>
               <td>0,25</td>
@@ -173,7 +173,7 @@ function PureIngotTable() {
             </tr>
             <tr>
               <td>
-                ETİAL-F<sup>5,6,10</sup>
+                ETIAL-F<sup>5,6,10</sup>
               </td>
               <td>95,00</td>
               <td>5,00</td>
@@ -187,7 +187,7 @@ function PureIngotTable() {
             </tr>
             <tr>
               <td>
-                ETİAL-F1<sup>7,11</sup>
+                ETIAL-F1<sup>7,11</sup>
               </td>
               <td>98,00</td>
               <td>0,60 - 0,99</td>

@@ -28,7 +28,7 @@ function AlloyIngotTable() {
           <tbody>
             <tr>
               <td>
-                ETİAL-110<sup>2</sup>
+                ETIAL-110<sup>2</sup>
               </td>
               <td>0,70</td>
               <td>4,00 - 6,00</td>
@@ -42,7 +42,7 @@ function AlloyIngotTable() {
               <td>0,05</td>
             </tr>
             <tr>
-              <td>ETİAL-120</td>
+              <td>ETIAL-120</td>
               <td>0,50</td>
               <td>4,50 - 5,00</td>
               <td>0,10</td>
@@ -55,7 +55,7 @@ function AlloyIngotTable() {
               <td>0,10</td>
             </tr>
             <tr>
-              <td>ETİAL-140</td>
+              <td>ETIAL-140</td>
               <td>0,60</td>
               <td>11,50 - 13,50</td>
               <td>0,10</td>
@@ -68,7 +68,7 @@ function AlloyIngotTable() {
               <td>0,05</td>
             </tr>
             <tr>
-              <td>ETİAL-141</td>
+              <td>ETIAL-141</td>
               <td>1,00</td>
               <td>11,50 - 13,50</td>
               <td>0,20</td>
@@ -81,7 +81,7 @@ function AlloyIngotTable() {
               <td>0,05</td>
             </tr>
             <tr>
-              <td>ETİAL-145</td>
+              <td>ETIAL-145</td>
               <td>0,60</td>
               <td>11,00 - 13,00</td>
               <td>0,80 - 1,50</td>
@@ -94,7 +94,7 @@ function AlloyIngotTable() {
               <td>0,05</td>
             </tr>
             <tr>
-              <td>ETİAL-147</td>
+              <td>ETIAL-147</td>
               <td>0,25</td>
               <td>8,70 - 9,10</td>
               <td>3,40 - 3,70</td>
@@ -107,7 +107,7 @@ function AlloyIngotTable() {
               <td>0,05</td>
             </tr>
             <tr>
-              <td>ETİAL-150</td>
+              <td>ETIAL-150</td>
               <td>1,00</td>
               <td>11,00 - 13,00</td>
               <td>1,75 - 2,50</td>
@@ -120,7 +120,7 @@ function AlloyIngotTable() {
               <td>0,10</td>
             </tr>
             <tr>
-              <td>ETİAL-160</td>
+              <td>ETIAL-160</td>
               <td>1,00</td>
               <td>7,50 - 9,00</td>
               <td>3,00 - 4,00</td>
@@ -133,7 +133,7 @@ function AlloyIngotTable() {
               <td>0,10</td>
             </tr>
             <tr>
-              <td>ETİAL-171</td>
+              <td>ETIAL-171</td>
               <td>0,50</td>
               <td>9,00 - 10,00</td>
               <td>0,10</td>
@@ -146,7 +146,7 @@ function AlloyIngotTable() {
               <td>0,05</td>
             </tr>
             <tr>
-              <td>ETİAL-175</td>
+              <td>ETIAL-175</td>
               <td>0,60</td>
               <td>9,00 - 10,50</td>
               <td>2,50 - 3,50</td>
@@ -159,7 +159,7 @@ function AlloyIngotTable() {
               <td>0,05</td>
             </tr>
             <tr>
-              <td>ETİAL-177</td>
+              <td>ETIAL-177</td>
               <td>0,20</td>
               <td>6,60 - 7,40</td>
               <td>0,02</td>
@@ -172,7 +172,7 @@ function AlloyIngotTable() {
               <td>0,05</td>
             </tr>
             <tr>
-              <td>ETİAL-178</td>
+              <td>ETIAL-178</td>
               <td>0,40</td>
               <td>5,00 - 5,50</td>
               <td>2,80 - 3,20</td>
@@ -185,7 +185,7 @@ function AlloyIngotTable() {
               <td>0,05</td>
             </tr>
             <tr>
-              <td>ETİAL-180</td>
+              <td>ETIAL-180</td>
               <td>1,00</td>
               <td>9,00 - 11,50</td>
               <td>0,70 - 2,50</td>
@@ -198,7 +198,7 @@ function AlloyIngotTable() {
               <td>0,20</td>
             </tr>
             <tr>
-              <td>ETİAL-195</td>
+              <td>ETIAL-195</td>
               <td>0,60</td>
               <td>17,00 - 19,00</td>
               <td>0,80 - 1,50</td>
@@ -211,7 +211,7 @@ function AlloyIngotTable() {
               <td>0,05</td>
             </tr>
             <tr>
-              <td>ETİAL-220</td>
+              <td>ETIAL-220</td>
               <td>0,30</td>
               <td>0,35</td>
               <td>4,00 - 5,00</td>
@@ -224,7 +224,7 @@ function AlloyIngotTable() {
               <td>0,05</td>
             </tr>
             <tr>
-              <td>ETİAL-221</td>
+              <td>ETIAL-221</td>
               <td>0,30</td>
               <td>0,30</td>
               <td>4,00 - 5,00</td>
@@ -237,7 +237,7 @@ function AlloyIngotTable() {
               <td>0,05</td>
             </tr>
             <tr>
-              <td>ETİAL-509</td>
+              <td>ETIAL-509</td>
               <td>0,60</td>
               <td>1,00</td>
               <td>0,05</td>

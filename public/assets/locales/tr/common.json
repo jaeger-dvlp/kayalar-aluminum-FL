@@ -38,10 +38,12 @@
     "lets-contact": "İletişime Geçelim",
     "contact": "İLETİŞİME GEÇ",
     "download": "İNDİR",
+    "download-technical-sheet": "TEKNİK PDF İNDİR",
     "close": "KAPAT"
   },
   "misc": {
     "product": "ÜRÜN",
+    "product-purity": "YÜKSEK SAFLIKTA ÜRETİM",
     "more": "Ve daha fazlası...",
     "scroll-down": "KAYDIR",
     "counts": {
@@ -146,11 +148,11 @@
     "alloy-aluminum-ingot": {
       "meta": {
         "title": "Alaşımlı Alüminyum Külçe | Standart ve Özel Alaşım Üretimi | Kayalar Alüminyum",
-        "description": "Kayalar Alüminyum; ETİAL, EN AC, EN AB ve özel taleplere uygun alaşımlı alüminyum külçe üretimi yapar. Kimyasal bileşim kontrolü, spektral analiz doğrulaması ve parti bazlı izlenebilirlik ile güvenilir üretim sunar.",
+        "description": "Kayalar Alüminyum; ETIAL, EN AC, EN AB ve özel taleplere uygun alaşımlı alüminyum külçe üretimi yapar. Kimyasal bileşim kontrolü, spektral analiz doğrulaması ve parti bazlı izlenebilirlik ile güvenilir üretim sunar.",
         "material": "Alaşımlı Alüminyum Külçe",
         "production-standards": {
           "title": "Üretim Standartları",
-          "description": "ETİAL, EN AC, EN AB ve müşteri talebine özel spesifikasyonlarda üretim"
+          "description": "ETIAL, EN AC, EN AB ve müşteri talebine özel spesifikasyonlarda üretim"
         },
         "delivery-form": {
           "title": "Teslimat Formu",
@@ -158,28 +160,28 @@
         }
       },
       "title": "Alaşımlı Alüminyum Külçe",
-      "description": "ETİAL, EN AC, EN AB ve müşteri talebine özel spesifikasyonlarda alaşımlı alüminyum külçe üretimi gerçekleştiriyoruz.",
+      "description": "ETIAL, EN AC, EN AB ve müşteri talebine özel spesifikasyonlarda alaşımlı alüminyum külçe üretimi gerçekleştiriyoruz.",
       "content": {
         "title": "Alaşımlı Alüminyum Külçe Üretimi ve Satışı",
         "description": "Alaşımlı alüminyum külçelerimiz, Türkiye ve uluslararası standartlara uygun olarak üretilir ve talep edilen kimyasal bileşim değerlerine göre optimize edilir. Her üretim partisi, ergitme sonrası spektral analiz ile doğrulanır ve hedef alaşım toleransları kontrol altında tutulur. Müşteri gereksinimine göre özel alaşım tasarımı yapılabilir; mekanik dayanım, akışkanlık ve işlenebilirlik kriterleri doğrultusunda üretim planlaması gerçekleştirilir. Parti bazlı izlenebilirlik ve kontrollü döküm süreci sayesinde kararlı ve tekrarlanabilir kalite sağlanır. Alaşım seçenekleri ve kimyasal bileşim limitleri aşağıdaki tabloda yer almaktadır. Teknik detay ve sipariş talepleri için bizimle iletişime geçebilirsiniz.",
         "specs": [
           {
-            "title": "MAKSİMUM AKIŞKANLIK",
-            "description": "Yüksek Kalite Döküm"
+            "title": "MENŞEİ",
+            "description": "Türkiye"
           },
           {
-            "title": "TESLİMAT FORMU",
-            "description": "6-8 kg Standart Külçe"
+            "title": "SERTİFİKASYON",
+            "description": "ISO 9001"
+          },
+          {
+            "title": "AMBALAJ",
+            "description": "650 KG / Palet"
+          },
+          {
+            "title": "FORM",
+            "description": "Hiyerarşik Külçe"
           }
-        ],
-        "production-process": {
-          "title": "ÜRETİM SÜRECİ",
-          "description": "Alaşımlı külçe üretimimiz, hurda temininden sevkiyata kadar kontrollü bir prosesle yürütülür. Gelen malzemeler türüne göre ayrıştırılır, uygun şarj planlaması yapılır ve ergitme sürecinde proses parametreleri takip edilir. Ergitme sonrası numune alınarak spektral analiz ile kimyasal bileşim doğrulanır ve hedef alaşım değerleri tutturulur. Uygun görülen parti, istenen formda külçeye dökülür ve soğutma/paketleme aşamasına alınır. Sevkiyat öncesi son kontroller tamamlanır, parti izlenebilirliği korunarak müşteriye teslim edilir."
-        },
-        "application-areas": {
-          "title": "UYGULAMA ALANLARI",
-          "description": "Alaşımlı alüminyum külçeler; mekanik dayanım, işlenebilirlik ve korozyon performansı gerektiren birçok endüstride tercih edilir. Otomotiv ve yan sanayide döküm parçalar, motor ve şasi bileşenleri için kullanılır. Beyaz eşya sektöründe gövde ve yardımcı parçaların üretiminde yaygın olarak değerlendirilir. Makine ve ekipman üretiminde, farklı alaşım ihtiyaçlarına uygun çözüm sunar. Talebe göre alaşım tasarımıyla, müşteri prosesine ve ürün gereksinimine göre optimize edilebilir."
-        }
+        ]
       }
     },
     "pure-aluminum-ingot": {
@@ -203,22 +205,22 @@
         "description": "Saf alüminyum külçelerimiz, hedeflenen kimyasal saflık değerlerine uygun olarak kontrollü üretim süreciyle elde edilir. Ergitme sonrası numune alınarak spektral analiz yapılır ve parti bazlı bileşim doğrulaması sağlanır. Üretim sürecinde kirlilik kontrolü ve kararlı kompozisyon önceliklidir. Elektrik iletkenliği ve yüksek saflık gerektiren uygulamalar için uygun kalite sınıflarında tedarik sağlanır. Parti izlenebilirliği korunarak sevkiyat öncesi son kontroller tamamlanır. Kimyasal bileşim limitleri ve kalite sınıfları aşağıdaki tabloda yer almaktadır. Teknik bilgi ve sipariş talepleri için bizimle iletişime geçebilirsiniz.",
         "specs": [
           {
-            "title": "YÜKSEK SAFLIK",
-            "description": "Yüksek Kalite Döküm"
+            "title": "MENŞEİ",
+            "description": "Türkiye"
           },
           {
-            "title": "TESLİMAT FORMU",
-            "description": "6-8 kg Standart Külçe"
+            "title": "SERTİFİKASYON",
+            "description": "ISO 9001"
+          },
+          {
+            "title": "AMBALAJ",
+            "description": "650 KG / Palet"
+          },
+          {
+            "title": "FORM",
+            "description": "Hiyerarşik Külçe"
           }
-        ],
-        "production-process": {
-          "title": "ÜRETİM SÜRECİ",
-          "description": "Saf alüminyum külçe üretiminde hedef; kimyasal saflığı ve parti stabilitesini koruyarak kararlı ürün sağlamaktır. Seçilen hammaddeler kontrollü şekilde ergitilir ve proses boyunca kirlilik riskini azaltacak adımlar uygulanır. Ergitme sonrası numune alınır ve spektral analiz ile bileşim doğrulanır. Uygun bulunan parti, istenen ölçü ve formda külçeye dökülerek standart soğutma ve paketleme sürecinden geçirilir. Sevkiyat öncesi son kontroller tamamlanır ve parti kayıtlarıyla izlenebilirlik sağlanır."
-        },
-        "application-areas": {
-          "title": "UYGULAMA ALANLARI",
-          "description": "Saf alüminyum külçeler, yüksek iletkenlik ve kararlı kimyasal bileşim gerektiren uygulamalarda kullanılır. Elektrik ve enerji sektöründe iletkenlik odaklı üretimlerde tercih edilir. Ayrıca dökümhanelerde baz metal olarak alaşım üretiminin başlangıç hammaddesi olarak kullanılabilir. Müşteri gereksinimine göre hedef kalite sınıfına uygun tedarik planlaması yapılır."
-        }
+        ]
       }
     },
     "scrap-purchasing": {

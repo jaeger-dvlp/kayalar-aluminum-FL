@@ -16,7 +16,8 @@ import CTA from '@/components/misc/CTA';
 import { RequestQuoteButton } from '@/components/misc/RequestQuote.button';
 import FurnaceBanner from '@/public/assets/img/furnace-banner.webp';
 
-const PdfPath = '/assets/img/certificates/';
+const ImgPath = '/assets/img/certificates/';
+const PdfPath = '/assets/pdf/certificates/';
 
 type Certificate = {
   slug: string;
@@ -110,7 +111,7 @@ export function CertificateViewer({
           </span>
           <img
             alt={certificate.name[language]}
-            src={`${PdfPath}${certificate.preview}`}
+            src={`${ImgPath}${certificate.preview}`}
             className="h-fit w-full max-w-100 object-contain object-center shadow-xl shadow-black/50"
           />
           <div className="flex w-full flex-wrap items-center justify-center gap-2 py-5">
@@ -277,7 +278,7 @@ export default function Home(): React.JSX.Element {
                     >
                       <img
                         alt={certificate.name[language]}
-                        src={`${PdfPath}${certificate.preview}`}
+                        src={`${ImgPath}${certificate.preview}`}
                         className="h-full w-full rounded-sm object-contain object-center grayscale-50 transition-all duration-200 group-hover:grayscale-0"
                       />
                       <span className="h-full py-2 text-center text-xs font-normal text-neutral-200">

@@ -3,11 +3,13 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 
+import Sectors from '@/components/home/Sectors';
 import BreadCrumbs from '@/components/layout/BreadCrumbs';
 import Footer from '@/components/layout/Footer';
 import Meta from '@/components/layout/Meta';
 import Navbar from '@/components/layout/Navbar';
 import CTA from '@/components/misc/CTA';
+import { RequestQuoteButton } from '@/components/misc/RequestQuote.button';
 import AlloyIngotTable from '@/components/tables/AlloyIngot.Table';
 import Ingots from '@/public/assets/img/products/alloy-ingots.webp';
 
@@ -74,17 +76,15 @@ export default function AlloyAluminumIngot(): React.JSX.Element {
               },
             ]}
           />
-          <section className="max-w-theme grid w-full grid-cols-1 place-content-start place-items-start gap-14 px-5 md:grid-cols-1 lg:grid-cols-2">
-            <section className="h-full w-full">
-              <img
-                src={Ingots.src}
-                alt="Alloy Aluminum Ingots"
-                className="aspect-video h-full max-h-125 w-full border border-stone-700 bg-stone-900 object-cover object-center p-2"
-              />
-            </section>
-            <section className="grid h-full w-full grid-cols-1 place-content-between place-items-start">
+          <section className="max-w-theme flex w-full flex-wrap items-start justify-start gap-14 px-5 md:flex-nowrap lg:flex-nowrap">
+            <img
+              src={Ingots.src}
+              alt="Alloy Aluminum Ingots"
+              className="aspect-square w-full rounded-xl border border-stone-700 bg-stone-900 object-cover object-center md:max-w-100 lg:max-w-100"
+            />
+            <section className="grid h-full w-full grid-cols-1 place-content-between place-items-start gap-5">
               <section className="flex w-full flex-col items-start justify-start gap-10">
-                <h2 className="flex flex-col items-start justify-start gap-1 text-3xl font-extrabold text-white lg:text-6xl">
+                <h2 className="flex flex-col items-start justify-start gap-1 text-xl font-bold text-white lg:text-4xl">
                   <span
                     style={{
                       letterSpacing: '0.2em',
@@ -92,7 +92,7 @@ export default function AlloyAluminumIngot(): React.JSX.Element {
                     className="text-primary flex flex-row items-center justify-center gap-2 text-xs font-normal"
                   >
                     <span className="bg-primary h-px w-5" />
-                    {t('misc.product')}
+                    {t('misc.product-purity')}
                   </span>
                   {t('products.alloy-aluminum-ingot.title')}
                 </h2>
@@ -100,83 +100,77 @@ export default function AlloyAluminumIngot(): React.JSX.Element {
                   {t('products.alloy-aluminum-ingot.content.description')}
                 </p>
               </section>
-              <span className="my-10 h-px w-full bg-stone-700" />
-              <ul className="m-0 grid w-full grid-cols-1 place-content-start place-items-start gap-5 p-0 md:grid-cols-2 lg:grid-cols-2">
-                <li className="flex w-full flex-col items-start justify-start gap-1">
-                  <h3 className="text-xs font-bold text-zinc-500 uppercase">
+              <ul className="my-2 grid w-full grid-cols-2 place-content-stretch place-items-start gap-5 lg:grid-cols-4">
+                <li className="grid h-full w-full grid-cols-1 place-content-start place-items-start gap-2 border border-stone-800 bg-stone-900/50 p-5">
+                  <h3 className="text-xs text-neutral-500">
                     {t('products.alloy-aluminum-ingot.content.specs.0.title')}
                   </h3>
-                  <p className="text-lg font-normal text-zinc-100">
+                  <p className="text-sm font-bold text-neutral-200">
                     {t(
                       'products.alloy-aluminum-ingot.content.specs.0.description',
                     )}
                   </p>
                 </li>
-                <li className="flex w-full flex-col items-start justify-start gap-1">
-                  <h3 className="text-xs font-bold text-zinc-500 uppercase">
+                <li className="grid h-full w-full grid-cols-1 place-content-start place-items-start gap-2 border border-stone-800 bg-stone-900/50 p-5">
+                  <h3 className="text-xs text-neutral-500">
                     {t('products.alloy-aluminum-ingot.content.specs.1.title')}
                   </h3>
-                  <p className="text-lg font-normal text-zinc-100">
+                  <p className="text-sm font-bold text-neutral-200">
                     {t(
                       'products.alloy-aluminum-ingot.content.specs.1.description',
                     )}
                   </p>
                 </li>
+                <li className="grid h-full w-full grid-cols-1 place-content-start place-items-start gap-2 border border-stone-800 bg-stone-900/50 p-5">
+                  <h3 className="text-xs text-neutral-500">
+                    {t('products.alloy-aluminum-ingot.content.specs.2.title')}
+                  </h3>
+                  <p className="text-sm font-bold text-neutral-200">
+                    {t(
+                      'products.alloy-aluminum-ingot.content.specs.2.description',
+                    )}
+                  </p>
+                </li>
+                <li className="grid h-full w-full grid-cols-1 place-content-start place-items-start gap-2 border border-stone-800 bg-stone-900/50 p-5">
+                  <h3 className="text-xs text-neutral-500">
+                    {t('products.alloy-aluminum-ingot.content.specs.3.title')}
+                  </h3>
+                  <p className="text-sm font-bold text-neutral-200">
+                    {t(
+                      'products.alloy-aluminum-ingot.content.specs.3.description',
+                    )}
+                  </p>
+                </li>
+              </ul>
+              <ul className="m-0 flex flex-wrap items-center justify-start gap-5 p-0">
+                <li className="m-0 flex p-0">
+                  <RequestQuoteButton text={'buttons.request-quote'} />
+                </li>
+                <li className="m-0 flex p-0">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="/assets/pdf/product-tables/alloy_ingot_table_kayalar.pdf"
+                    style={{
+                      letterSpacing: '0.1em',
+                    }}
+                    className="lg:text-md border border-neutral-300 bg-transparent px-5 py-3 text-sm font-bold text-neutral-300 uppercase transition-all duration-200 hover:bg-white hover:text-black"
+                  >
+                    {t('buttons.download-technical-sheet')}
+                  </a>
+                </li>
               </ul>
             </section>
           </section>
         </section>
-        <section className="bg flex w-full flex-col items-center justify-start border-y border-y-stone-700 bg-neutral-900 py-20">
-          <ul className="max-w-theme gird-cols-1 m-0 grid w-full place-content-start place-items-center gap-20 px-5 md:grid-cols-2 lg:grid-cols-2">
-            <li className="flex h-full w-full flex-col items-start justify-start gap-4">
-              <h3
-                style={{
-                  letterSpacing: '0.2em',
-                }}
-                className="flex flex-row items-center justify-start gap-2 text-xs font-semibold text-zinc-200"
-              >
-                <span className="bg-primary h-px w-5" />
-                <span>
-                  {t(
-                    'products.alloy-aluminum-ingot.content.production-process.title',
-                  )}
-                </span>
-              </h3>
-              <p className="text-xs text-neutral-500">
-                {t(
-                  'products.alloy-aluminum-ingot.content.production-process.description',
-                )}
-              </p>
-            </li>
-            <li className="flex h-full w-full flex-col items-start justify-start gap-4">
-              <h3
-                style={{
-                  letterSpacing: '0.2em',
-                }}
-                className="flex flex-row items-center justify-start gap-2 text-xs font-semibold text-zinc-200"
-              >
-                <span className="bg-primary h-px w-5" />
-                <span>
-                  {t(
-                    'products.alloy-aluminum-ingot.content.application-areas.title',
-                  )}
-                </span>
-              </h3>
-              <p className="text-xs text-neutral-500">
-                {t(
-                  'products.alloy-aluminum-ingot.content.application-areas.description',
-                )}
-              </p>
-            </li>
-          </ul>
-        </section>
-        <section className="font-theme flex w-full flex-col items-center justify-start py-20">
+        <section className="font-theme flex w-full flex-col items-center justify-start border-y border-y-stone-800 bg-stone-900/50 py-20">
           <section className="max-w-theme flex w-full flex-col items-center justify-start gap-5 px-5">
             <section className="w-full overflow-auto">
               <AlloyIngotTable />
             </section>
           </section>
         </section>
+        <Sectors />
         <CTA />
       </main>
       <Footer />
