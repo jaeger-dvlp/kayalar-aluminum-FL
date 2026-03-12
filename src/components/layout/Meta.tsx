@@ -55,7 +55,7 @@ function Meta({
         />
         <link
           rel="alternate"
-          hrefLang="en"
+          hrefLang="tr"
           href={`${process.env.NEXT_PUBLIC_APP_URL}${router.asPath.replace(/^\/(tr|en)/, '')}`}
         />
         <link
@@ -64,8 +64,11 @@ function Meta({
           href={`${process.env.NEXT_PUBLIC_APP_URL}/en${router.asPath.replace(/^\/(tr|en)/, '')}`}
         />
         <link
-          rel="alternate"
-          hrefLang="tr"
+          rel="canonical"
+          href={`${process.env.NEXT_PUBLIC_APP_URL}/en${router.asPath.replace(/^\/(tr|en)/, '')}`}
+        />
+        <link
+          rel="canonical"
           href={`${process.env.NEXT_PUBLIC_APP_URL}/tr${router.asPath.replace(/^\/(tr|en)/, '')}`}
         />
       </Head>

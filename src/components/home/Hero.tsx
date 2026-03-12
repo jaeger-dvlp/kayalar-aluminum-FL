@@ -14,20 +14,20 @@ function Hero() {
   const getHeadingByLang = () => {
     if (lang === 'tr') {
       return (
-        <span>
+        <h1>
           <span className="text-white">KALİTEDE</span>
           <br />
           <span className="hero-gradient-text">ÖNCÜ KURULUŞ.</span>
-        </span>
+        </h1>
       );
     }
 
     return (
-      <span>
+      <h1>
         <span className="text-white">A LEADING COMPANY</span>
         <br />
         <span className="hero-gradient-text">IN QUALITY.</span>
-      </span>
+      </h1>
     );
   };
 
@@ -39,10 +39,11 @@ function Hero() {
         muted
         autoPlay
         playsInline
+        poster="/assets/img/furnace-banner.webp"
       >
         <source src="/assets/img/bg-vid.mp4" type="video/mp4" />
       </video>
-      <section className="absolute top-0 left-0 z-2 h-full w-full bg-black/85" />
+      <section className="absolute top-0 left-0 z-2 h-full w-full bg-black/75" />
       <section className="max-w-theme hero-anim relative z-3 flex w-full flex-col items-start justify-center gap-5 p-5 text-left!">
         <h2
           style={{

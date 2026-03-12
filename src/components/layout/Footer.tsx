@@ -86,7 +86,7 @@ function Footer(): React.JSX.Element {
               </li>
               <li>
                 <Link
-                  href="/about"
+                  href="/about-us"
                   className="text-xs text-zinc-400 transition-colors duration-200 hover:text-white"
                 >
                   {t('navbar.about-us')}
