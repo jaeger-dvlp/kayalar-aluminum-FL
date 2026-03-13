@@ -81,7 +81,7 @@ export async function getStaticProps({
   return {
     props: {
       policyData,
-      ...(await serverSideTranslations(locale, ['common', 'products'])),
+      ...(await serverSideTranslations(locale, ['common'])),
     },
   };
 }

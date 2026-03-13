@@ -3,11 +3,11 @@
 const path = require('path');
 
 module.exports = {
+  localePath: path.resolve('./public/assets/locales'),
   i18n: {
     defaultLocale: 'tr',
     locales: ['en', 'tr'],
     localeDetection: false,
-    localePath: path.resolve('./public/assets/locales'),
   },
   reloadOnPrerender: true,
 };
