@@ -137,7 +137,7 @@ export default function Navbar(): React.JSX.Element {
 
   React.useEffect(() => {
     setMobileMenu(false);
-  }, [Router.asPath]);
+  }, [Router]);
 
   React.useEffect(() => {
     const handleScroll = () => {

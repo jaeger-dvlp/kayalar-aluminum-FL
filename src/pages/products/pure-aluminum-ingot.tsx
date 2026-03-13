@@ -22,6 +22,7 @@ export default function PureAluminumIngot(): React.JSX.Element {
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
+    sku: 'pure-aluminum-ingot',
     name: t('products.pure-aluminum-ingot.title'),
     description: t('products.pure-aluminum-ingot.content.description'),
     image: `${process.env.NEXT_PUBLIC_APP_URL}/assets/img/products/pure-ingot.webp`,

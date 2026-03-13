@@ -22,6 +22,7 @@ export default function AlloyAluminumIngot(): React.JSX.Element {
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
+    sku: 'alloy-aluminum-ingot',
     name: t('products.alloy-aluminum-ingot.title'),
     description: t('products.alloy-aluminum-ingot.content.description'),
     image: `${process.env.NEXT_PUBLIC_APP_URL}/assets/img/products/alloy-ingots.webp`,

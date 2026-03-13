@@ -19,6 +19,7 @@ export default function ScrapPurchasing(): React.JSX.Element {
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
+    sku: 'scrap-purchasing',
     name: t('products.scrap-purchasing.title'),
     description: t('products.scrap-purchasing.content.description'),
     brand: {
