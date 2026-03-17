@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { NextSeo } from 'next-seo';
 import React from 'react';
+import { useTranslation } from 'next-i18next';
 
 type MetaProps = {
   title: string;
@@ -14,6 +15,9 @@ function Meta({
   description,
   favIconType = 'ico',
 }: MetaProps): React.JSX.Element {
+  const {
+    i18n: { language },
+  } = useTranslation();
   const router = useRouter();
 
   const isProductPage = router.pathname.includes('/products/');
@@ -40,6 +44,8 @@ function Meta({
       },
     ],
   };
+
+  console.log(router.asPath);
 
   return (
     <>
@@ -78,7 +84,7 @@ function Meta({
         />
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_APP_URL}${router.asPath}`}
+          href={`${process.env.NEXT_PUBLIC_APP_URL}${language === 'tr' ? router.asPath : `/${language}${router.asPath.replace(/^\/(tr|en)/, '')}`}`}
         />
       </Head>
       <NextSeo
@@ -87,7 +93,7 @@ function Meta({
         openGraph={{
           title,
           description,
-          url: `${process.env.NEXT_PUBLIC_APP_URL}${router.asPath}`,
+          url: `${process.env.NEXT_PUBLIC_APP_URL}${language === 'tr' ? router.asPath : `/${language}${router.asPath.replace(/^\/(tr|en)/, '')}`}`,
           images: [
             {
               url: `${process.env.NEXT_PUBLIC_APP_URL}/assets/img/furnace-banner.webp`,
