@@ -45,11 +45,7 @@ function CTA() {
           </span>
         </h2>
         <p className="font-poppins max-w-xl text-sm text-zinc-900">
-          Yüksek tonajlı talepleriniz ve özel alaşım ihtiyaçlarınız için uzman
-          ekibimizle iletişime geçin. Üretim kapasitemiz, kalite kontrol
-          altyapımız ve mühendislik tecrübemizle projelerinize özel çözümler
-          sunuyoruz. İhtiyacınıza en uygun alaşım ve tedarik planını birlikte
-          oluşturalım.
+          {t('misc.cta.description')}
         </p>
         <Link
           href="/request-quote"
